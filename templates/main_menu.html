@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadGame</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/logo.ico') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main_menu.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components.css') }}">
+</head>
+<body class="main-menu-page">
+
+    <div class="main-menu-container">
+        <div class="main-menu-card">
+            <div class="main-menu-header">
+                <h1>RadGame</h1>
+                <p>Choose your training mode</p>
+            </div>
+            
+            <div class="mode-selection">
+                <div class="mode-panel localize" id="panel-localize">
+                    <span class="mode-icon">🎯</span>
+                    <h2 class="mode-title">Localize</h2>
+                    <p class="mode-description">
+                        Practice medical image annotation with bounding boxes. 
+                        Learn to identify and localize findings in chest X-rays 
+                        with interactive training and immediate feedback.
+                    </p>
+                    <a href="/localize" id="btn-localize-train" class="mode-button">Start Localization Training</a>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <div class="mode-panel report" id="panel-report">
+                    <span class="mode-icon">📝</span>
+                    <h2 class="mode-title">Report</h2>
+                    <p class="mode-description" id="reportDescription">
+                        Practice writing radiology reports. Analyze medical images 
+                        and write findings and impressions. Get evaluated with 
+                        CRIMSON scoring system for accuracy.
+                    </p>
+                    <a href="/report" class="mode-button report" id="reportButton">Start Report Writing</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        window.IS_TEST_MODE = true; // Flag to disable counter creation
+        
+    // Keep text and button labels the same for all users; routing still adapts per mode.
+
+        // Auto-pause any active report writing timer when landing on main menu.
+        // This ensures elapsed time does not continue accumulating while user is away from the report page.
+        (function pauseReportTimerOnMenu(){
+            try {
+                // If we know the current access code (injected later), use it; otherwise scan keys.
+                const accessCode = (window.ACCESS_CODE || '').toString().trim();
+                const candidateKeys = accessCode ? [`rg_${accessCode}_report_session_start`] : Object.keys(localStorage).filter(k=>/^rg_[A-Za-z0-9]+?_report_session_start$/.test(k));
+                candidateKeys.forEach(sk => {
+                    const parts = sk.split('_');
+                    if(parts.length < 3) return;
+                    const code = parts[1];
+                    const rk = (s)=>`rg_${code}_report_${s}`;
+                    if(localStorage.getItem(rk('session_start'))){
+                        if(localStorage.getItem(rk('paused')) !== 'true'){
+                            localStorage.setItem(rk('paused'),'true');
+                            localStorage.setItem(rk('pause_start'), Date.now().toString());
+                            // Mark that this pause was caused by navigation to main menu
+                            localStorage.setItem(rk('auto_nav_pause'),'1');
+                        }
+                    }
+                });
+            } catch(e) { /* silent */ }
+        })();
+
+        function disableLink(a, reason){
+            if(!a) return;
+            a.classList.add('disabled');
+            a.setAttribute('aria-disabled','true');
+            if (reason) a.setAttribute('data-disabled-reason', reason);
+            a.addEventListener('click', e=>{ e.preventDefault(); });
+        }
+
+        // Simplified: Set correct URLs based on user mode (guided vs active)
+        async function setModeUrls(){
+            try {
+                const ures = await fetch('/api/user/info');
+                if (ures.ok) {
+                    const userInfo = await ures.json();
+                    const btnLocTrain = document.getElementById('btn-localize-train');
+                    const btnRepTrain = document.getElementById('reportButton');
+                    
+                    // Set localization URL
+                    if (userInfo && userInfo.localize_mode === 'guided') {
+                        btnLocTrain.href = '/localize-guided';
+                    } else {
+                        btnLocTrain.href = '/localize';
+                    }
+                    
+                    // Set report URL
+                    if (userInfo && userInfo.report_mode === 'passive') {
+                        btnRepTrain.href = '/report-guided';
+                    } else {
+                        btnRepTrain.href = '/report';
+                    }
+                    
+                    // Panel click behavior
+                    const locPanel = document.getElementById('panel-localize');
+                    locPanel.onclick = (e) => {
+                        if (e.target === locPanel || e.target.closest('.mode-button')) {
+                            const guided = userInfo && userInfo.localize_mode === 'guided';
+                            window.location.href = guided ? '/localize-guided' : '/localize';
+                        }
+                    };
+                    
+                    const repPanel = document.getElementById('panel-report');
+                    repPanel.onclick = (e) => {
+                        if (e.target === repPanel || e.target.closest('.mode-button')) {
+                            const guidedRep = userInfo && userInfo.report_mode === 'passive';
+                            window.location.href = guidedRep ? '/report-guided' : '/report';
+                        }
+                    };
+                }
+            } catch(e) {
+                console.error('Mode URL setup error', e);
+            }
+        }
+        setModeUrls();
+    </script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadGame</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/logo.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/admin_dashboard.css') }}">
+</head>
+<body class="admin-dashboard">
+    <div class="container">
+        <header class="header">
+            <h1>Admin Dashboard</h1>
+            <a href="{{ url_for('admin_logout') }}"><button class="logout">Logout</button></a>
+        </header>
+        
+        <main>
+            <section class="card">
+                <h2>Generate Access Codes</h2>
+                <form role="form" onsubmit="return false;">
+                    <div class="form-group" style="margin-top:0.75rem;">
+                        <label>Localize Mode</label>
+                        <div class="toggle-group" style="display:flex; gap:0.75rem;">
+                            <button type="button" id="btn-loc-active" class="toggle-btn selected" onclick="setMode('localize','active')">Active</button>
+                            <button type="button" id="btn-loc-passive" class="toggle-btn" onclick="setMode('localize','passive')">Passive</button>
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin-top:0.5rem;">
+                        <label>Report Mode</label>
+                        <div class="toggle-group" style="display:flex; gap:0.75rem;">
+                            <button type="button" id="btn-rep-active" class="toggle-btn selected" onclick="setMode('report','active')">Active</button>
+                            <button type="button" id="btn-rep-passive" class="toggle-btn" onclick="setMode('report','passive')">Passive</button>
+                        </div>
+                    </div>
+                    <button type="button" onclick="generateCodes()">Generate Code</button>
+                </form>
+                <div id="generated-codes" class="code-list" role="status" aria-live="polite"></div>
+            </section>
+            
+            <section class="card">
+                <h2>Analytics</h2>
+                <div class="button-grid">
+                    <button onclick="refreshAnalytics()">Refresh Data</button>
+                    <button onclick="deleteAllCodes()" class="danger-btn" style="margin-left:1rem;">Delete All Codes</button>
+                </div>
+                <div id="analytics-table" class="table-container"></div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+    function generateCodes() {
+        const localizeMode = (window.modes && window.modes.localize) || 'active';
+        const reportMode = (window.modes && window.modes.report) || 'active';
+            
+            fetch('/admin/generate_codes', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+            localize_mode: localizeMode,
+            report_mode: reportMode
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const codesDiv = document.getElementById('generated-codes');
+                codesDiv.innerHTML = '<h3>Generated Codes:</h3>' + 
+            data.codes.map(code => `<div>${code} <small style=\"color:#aaa;\">(loc:${data.localize_mode}, rep:${data.report_mode})</small></div>`).join('');
+            });
+        }
+
+        // Per-feature modes
+        window.modes = { localize: 'active', report: 'active' };
+        function setMode(feature, mode){
+            window.modes[feature] = mode;
+            if (feature==='localize'){
+                document.getElementById('btn-loc-active').classList.toggle('selected', mode==='active');
+                document.getElementById('btn-loc-passive').classList.toggle('selected', mode==='passive');
+            } else if (feature==='report'){
+                document.getElementById('btn-rep-active').classList.toggle('selected', mode==='active');
+                document.getElementById('btn-rep-passive').classList.toggle('selected', mode==='passive');
+            }
+        }
+
+        function refreshAnalytics() {
+            fetch('/admin/analytics')
+                .then(response => response.json())
+                .then(data => {
+                    const table = document.getElementById('analytics-table');
+                    table.innerHTML = `
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Code</th>
+                                    <th>Localize Mode</th>
+                                    <th>Report Mode</th>
+                                    <th>Loc Cases</th>
+                                    <th>Rep Cases</th>
+                                    <th>Localize Pre</th>
+                                    <th>Localize Post</th>
+                                    <th>Report Pre</th>
+                                    <th>Report Post</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${data.codes.map(code => `
+                                    <tr>
+                                        <td>${code.code}</td>
+                                        <td>${code.localize_mode || 'active'}</td>
+                                        <td>${code.report_mode || 'active'}</td>
+                                        <td>${code.localize_cases_completed ?? 0}</td>
+                                        <td>${code.report_cases_completed ?? 0}</td>
+                                        <td>${code.took_localize_pre ? 'Taken' : '—'}</td>
+                                        <td>${code.took_localize_post ? 'Taken' : '—'}</td>
+                                        <td>${code.took_report_pre ? 'Taken' : '—'}</td>
+                                        <td>${code.took_report_post ? 'Taken' : '—'}</td>
+                                        <td style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                                            <button onclick="exportCodeJSON('${code.code}')" class="action-btn">Export JSON</button>
+                                            <button onclick="deleteCode('${code.code}')" class="action-btn danger-btn" style="background:linear-gradient(135deg,#dc3545 0%,#c82333 100%);">Delete</button>
+                                        </td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    `;
+                });
+        }
+
+        function viewDetails(code) {
+            fetch(`/admin/analytics?detailed=true&code=${code}`)
+                .then(response => response.json())
+                .then(data => {
+                    const modal = document.createElement('div');
+                    modal.className = 'modal';
+                    modal.innerHTML = `
+                        <div class="modal-content">
+                            <h2>Detailed Analytics for ${code}</h2>
+                            <div class="details-container">
+                                ${data.detailed_analytics.map(activity => `
+                                    <div class="activity-card">
+                                        <h3>Case: ${activity.case_id}</h3>
+                                        <p>Time: ${new Date(activity.timestamp).toLocaleString()}</p>
+                                        <p>Correct: ${activity.is_correct ? '<span class="correct-icon"></span>' : '<span class="incorrect-icon"></span>'}</p>
+                                        <p>IoU Score: ${(activity.iou_score * 100).toFixed(1)}%</p>
+                                        <p>Images Processed: ${activity.images_processed || 0}</p>
+                                        <p>Session Time: ${activity.session_time_formatted || '00:00:00'}</p>
+                                        <p>Current Case: ${activity.current_correct}/${activity.current_correct + activity.current_incorrect} correct</p>
+                                        <p>Total Progress: ${activity.total_correct}/${activity.total_correct + activity.total_incorrect} correct (${activity.total_cases} cases)</p>
+                                        <p>Image ID: ${activity.image_id || 'unknown'}</p>
+                                        <div class="boxes-info">
+                                            <h4>Ground Truth Boxes (${activity.ground_truth_boxes.length})</h4>
+                                            <ul>
+                                                ${activity.ground_truth_boxes.map(box => `
+                                                    <li>
+                                                        <strong>${box.label}</strong> 
+                                                        
+                                                        <span class="coords">
+                                                            Coordinates: (${box.coordinates.map(c => c.toFixed(3)).join(', ')})
+                                                        </span>
+                                                    </li>
+                                                `).join('')}
+                                            </ul>
+                                            <h4>User Boxes (${activity.user_boxes.length})</h4>
+                                            <ul>
+                                                ${activity.user_boxes.map(box => `
+                                                    <li>
+                                                        <strong>${box.label}</strong><br>
+                                                        <span class="coords">
+                                                            Coordinates: (${box.coordinates.map(c => c.toFixed(3)).join(', ')})
+                                                        </span>
+                                                    </li>
+                                                `).join('')}
+                                            </ul>
+                                            ${Object.keys(activity.nonlocalizable_selections || {}).length > 0 ? `
+                                                <h4>Selected Findings</h4>
+                                                <ul>
+                                                    ${Object.entries(activity.nonlocalizable_selections).map(([label, selected]) => `
+                                                        <li><strong>${label}</strong>: ${selected ? 'Selected' : 'Not Selected'}</li>
+                                                    `).join('')}
+                                                </ul>
+                                            ` : ''}
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <button onclick="this.parentElement.parentElement.remove()" class="close-btn">Close</button>
+                        </div>
+                    `;
+                    document.body.appendChild(modal);
+                });
+        }
+
+        function exportCodeJSON(code){
+            window.location.href = '/admin/export_code_json?code=' + encodeURIComponent(code);
+        }
+
+        function deleteCode(code) {
+            if (!confirm('Delete code ' + code + ' and all its data?')) return;
+            fetch('/admin/delete_code', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({code})
+            })
+            .then(r => r.json())
+            .then(res => {
+                if (res.status === 'deleted') {
+                    refreshAnalytics();
+                } else {
+                    alert('Error: ' + (res.error || 'Unknown'));
+                }
+            })
+            .catch(e => alert('Error: ' + e));
+        }
+
+        function deleteAllCodes() {
+            if (!confirm('Delete ALL codes and ALL related activity/report data? This cannot be undone.')) return;
+            fetch('/admin/delete_all_codes', {
+                method: 'POST'
+            })
+            .then(r => r.json())
+            .then(res => {
+                if (res.status === 'all_deleted') {
+                    refreshAnalytics();
+                } else {
+                    alert('Error: ' + (res.error || 'Unknown'));
+                }
+            })
+            .catch(e => alert('Error: ' + e));
+        }
+
+        async function updateModes(code, localizeMode, reportMode){
+            try{
+                const res = await fetch('/admin/update_code_modes', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ code, localize_mode: localizeMode, report_mode: reportMode })
+                });
+                const data = await res.json();
+                if (!res.ok) { alert('Error: ' + (data.error || 'Unknown')); return; }
+                refreshAnalytics();
+            }catch(e){ alert('Error: ' + e); }
+        }
+
+        // Load analytics when page loads
+        document.addEventListener('DOMContentLoaded', refreshAnalytics);
+    </script>
+</body>
+</html> 

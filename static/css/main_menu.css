@@ -1,0 +1,195 @@
+/* Main Menu Page Styles */
+body.main-menu-page {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    position: relative;
+}
+
+.main-menu-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+/* Main menu top banner */
+.main-menu-header {
+    background: linear-gradient(135deg, #8B0000 0%, #800020 100%);
+    color: #fff;
+    text-align: center;
+    padding: 3rem 2rem;
+    position: relative;
+}
+.main-menu-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+.main-menu-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 0;
+}
+/* Card wrapper */
+.main-menu-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Mode panel */
+.mode-selection {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    min-height: 400px;
+}
+.mode-panel {
+    flex: 1;
+    padding: 3rem 2rem;
+    text-align: center;
+    transition: all .3s ease;
+    cursor: pointer;
+    border: 3px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.mode-panel:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.mode-panel.localize {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.mode-panel.report {
+    background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%);
+}
+
+.mode-panel:hover.localize {
+    border-color: #007bff;
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+}
+
+.mode-panel:hover.report {
+    border-color: #dc3545;
+    background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+}
+
+.mode-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.mode-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.mode-description {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.mode-button {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.mode-button.disabled,
+.mode-button[aria-disabled="true"] {
+    background: linear-gradient(135deg, #b0b4b8 0%, #909498 100%) !important;
+    cursor: not-allowed;
+    opacity: 0.65;
+    box-shadow: none !important;
+    transform: none !important;
+    position: relative;
+}
+
+.mode-button.disabled:hover::after,
+.mode-button[aria-disabled="true"]:hover::after {
+    content: attr(data-disabled-reason);
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    background: #222;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    white-space: nowrap;
+    margin-top: 0.4rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    pointer-events: none;
+    z-index: 10;
+}
+
+.mode-button.disabled:hover,
+.mode-button[aria-disabled="true"]:hover {
+    box-shadow: none;
+}
+
+.mode-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
+    color: #fff;
+    text-decoration: none;
+}
+
+.mode-button.report {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+}
+
+.mode-button.report:hover {
+    box-shadow: 0 8px 25px rgba(220, 53, 69, 0.3);
+}
+
+.divider {
+    width: 2px;
+    background: linear-gradient(to bottom, transparent, #dee2e6, transparent);
+    margin: 2rem 0;
+}
+
+/* Logout button styling centralized in components.css */
+
+@media (max-width:768px) {
+    .mode-selection {
+        flex-direction: column;
+    }
+
+    .divider {
+        width: 100%;
+        height: 2px;
+        margin: 0 2rem;
+    }
+
+    .main-menu-header h1 {
+        font-size: 2rem;
+    }
+
+    .mode-title {
+        font-size: 1.5rem;
+    }
+}

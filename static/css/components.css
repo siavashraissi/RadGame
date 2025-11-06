@@ -1,0 +1,138 @@
+/* Shared UI Components */
+/* Consistent Logout Button */
+/* Inline variant for use inside sticky header banner (non-absolute) */
+/* Shared UI Components */
+/* Consistent Logout Button */
+.logout-link, .rg-logout-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  background: linear-gradient(135deg, rgba(220,53,69,0.95) 0%, rgba(200,35,51,0.95) 100%);
+  color: #fff !important;
+  border: none;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  letter-spacing: .4px;
+  line-height: 1;
+  position: relative;
+  transition: transform .18s ease, box-shadow .25s ease, background .3s ease;
+  box-shadow: 0 4px 10px -2px rgba(0,0,0,0.35), 0 2px 4px rgba(0,0,0,0.25);
+}
+.logout-link .logout-icon svg, .rg-logout-btn .logout-icon svg { width:16px; height:16px; display:block; }
+.logout-link:hover, .logout-link:focus-visible, .rg-logout-btn:hover, .rg-logout-btn:focus-visible {
+  background: linear-gradient(135deg, #e74b59 0%, #d33545 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -2px rgba(0,0,0,0.45);
+  outline: none;
+}
+.logout-link:active, .rg-logout-btn:active { transform: translateY(0); box-shadow: 0 3px 8px -2px rgba(0,0,0,0.4); }
+
+/* Absolute variant for top-right placement on non-banner pages */
+.logout-float { position: absolute; top: 1rem; right: 1rem; z-index: 30; }
+
+@media (max-width:500px){
+  .logout-link, .rg-logout-btn { font-size: .75rem; padding: .45rem .75rem; }
+  .logout-link .logout-icon svg, .rg-logout-btn .logout-icon svg { width:14px; height:14px; }
+}
+
+/* Optional lighter variant (unused now but reserved) */
+.logout-link.light, .rg-logout-btn.light {
+  background: linear-gradient(135deg, rgba(220,53,69,0.75) 0%, rgba(200,35,51,0.75) 100%);
+}
+.logout-link .logout-icon svg { display:block; width:16px; height:16px; }
+.logout-link:hover, .logout-link:focus-visible {
+    background: linear-gradient(135deg, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.15) 100%);
+    box-shadow: 0 6px 18px -2px rgba(0,0,0,0.45), 0 0 0 3px rgba(255,255,255,0.25);
+    outline: none;
+    transform: translateY(-1px);
+    opacity: 1;
+}
+.logout-link:active { transform: translateY(0); box-shadow: 0 3px 10px -2px rgba(0,0,0,0.4); }
+/* Inline variant for use inside sticky header banner (non-absolute) */
+.logout-link.inline {
+  position: static;
+  top: auto; right: auto;
+  opacity: 1;
+  padding: .5rem .9rem .5rem .8rem;
+  z-index: auto;
+}
+/* Remove absolute positioning when placed inside flex containers */
+.logout-link.inline:active { transform: translateY(0); }
+@media (max-width:500px){
+  .logout-link { font-size: .7rem; padding: .45rem .75rem .45rem .7rem; }
+  .logout-link .logout-icon svg { width:14px; height:14px; }
+}
+
+/* -------------------------------------------------- */
+/* Unified Button Component                           */
+/* Base + variants: pause, back/nav, etc.             */
+/* -------------------------------------------------- */
+.rg-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  font-weight: 600;
+  font-size: .9rem;
+  letter-spacing: .4px;
+  border: none;
+  border-radius: 8px;
+  padding: .55rem 1.05rem;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+  color: #fff !important;
+  background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+  box-shadow: 0 4px 10px -2px rgba(0,0,0,0.35), 0 2px 4px rgba(0,0,0,0.18);
+  transition: transform .18s ease, box-shadow .25s ease, background .3s ease, filter .3s ease;
+  position: relative;
+}
+.rg-btn:hover, .rg-btn:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -2px rgba(0,0,0,0.45);
+  outline: none;
+}
+.rg-btn:active { transform: translateY(0); box-shadow: 0 3px 8px -2px rgba(0,0,0,0.4); }
+
+/* Size & utility variants */
+.rg-btn--sm { padding: .4rem .7rem; font-size: .75rem; border-radius: 6px; }
+
+/* Zoom reset specific styling (red brand) */
+.rg-btn--zoom-reset { background: linear-gradient(135deg, #8B0000 0%, #800020 100%); }
+.rg-btn--zoom-reset:hover, .rg-btn--zoom-reset:focus-visible { background: linear-gradient(135deg, #9c0d12 0%, #8f0028 100%); }
+
+/* Pause button variant (default = unpaused state: neutral gray). */
+.rg-btn--pause { background: linear-gradient(135deg, #6c757d 0%, #495057 100%); }
+.rg-btn--pause.is-paused { background: linear-gradient(135deg, #28a745 0%, #20c997 100%); }
+.rg-btn--pause.is-paused:hover, .rg-btn--pause.is-paused:focus-visible {
+  /* Slightly brighter green on hover when paused */
+  background: linear-gradient(135deg, #2ec152 0%, #26d1a5 100%);
+}
+
+/* Back / navigation button variant (deep red like primary brand) */
+.rg-btn--back { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+/* Slightly brighter / deeper shift on hover for lift feedback */
+.rg-btn--back:hover, .rg-btn--back:focus-visible { background: linear-gradient(135deg, #738af0 0%, #8253b8 100%); }
+
+/* Utility for absolutely positioned top-left floating nav/back button */
+.rg-float-left { position: absolute; top: 1rem; left: 1rem; z-index: 30; }
+
+@media (max-width:500px){
+  .rg-btn { font-size: .75rem; padding: .45rem .75rem; }
+}
+
+/* -------------------------------------------------- */
+/* Shared Zoom Controls                               */
+/* Usage: include partial templates/partials/zoom_controls.html */
+/* -------------------------------------------------- */
+.rg-zoom-controls { display:flex; align-items:center; gap:0.6rem; margin-bottom:0.75rem; }
+.rg-zoom-slider { -webkit-appearance:none; appearance:none; width:260px; height:10px; border-radius:999px; background:linear-gradient(90deg,#8B0000 0%, #e9ecef 0%); outline:none; }
+.rg-zoom-slider::-webkit-slider-thumb { -webkit-appearance:none; appearance:none; width:20px; height:20px; border-radius:50%; background:#8B0000; border:2px solid #fff; box-shadow:0 1px 4px rgba(0,0,0,0.25); cursor:pointer; }
+.rg-zoom-slider::-moz-range-thumb { width:20px; height:20px; border-radius:50%; background:#8B0000; border:2px solid #fff; box-shadow:0 1px 4px rgba(0,0,0,0.25); cursor:pointer; }
+.rg-zoom-level { min-width:3.5rem; text-align:center; font-variant-numeric:tabular-nums; background:#fff; border:1px solid #e9ecef; border-radius:9999px; padding:0.15rem 0.5rem; color:#333; box-shadow:0 1px 2px rgba(0,0,0,0.05); }
+/* Larger reset button inside zoom controls */
+.rg-zoom-controls .rg-btn--zoom-reset { padding:0.65rem 1.1rem; font-size:0.9rem; }

@@ -1,0 +1,205 @@
+/* Report Page Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.report-page {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #ffffff;
+    color: #333;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(135deg, #8B0000 0%, #800020 100%);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(139, 0, 0, 0.3);
+    position: relative; /* revert to original non-sticky */
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header p {
+    color: #fff;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.main-container {
+    display: flex;
+    min-height: calc(100vh - 200px);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.image-pane,
+.report-pane {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image-pane {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.report-pane {
+    flex: 1;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    justify-content: center; /* vertical centering */
+    align-items: center; /* horizontal centering */
+}
+
+/* Zoom controls unified via components.css (.rg-zoom-*) */
+
+/* Zoomed viewport wrapper and panning */
+#report-img-container {
+    position: relative;
+    overflow: auto;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #e9ecef;
+}
+#report-viewport {
+    position: relative;
+    transform-origin: top left;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* center inner content */
+}
+.pannable { cursor: grab; }
+.panning { cursor: grabbing; }
+
+.image-item {
+    width: auto;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dee2e6;
+    display: flex;              /* center image inside its card */
+    align-items: center;
+    justify-content: center;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 70vh;
+    border-radius: 8px;
+    display: block;
+}
+
+.report-section {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-section h4 {
+    color: #8B0000;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.report-textarea {
+    min-height: 250px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: inherit;
+    resize: vertical;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.form-label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.submit-btn {
+    background: linear-gradient(135deg, #8B0000 0%, #800020 100%);
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s ease;
+    box-shadow: 0 8px 25px rgba(139, 0, 0, 0.3);
+    width: 100%;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 35px rgba(139, 0, 0, 0.4);
+}
+
+/* Make the zoom Reset button compact like in localize */
+.report-zoom-controls #report-zoom-reset {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    width: auto; /* override submit-btn width:100% */
+}
+
+/* Legacy back-button styles removed (migrated to .rg-btn.rg-btn--back.rg-float-left) */
+
+@media (max-width:768px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 0 1rem 1rem 1rem;
+    }
+}
+
+/* Sticky in-pane toolbar (Report Images / GREEN / Pause / Logout) */
+/* (Removed custom sticky toolbar overrides) */

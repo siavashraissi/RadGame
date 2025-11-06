@@ -1,0 +1,6 @@
+{% set _prefix = prefix if prefix is defined else '' %}
+<div class="rg-zoom-controls" aria-label="Zoom controls">
+  <input id="{{ _prefix }}zoom-slider" class="rg-zoom-slider" type="range" min="100" max="600" step="5" value="100" aria-label="Zoom slider">
+  <span id="{{ _prefix }}zoom-level" class="rg-zoom-level">100%</span>
+  <button id="{{ _prefix }}zoom-reset" class="rg-btn rg-btn--zoom-reset" type="button" title="Reset zoom">Reset</button>
+</div>

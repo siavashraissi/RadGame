@@ -1,0 +1,7 @@
+detection/models/weights
+detection/runs
+detection/runs_multi
+secretcodes.py
+
+*.pyc
+.DS_Store

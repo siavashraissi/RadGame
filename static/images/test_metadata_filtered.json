@@ -1,0 +1,4089 @@
+{
+  "pGRDN006ZXP5CKASO_aGRDNBK7DC3ZHRT78_s1.2.826.0.1.3680043.8.498.10490360160726929007941811081472847859": {
+    "AccessionNumber": "GRDNBK7DC3ZHRT78",
+    "Comparison": "Comparison: 1/15/1999",
+    "EthnicGroup": null,
+    "Findings": "Cardiac shadows within normal limits. Aortic calcifications are again seen. Old rib fractures are noted with healing on the right. Multiple skin folds are noted bilaterally. The lungs are well aerated without focal infiltrate or sizable effusion. No pneumothorax is noted.",
+    "ImageBodyPart": [
+      ""
+    ],
+    "ImageModality": [
+      ""
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN006ZXP5CKASO/GRDNBK7DC3ZHRT78/studies/1.2.826.0.1.3680043.8.498.10490360160726929007941811081472847859/series/1.2.826.0.1.3680043.8.498.40692136896945942915078580795052659145/instances/1.2.826.0.1.3680043.8.498.64382563484034513303153364459814310127.png"
+    ],
+    "ImageShape": [
+      ""
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "No acute abnormality noted.",
+    "Indication": "Cough",
+    "InstitutionName": "thryothor-495511-2FQ51",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "082Y",
+    "PatientID": "GRDN006ZXP5CKASO",
+    "PatientSex": "M",
+    "PatientSize": 1.8,
+    "PatientWeight": 60.5,
+    "StudyDate": 20191127,
+    "StudyDescription": "CHEST  1 VIEW",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.10490360160726929007941811081472847859"
+  },
+  "pGRDN00R58Z7HQBNO_aGRDNIOOZUD4AHNL8_s1.2.826.0.1.3680043.8.498.37811060402141808718340946360553094497": {
+    "AccessionNumber": "GRDNIOOZUD4AHNL8",
+    "Comparison": "None.",
+    "EthnicGroup": "non-hispanic",
+    "Findings": "The heart size and mediastinal contours are within normal limits. Both lungs are clear. No pneumothorax or pleural effusion. Multilevel degenerative changes in the thoracic spine and cervical spine fixation hardware noted.",
+    "ImageBodyPart": [
+      "",
+      "Chest"
+    ],
+    "ImageModality": [
+      "",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN00R58Z7HQBNO/GRDNIOOZUD4AHNL8/studies/1.2.826.0.1.3680043.8.498.37811060402141808718340946360553094497/series/1.2.826.0.1.3680043.8.498.16229726764662371406417704995302906894/instances/1.2.826.0.1.3680043.8.498.69761296649144894699923292036856221553.png",
+      "../deid_png/GRDN00R58Z7HQBNO/GRDNIOOZUD4AHNL8/studies/1.2.826.0.1.3680043.8.498.37811060402141808718340946360553094497/series/1.2.826.0.1.3680043.8.498.99556014708181705266827549940832500876/instances/1.2.826.0.1.3680043.8.498.95550664118689302320598463391811760510.png"
+    ],
+    "ImageShape": [
+      "",
+      [
+        2991,
+        2992
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No active cardiopulmonary disease.",
+    "Indication": "Preop for bariatric surgery. No chest complaints. Not taking HTN meds. Not diabetic. Nonsmoker. Pt is asthmatic.",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "054Y",
+    "PatientID": "GRDN00R58Z7HQBNO",
+    "PatientSex": "F",
+    "PatientSize": 1.702,
+    "PatientWeight": 117.654,
+    "StudyDate": 20200727,
+    "StudyDescription": "CHEST - 2 VIEW",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.37811060402141808718340946360553094497"
+  },
+  "pGRDN05BAJWQXBRUC_aGRDN8O1WROM1EUE3_s1.2.826.0.1.3680043.8.498.91892227902453459928145468840646095469": {
+    "AccessionNumber": "GRDN8O1WROM1EUE3",
+    "Comparison": "Comparison is made to a prior study dated 1/3/2000.",
+    "EthnicGroup": null,
+    "Findings": "There is mild prominence of the interstitial markings as well as mild peribronchial cuffing. An area of mild increased density projects within the left lung base. There is flattening of the hemidiaphragms with increased AP diameter of the chest. No focal regions of consolidation are identified. The cardiac silhouette is within the upper limits of normal. The visualized bony skeleton demonstrates degenerative changes involving the right and left glenohumeral joints.",
+    "ImageBodyPart": [
+      "Chest",
+      "",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN05BAJWQXBRUC/GRDN8O1WROM1EUE3/studies/1.2.826.0.1.3680043.8.498.91892227902453459928145468840646095469/series/1.2.826.0.1.3680043.8.498.44566605744222530256364300673998584537/instances/1.2.826.0.1.3680043.8.498.40382404143608539160835535133792601707.png",
+      "../deid_png/GRDN05BAJWQXBRUC/GRDN8O1WROM1EUE3/studies/1.2.826.0.1.3680043.8.498.91892227902453459928145468840646095469/series/1.2.826.0.1.3680043.8.498.44566605744222530256364300673998584537/instances/1.2.826.0.1.3680043.8.498.61212493523654055449538702085466939968.png",
+      "../deid_png/GRDN05BAJWQXBRUC/GRDN8O1WROM1EUE3/studies/1.2.826.0.1.3680043.8.498.91892227902453459928145468840646095469/series/1.2.826.0.1.3680043.8.498.44566605744222530256364300673998584537/instances/1.2.826.0.1.3680043.8.498.93592475821969894276920807693421339776.png"
+    ],
+    "ImageShape": [
+      [
+        2010,
+        2446
+      ],
+      "",
+      [
+        2446,
+        2010
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      "",
+      ""
+    ],
+    "Impression": "COPD with an element of pulmonary vascular congestion. Atelectasis versus infiltrate, left lung base, is also a diagnostic consideration. Surveillance evaluation is recommended, if and as clinically warranted.",
+    "Indication": "decreased O2 sats",
+    "InstitutionName": "thryothor-495511-2FQ51",
+    "Manufacturer": "['Konica Minolta']",
+    "PatientAge": "078Y",
+    "PatientID": "GRDN05BAJWQXBRUC",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20110816,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.91892227902453459928145468840646095469"
+  },
+  "pGRDN0RBYVR6JOL8G_aGRDNXMSVZYP2BSBR_s1.2.826.0.1.3680043.8.498.53188285010429430834673628409512964796": {
+    "AccessionNumber": "GRDNXMSVZYP2BSBR",
+    "Comparison": "Comparison: 11/24/2010",
+    "EthnicGroup": null,
+    "Findings": "Cardiomegaly and evidence of prior cardiac surgery again noted. The lungs are clear. There is no evidence of pleural effusion, focal airspace disease, or pneumothorax. Postoperative changes of the right lower neck are identified.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN0RBYVR6JOL8G/GRDNXMSVZYP2BSBR/studies/1.2.826.0.1.3680043.8.498.53188285010429430834673628409512964796/series/1.2.826.0.1.3680043.8.498.90451401796368269691260178268802945376/instances/1.2.826.0.1.3680043.8.498.61557423274020601501529455131271215334.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Postoperative changes in the right lower neck. Cardiomegaly without evidence of acute cardiopulmonary disease.",
+    "Indication": "Right subclavian steal - bypass graft from right carotid to subclavian.",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "074Y",
+    "PatientID": "GRDN0RBYVR6JOL8G",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20100115,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.53188285010429430834673628409512964796"
+  },
+  "pGRDN0WM88UCXDFLX_aGRDNQYMFLY0GHQZ4_s1.2.826.0.1.3680043.8.498.57625206180763893974541516110150192296": {
+    "AccessionNumber": "GRDNQYMFLY0GHQZ4",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "No left rib fractures are identified. Early costal cartilage calcification is present. There are no intrinsic osseous abnormalities involving the left ribs. The accompanying PA chest x-ray demonstrates a normal cardiomediastinal silhouette. The lungs appear clear.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest",
+      "Chest",
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR",
+      "CR",
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN0WM88UCXDFLX/GRDNQYMFLY0GHQZ4/studies/1.2.826.0.1.3680043.8.498.57625206180763893974541516110150192296/series/1.2.826.0.1.3680043.8.498.13652590780029594202228129483871677949/instances/1.2.826.0.1.3680043.8.498.56600138885000947640302661851769126957.png",
+      "../deid_png/GRDN0WM88UCXDFLX/GRDNQYMFLY0GHQZ4/studies/1.2.826.0.1.3680043.8.498.57625206180763893974541516110150192296/series/1.2.826.0.1.3680043.8.498.20056759674672727774435197178919652287/instances/1.2.826.0.1.3680043.8.498.57806890723833707759936722782545704720.png",
+      "../deid_png/GRDN0WM88UCXDFLX/GRDNQYMFLY0GHQZ4/studies/1.2.826.0.1.3680043.8.498.57625206180763893974541516110150192296/series/1.2.826.0.1.3680043.8.498.25872905866576021322864561507408716840/instances/1.2.826.0.1.3680043.8.498.23572571957474740787654274289535254849.png",
+      "../deid_png/GRDN0WM88UCXDFLX/GRDNQYMFLY0GHQZ4/studies/1.2.826.0.1.3680043.8.498.57625206180763893974541516110150192296/series/1.2.826.0.1.3680043.8.498.36378785889379313642948391951021724561/instances/1.2.826.0.1.3680043.8.498.76538132804365220333697236894009312079.png",
+      "../deid_png/GRDN0WM88UCXDFLX/GRDNQYMFLY0GHQZ4/studies/1.2.826.0.1.3680043.8.498.57625206180763893974541516110150192296/series/1.2.826.0.1.3680043.8.498.58714464516802221374915599771516747144/instances/1.2.826.0.1.3680043.8.498.97055664257013782458338401823456003477.png"
+    ],
+    "ImageShape": [
+      [
+        2801,
+        2102
+      ],
+      [
+        2801,
+        2102
+      ],
+      [
+        2801,
+        2102
+      ],
+      [
+        2801,
+        2102
+      ],
+      [
+        2991,
+        2992
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "Impression": "No left rib fractures are identified. No acute cardiopulmonary disease.",
+    "Indication": "MVA with air bag deployment. Left chest pain.",
+    "InstitutionName": "thryothor-495511-DSL34",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "052Y",
+    "PatientID": "GRDN0WM88UCXDFLX",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20061202,
+    "StudyDescription": "DG RIBS W/ CHEST 3+V*L*",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.57625206180763893974541516110150192296"
+  },
+  "pGRDN18LX1Q6PX4B7_aGRDNMY0Q4071KMZO_s1.2.826.0.1.3680043.8.498.91165307667020997037386363216509663200": {
+    "AccessionNumber": "GRDNMY0Q4071KMZO",
+    "Comparison": "Comparison: 9/7/2003, 10/4/2000, 08/08/1994",
+    "EthnicGroup": null,
+    "Findings": "Endotracheal tube tip is about 2.5 cm superior to the carina. Esophageal tube tip below the diaphragm but incompletely visualized. Right subclavian central venous catheter tip over the proximal right atrium. Overall no significant change in extensive bilateral interstitial and ground-glass opacity which may be secondary to edema or diffuse infection. Suspected small pleural effusions. Table cardiomediastinal silhouette.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN18LX1Q6PX4B7/GRDNMY0Q4071KMZO/studies/1.2.826.0.1.3680043.8.498.91165307667020997037386363216509663200/series/1.2.826.0.1.3680043.8.498.27741535352414914537897463815365630111/instances/1.2.826.0.1.3680043.8.498.30304762241174034495593699531058548562.png"
+    ],
+    "ImageShape": [
+      [
+        2465,
+        3039
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "1. Endotracheal tube tip about 2.5 cm superior to carina 2. No significant interval change in extensive bilateral interstitial and ground-glass airspace disease. Probable small pleural effusions.",
+    "Indication": "Respiratory distress",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "082Y",
+    "PatientID": "GRDN18LX1Q6PX4B7",
+    "PatientSex": "M",
+    "PatientSize": 1.9,
+    "PatientWeight": 71.7,
+    "StudyDate": 20200627,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.91165307667020997037386363216509663200"
+  },
+  "pGRDN1DHWWLB6B62D_aGRDN8H0AVOBJ64D4_s1.2.826.0.1.3680043.8.498.52703160368978665636617430360461631936": {
+    "AccessionNumber": "GRDN8H0AVOBJ64D4",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "No active infiltrate or effusion is seen. There is moderate cardiomegaly present. The bones are osteopenic and there are degenerative changes noted in the shoulders.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN1DHWWLB6B62D/GRDN8H0AVOBJ64D4/studies/1.2.826.0.1.3680043.8.498.52703160368978665636617430360461631936/series/1.2.826.0.1.3680043.8.498.85463770861002823490577019104485326176/instances/1.2.826.0.1.3680043.8.498.77434387841056656493840157889395773612.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Moderate cardiomegaly. No active lung disease.",
+    "Indication": "Altered mental status, weakness",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "090Y",
+    "PatientID": "GRDN1DHWWLB6B62D",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20110520,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.52703160368978665636617430360461631936"
+  },
+  "pGRDN1M51A62UBG7V_aGRDNFHX1RWG78U6D_s1.2.826.0.1.3680043.8.498.71786206171504985325128214544561192018": {
+    "AccessionNumber": "GRDNFHX1RWG78U6D",
+    "Comparison": "Chest CT 09/10/2016",
+    "EthnicGroup": null,
+    "Findings": "The heart size and mediastinal contours are within normal limits. Both lungs are clear. The visualized skeletal structures are unremarkable.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN1M51A62UBG7V/GRDNFHX1RWG78U6D/studies/1.2.826.0.1.3680043.8.498.71786206171504985325128214544561192018/series/1.2.826.0.1.3680043.8.498.56874171488218617168928883651027983366/instances/1.2.826.0.1.3680043.8.498.31856119587904978346089473279753938567.png",
+      "../deid_png/GRDN1M51A62UBG7V/GRDNFHX1RWG78U6D/studies/1.2.826.0.1.3680043.8.498.71786206171504985325128214544561192018/series/1.2.826.0.1.3680043.8.498.66617209027373611656429877130403720888/instances/1.2.826.0.1.3680043.8.498.80106666770559842482775117888565631670.png"
+    ],
+    "ImageShape": [
+      [
+        2520,
+        3032
+      ],
+      [
+        2520,
+        3032
+      ]
+    ],
+    "ImageViewPosition": [
+      "AP",
+      "AP"
+    ],
+    "Impression": "No active disease.",
+    "Indication": "History of hypertension and urinary retention",
+    "InstitutionName": "thryothor-495511-DSL34",
+    "Manufacturer": "['Carestream']",
+    "PatientAge": "074Y",
+    "PatientID": "GRDN1M51A62UBG7V",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20150424,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.71786206171504985325128214544561192018"
+  },
+  "pGRDN255KNMA4BOPD_aGRDN9P33OCBLOK2H_s1.2.826.0.1.3680043.8.498.25348556285960996845302716076216497233": {
+    "AccessionNumber": "GRDN9P33OCBLOK2H",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "The heart size and mediastinal contours are within normal limits. Both lungs are clear. The visualized skeletal structures are unremarkable.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN255KNMA4BOPD/GRDN9P33OCBLOK2H/studies/1.2.826.0.1.3680043.8.498.25348556285960996845302716076216497233/series/1.2.826.0.1.3680043.8.498.26127200183355600410637960665679454022/instances/1.2.826.0.1.3680043.8.498.94788579494032776143408945437447172676.png"
+    ],
+    "ImageShape": [
+      [
+        3035,
+        3039
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "No active cardiopulmonary disease.",
+    "Indication": "Chest pain",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "052Y",
+    "PatientID": "GRDN255KNMA4BOPD",
+    "PatientSex": "M",
+    "PatientSize": 1.7,
+    "PatientWeight": 88.5,
+    "StudyDate": 20221130,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.25348556285960996845302716076216497233"
+  },
+  "pGRDN2N39JCTU18IF_aGRDN5NGRALC6APK6_s1.2.826.0.1.3680043.8.498.83631164629528566276917992506306722098": {
+    "AccessionNumber": "GRDN5NGRALC6APK6",
+    "Comparison": "No recent prior.",
+    "EthnicGroup": null,
+    "Findings": "Ventricular peritoneal shunt tubing noted. Tracheostomy tube and left PICC line stable position. Heart size stable. Bibasilar subsegmental atelectasis. Developing infiltrate right lung base cannot be excluded. No pleural effusion or pneumothorax.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN2N39JCTU18IF/GRDN5NGRALC6APK6/studies/1.2.826.0.1.3680043.8.498.83631164629528566276917992506306722098/series/1.2.826.0.1.3680043.8.498.64862011773456284542488724610368635325/instances/1.2.826.0.1.3680043.8.498.97168318231469815030609567135834456313.png"
+    ],
+    "ImageShape": [
+      [
+        2465,
+        2885
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "1. Lines and tubes in stable position. 2. Bibasilar subsegmental atelectasis. Developing infiltrate right lung base cannot be excluded.",
+    "Indication": "Cough and congestion.",
+    "InstitutionName": "thryothor-495511-other",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "047Y",
+    "PatientID": "GRDN2N39JCTU18IF",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20171003,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.83631164629528566276917992506306722098"
+  },
+  "pGRDN2QQ6IN382OU5_aGRDN1S6USE8NLX2P_s1.2.826.0.1.3680043.8.498.12640638121770906847976498161840798701": {
+    "AccessionNumber": "GRDN1S6USE8NLX2P",
+    "Comparison": "Comparison: Chest, 02/19/07.",
+    "EthnicGroup": null,
+    "Findings": "Left central venous line unchanged. There are low lung volumes. There is left basilar atelectasis similar to prior. Small left effusion unchanged. Central venous pulmonary congestion unchanged.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN2QQ6IN382OU5/GRDN1S6USE8NLX2P/studies/1.2.826.0.1.3680043.8.498.12640638121770906847976498161840798701/series/1.2.826.0.1.3680043.8.498.48073833024831630885469786468728662352/instances/1.2.826.0.1.3680043.8.498.87430677309714985083216433139541287591.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "1. No significant interval change. 2. Left lower lobe atelectasis/infiltrate with small left effusion. 3. Central venous pulmonary congestion.",
+    "Indication": "72-year-old female with respiratory distress.",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "072Y",
+    "PatientID": "GRDN2QQ6IN382OU5",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20090606,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.12640638121770906847976498161840798701"
+  },
+  "pGRDN3HZOPZXCQDNK_aGRDN9CE6CPF0Y71C_s1.2.826.0.1.3680043.8.498.27639639455035478097539311950397527088": {
+    "AccessionNumber": "GRDN9CE6CPF0Y71C",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Heart size upper normal. Lungs clear. No congestive heart failure or pleural fluid. No osseous lesions. The bones are demineralized.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN3HZOPZXCQDNK/GRDN9CE6CPF0Y71C/studies/1.2.826.0.1.3680043.8.498.27639639455035478097539311950397527088/series/1.2.826.0.1.3680043.8.498.49528728624452890228468550530853342501/instances/1.2.826.0.1.3680043.8.498.95276158337373860561622519386655932648.png",
+      "../deid_png/GRDN3HZOPZXCQDNK/GRDN9CE6CPF0Y71C/studies/1.2.826.0.1.3680043.8.498.27639639455035478097539311950397527088/series/1.2.826.0.1.3680043.8.498.90233971754887887398999056951512218182/instances/1.2.826.0.1.3680043.8.498.14367172824852591449261178274266157166.png"
+    ],
+    "ImageShape": [
+      [
+        2140,
+        1760
+      ],
+      [
+        2140,
+        1760
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No active disease.",
+    "Indication": "Chest wall pain and tenderness",
+    "InstitutionName": "thryothor-495511-YY711",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "087Y",
+    "PatientID": "GRDN3HZOPZXCQDNK",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20121029,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.27639639455035478097539311950397527088"
+  },
+  "pGRDN4FIQ8LY7RD0W_aGRDNWBSSEHQZ0QDD_s1.2.826.0.1.3680043.8.498.62688537975202007095543975714535642647": {
+    "AccessionNumber": "GRDNWBSSEHQZ0QDD",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Normal heart size. Clear lungs. No pneumothorax and no pleural effusion.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN4FIQ8LY7RD0W/GRDNWBSSEHQZ0QDD/studies/1.2.826.0.1.3680043.8.498.62688537975202007095543975714535642647/series/1.2.826.0.1.3680043.8.498.37416339301611559398177458994334137752/instances/1.2.826.0.1.3680043.8.498.84155180400062207447286126750745226026.png",
+      "../deid_png/GRDN4FIQ8LY7RD0W/GRDNWBSSEHQZ0QDD/studies/1.2.826.0.1.3680043.8.498.62688537975202007095543975714535642647/series/1.2.826.0.1.3680043.8.498.78588176325284889218348817438761028874/instances/1.2.826.0.1.3680043.8.498.11843238198136250572143198504959047409.png"
+    ],
+    "ImageShape": [
+      [
+        3056,
+        3056
+      ],
+      [
+        3056,
+        3056
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No active cardiopulmonary disease.",
+    "Indication": "Cough",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "029Y",
+    "PatientID": "GRDN4FIQ8LY7RD0W",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20140630,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.62688537975202007095543975714535642647"
+  },
+  "pGRDN4PS7EZ3BDE33_aGRDNW8TSFWHYJRXH_s1.2.826.0.1.3680043.8.498.36181660554520350256467013014761681053": {
+    "AccessionNumber": "GRDNW8TSFWHYJRXH",
+    "Comparison": "October 11, 2006",
+    "EthnicGroup": null,
+    "Findings": "Endotracheal tube tip is 3.3 cm above the carina. Feeding tube tip is below the diaphragm. Central catheter tip is in the superior vena cava. No pneumothorax. There is consolidation in both medial lower lobe regions with small left pleural effusion. No appreciable pleural effusion on the right currently. There is cardiomegaly with pulmonary vascularity normal. No adenopathy. No bone lesions.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN4PS7EZ3BDE33/GRDNW8TSFWHYJRXH/studies/1.2.826.0.1.3680043.8.498.36181660554520350256467013014761681053/series/1.2.826.0.1.3680043.8.498.55917987723840694702208553174836286034/instances/1.2.826.0.1.3680043.8.498.10932448796501729953885979119664935060.png"
+    ],
+    "ImageShape": [
+      [
+        2451,
+        2657
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Tube and catheter positions as described without pneumothorax. Persistent consolidation in both medial lung bases, likely primarily due to atelectatic change. Small left pleural effusion. Upper lung regions are clear. Stable cardiomegaly.",
+    "Indication": "Hypoxia",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "077Y",
+    "PatientID": "GRDN4PS7EZ3BDE33",
+    "PatientSex": "F",
+    "PatientSize": 1.5,
+    "PatientWeight": 91.4,
+    "StudyDate": 20200110,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.36181660554520350256467013014761681053"
+  },
+  "pGRDN63DTR8AH2FKI_aGRDN3G8NM403UPI4_s1.2.826.0.1.3680043.8.498.44411427757166935885813946817690749489": {
+    "AccessionNumber": "GRDN3G8NM403UPI4",
+    "Comparison": "1/1/2015",
+    "EthnicGroup": null,
+    "Findings": "Lungs are adequately inflated without focal lobar consolidation or effusion. Subtle linear density left base likely atelectasis. Minimal prominence of the central bronchovascular markings likely mild vascular congestion versus acute bronchitic process. Cardiomediastinal silhouette and remainder the exam is unchanged.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX",
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN63DTR8AH2FKI/GRDN3G8NM403UPI4/studies/1.2.826.0.1.3680043.8.498.44411427757166935885813946817690749489/series/1.2.826.0.1.3680043.8.498.10645615957643995905528692096826422370/instances/1.2.826.0.1.3680043.8.498.18945398254841382139991406913818408708.png",
+      "../deid_png/GRDN63DTR8AH2FKI/GRDN3G8NM403UPI4/studies/1.2.826.0.1.3680043.8.498.44411427757166935885813946817690749489/series/1.2.826.0.1.3680043.8.498.27655133203908803350487424316234137365/instances/1.2.826.0.1.3680043.8.498.57062155260262121735477254110761368044.png"
+    ],
+    "ImageShape": [
+      [
+        2853,
+        3013
+      ],
+      [
+        2992,
+        2996
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Mild prominence of the central bronchovascular markings which may be due to mild vascular congestion versus acute bronchitic process. Subtle linear atelectasis left base.",
+    "Indication": "Fever.",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "051Y",
+    "PatientID": "GRDN63DTR8AH2FKI",
+    "PatientSex": "F",
+    "PatientSize": 1.6,
+    "PatientWeight": 105.2,
+    "StudyDate": 20190410,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.44411427757166935885813946817690749489"
+  },
+  "pGRDN6BZ6YK0CBZUJ_aGRDNSTQ0QIGP6972_s1.2.826.0.1.3680043.8.498.60370938828241706597325846598286312188": {
+    "AccessionNumber": "GRDNSTQ0QIGP6972",
+    "Comparison": "Comparison: None",
+    "EthnicGroup": null,
+    "Findings": "PA and lateral chest radiographs are provided. There is bilateral diffuse interstitial thickening likely representing chronic interstitial disease, but superimposed mild interstitial edema versus interstitial pneumonitis secondary to an infectious or inflammatory etiology cannot be excluded. There is no focal parenchymal opacity, pleural effusion, or pneumothorax. The heart size is enlarged.. The osseous structures are unremarkable.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN6BZ6YK0CBZUJ/GRDNSTQ0QIGP6972/studies/1.2.826.0.1.3680043.8.498.60370938828241706597325846598286312188/series/1.2.826.0.1.3680043.8.498.43366714005559552011526168113019519293/instances/1.2.826.0.1.3680043.8.498.55187903122129077958154105553706286146.png",
+      "../deid_png/GRDN6BZ6YK0CBZUJ/GRDNSTQ0QIGP6972/studies/1.2.826.0.1.3680043.8.498.60370938828241706597325846598286312188/series/1.2.826.0.1.3680043.8.498.43366714005559552011526168113019519293/instances/1.2.826.0.1.3680043.8.498.56951539021613805570175688368184469537.png",
+      "../deid_png/GRDN6BZ6YK0CBZUJ/GRDNSTQ0QIGP6972/studies/1.2.826.0.1.3680043.8.498.60370938828241706597325846598286312188/series/1.2.826.0.1.3680043.8.498.43366714005559552011526168113019519293/instances/1.2.826.0.1.3680043.8.498.61925455663647037314466267492268107829.png"
+    ],
+    "ImageShape": [
+      [
+        2364,
+        2880
+      ],
+      [
+        2364,
+        3008
+      ],
+      [
+        3024,
+        3056
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      "",
+      ""
+    ],
+    "Impression": "There is bilateral diffuse interstitial thickening likely representing chronic interstitial disease, but superimposed mild interstitial edema versus interstitial pneumonitis secondary to an infectious or inflammatory etiology cannot be excluded.",
+    "Indication": "Chest Pain",
+    "InstitutionName": "thryothor-495511-2FQ51",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "086Y",
+    "PatientID": "GRDN6BZ6YK0CBZUJ",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20131109,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.60370938828241706597325846598286312188"
+  },
+  "pGRDN6D9661MDXC3K_aGRDNMHCCCQLJNF7H_s1.2.826.0.1.3680043.8.498.29525567856621701175573751968176408914": {
+    "AccessionNumber": "GRDNMHCCCQLJNF7H",
+    "Comparison": "None",
+    "EthnicGroup": null,
+    "Findings": "Midline trachea. Normal heart size and mediastinal contours. No pleural effusion or pneumothorax. Diffuse peribronchial thickening. Clear lungs. No free intraperitoneal air.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN6D9661MDXC3K/GRDNMHCCCQLJNF7H/studies/1.2.826.0.1.3680043.8.498.29525567856621701175573751968176408914/series/1.2.826.0.1.3680043.8.498.51596382430364874599708826536925224187/instances/1.2.826.0.1.3680043.8.498.16104311231180812956608110557209865462.png",
+      "../deid_png/GRDN6D9661MDXC3K/GRDNMHCCCQLJNF7H/studies/1.2.826.0.1.3680043.8.498.29525567856621701175573751968176408914/series/1.2.826.0.1.3680043.8.498.85694317761919191401169004579306576490/instances/1.2.826.0.1.3680043.8.498.61279029443817813585796543497523400004.png"
+    ],
+    "ImageShape": [
+      [
+        2991,
+        2992
+      ],
+      [
+        2991,
+        2992
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "1. No acute cardiopulmonary disease. 2. Mild peribronchial thickening which may relate to chronic bronchitis or smoking.",
+    "Indication": "MVC.",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "047Y",
+    "PatientID": "GRDN6D9661MDXC3K",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20090521,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.29525567856621701175573751968176408914"
+  },
+  "pGRDN6XQMDPZG185C_aGRDNAWILFYCYBQ9V_s1.2.826.0.1.3680043.8.498.19656392630016517589959656284368150404": {
+    "AccessionNumber": "GRDNAWILFYCYBQ9V",
+    "Comparison": "One-view chest x-ray 2/11/2002",
+    "EthnicGroup": null,
+    "Findings": "Heart is enlarged. Lung volumes are low. Left basilar airspace disease is again seen. Overlying leads and patient rotation obscures the left base.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN6XQMDPZG185C/GRDNAWILFYCYBQ9V/studies/1.2.826.0.1.3680043.8.498.19656392630016517589959656284368150404/series/1.2.826.0.1.3680043.8.498.15706608011773659561641034580767988042/instances/1.2.826.0.1.3680043.8.498.48920017310926434293884107618288257343.png"
+    ],
+    "ImageShape": [
+      [
+        2466,
+        3008
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "1. Persistent low lung volumes. 2. Left basilar airspace disease representing atelectasis or effusion.",
+    "Indication": "Progressive shortness of breath over the past 2 days.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "048Y",
+    "PatientID": "GRDN6XQMDPZG185C",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20190612,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.19656392630016517589959656284368150404"
+  },
+  "pGRDN70VULV7YWOYL_aGRDNIE1LPRIUS24C_s1.2.826.0.1.3680043.8.498.92877537870910370062029188872616455242": {
+    "AccessionNumber": "GRDNIE1LPRIUS24C",
+    "Comparison": "Comparison: None.",
+    "EthnicGroup": null,
+    "Findings": "Normal lung volumes and mediastinal contours. Visualized tracheal air column is within normal limits. No pneumothorax, pulmonary edema or pleural effusion. No convincing abnormal pulmonary opacity. Negative visible osseous structures; there may be a bifid anterior left 5th rib (normal variant). Paucity of bowel gas in the upper abdomen.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN70VULV7YWOYL/GRDNIE1LPRIUS24C/studies/1.2.826.0.1.3680043.8.498.92877537870910370062029188872616455242/series/1.2.826.0.1.3680043.8.498.72096900203245693969879452297591115703/instances/1.2.826.0.1.3680043.8.498.70503926714689403405249355031145004827.png",
+      "../deid_png/GRDN70VULV7YWOYL/GRDNIE1LPRIUS24C/studies/1.2.826.0.1.3680043.8.498.92877537870910370062029188872616455242/series/1.2.826.0.1.3680043.8.498.72096900203245693969879452297591115703/instances/1.2.826.0.1.3680043.8.498.78996420290495937405341771246383350534.png"
+    ],
+    "ImageShape": [
+      [
+        3035,
+        3039
+      ],
+      [
+        3036,
+        3040
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No cardiopulmonary abnormality identified.",
+    "Indication": "32-year-old female with shortness of breath, cough congestion mid chest pain and fever for 1 week.",
+    "InstitutionName": "thryothor-495511-PU2Q5",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "032Y",
+    "PatientID": "GRDN70VULV7YWOYL",
+    "PatientSex": "F",
+    "PatientSize": 1.8,
+    "PatientWeight": 72.6,
+    "StudyDate": 20210402,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.92877537870910370062029188872616455242"
+  },
+  "pGRDN78MEM1SBL3X6_aGRDNG3ULV0OYD3S0_s1.2.826.0.1.3680043.8.498.21073170648677497901555826421678133358": {
+    "AccessionNumber": "GRDNG3ULV0OYD3S0",
+    "Comparison": "Comparison with 9/1/2001.",
+    "EthnicGroup": null,
+    "Findings": "Shallow inspiration with linear atelectasis or fibrosis in the lung bases. Normal heart size and pulmonary vascularity. No focal airspace disease or consolidation in the lungs. No blunting of costophrenic angles. No pneumothorax. Calcified and tortuous aorta. Degenerative changes in the spine.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN78MEM1SBL3X6/GRDNG3ULV0OYD3S0/studies/1.2.826.0.1.3680043.8.498.21073170648677497901555826421678133358/series/1.2.826.0.1.3680043.8.498.45673570861039865584902906694546082919/instances/1.2.826.0.1.3680043.8.498.56018659525764391161656661250137103685.png",
+      "../deid_png/GRDN78MEM1SBL3X6/GRDNG3ULV0OYD3S0/studies/1.2.826.0.1.3680043.8.498.21073170648677497901555826421678133358/series/1.2.826.0.1.3680043.8.498.97862766188625826361156508679933494851/instances/1.2.826.0.1.3680043.8.498.65671223372546405083164763151016847002.png"
+    ],
+    "ImageShape": [
+      [
+        3036,
+        2954
+      ],
+      [
+        3036,
+        2998
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Shallow inspiration with linear atelectasis or fibrosis in the lung bases similar to previous study. No evidence of active pulmonary disease.",
+    "Indication": "Midsternal chest pressure with onset last night. Sweating. Now pain radiates to the left side. History of diabetes and hypertension.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "072Y",
+    "PatientID": "GRDN78MEM1SBL3X6",
+    "PatientSex": "M",
+    "PatientSize": 1.7,
+    "PatientWeight": 80.3,
+    "StudyDate": 20161016,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.21073170648677497901555826421678133358"
+  },
+  "pGRDN7LON7HQ8HRMN_aGRDNQWPTI8MS6B3J_s1.2.826.0.1.3680043.8.498.74875608180247453247709884606942425250": {
+    "AccessionNumber": "GRDNQWPTI8MS6B3J",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Lungs are clear. Heart size is normal. No pneumothorax or pleural effusion. No focal bony abnormality is identified.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN7LON7HQ8HRMN/GRDNQWPTI8MS6B3J/studies/1.2.826.0.1.3680043.8.498.74875608180247453247709884606942425250/series/1.2.826.0.1.3680043.8.498.41088654429518787412637107525132166674/instances/1.2.826.0.1.3680043.8.498.50470024719754922009548499252086164460.png",
+      "../deid_png/GRDN7LON7HQ8HRMN/GRDNQWPTI8MS6B3J/studies/1.2.826.0.1.3680043.8.498.74875608180247453247709884606942425250/series/1.2.826.0.1.3680043.8.498.89768627238462833657883409756483045334/instances/1.2.826.0.1.3680043.8.498.89373644178595440291302011585665985890.png"
+    ],
+    "ImageShape": [
+      [
+        2857,
+        2550
+      ],
+      [
+        3054,
+        2088
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Negative chest.",
+    "Indication": "Patient struck by motor vehicle.",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "016Y",
+    "PatientID": "GRDN7LON7HQ8HRMN",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20150522,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.74875608180247453247709884606942425250"
+  },
+  "pGRDN835VFZTI82NM_aGRDNBG4HSOIK47R1_s1.2.826.0.1.3680043.8.498.47531621651896504583069629063508376602": {
+    "AccessionNumber": "GRDNBG4HSOIK47R1",
+    "Comparison": "Comparison: None",
+    "EthnicGroup": null,
+    "Findings": "The heart is upper limits of normal in size. The aorta is normal in caliber. The pulmonary hila appear normal. There is a rounded density in the left upper lobe which is somewhat worrisome. There is also a vague density at the left lung base. Chest CT with contrast is suggested to exclude a pulmonary mass. No infiltrates, edema or effusions. The bony thorax is intact.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN835VFZTI82NM/GRDNBG4HSOIK47R1/studies/1.2.826.0.1.3680043.8.498.47531621651896504583069629063508376602/series/1.2.826.0.1.3680043.8.498.14694265093334117258019327148602243303/instances/1.2.826.0.1.3680043.8.498.68761475887183910613471653428569832780.png",
+      "../deid_png/GRDN835VFZTI82NM/GRDNBG4HSOIK47R1/studies/1.2.826.0.1.3680043.8.498.47531621651896504583069629063508376602/series/1.2.826.0.1.3680043.8.498.71959961524742848182237833770505664588/instances/1.2.826.0.1.3680043.8.498.59703802363228275535174194035016522546.png"
+    ],
+    "ImageShape": [
+      [
+        2948,
+        2298
+      ],
+      [
+        2948,
+        2892
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "1. Left upper lobe and left lower lobe nodules. Recommend chest CT with contrast for further evaluation. 2. No acute pulmonary findings.",
+    "Indication": "Fell. Cough and congestion.",
+    "InstitutionName": "thryothor-495511-DSL34",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "050Y",
+    "PatientID": "GRDN835VFZTI82NM",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20110614,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.47531621651896504583069629063508376602"
+  },
+  "pGRDN83M23YYIOIX5_aGRDNH46LA8ZPC79R_s1.2.826.0.1.3680043.8.498.47339542874297193344205302068104983858": {
+    "AccessionNumber": "GRDNH46LA8ZPC79R",
+    "Comparison": "Comparison is made with exam from the prior day.",
+    "EthnicGroup": null,
+    "Findings": "Heart is enlarged. Diffuse congestive changes and pleural effusions appear similar. Degenerative changes are seen in the spine.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN83M23YYIOIX5/GRDNH46LA8ZPC79R/studies/1.2.826.0.1.3680043.8.498.47339542874297193344205302068104983858/series/1.2.826.0.1.3680043.8.498.41255795948174438371721231033705830205/instances/1.2.826.0.1.3680043.8.498.84688056952287887463942873784741056115.png"
+    ],
+    "ImageShape": [
+      [
+        2320,
+        2828
+      ]
+    ],
+    "ImageViewPosition": [
+      "AP"
+    ],
+    "Impression": "Similar appearance of the chest.",
+    "Indication": "Shortness of breath",
+    "InstitutionName": "tachyeres-387144-4BBY1",
+    "Manufacturer": "['Agfa']",
+    "PatientAge": null,
+    "PatientID": "GRDN83M23YYIOIX5",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20140804,
+    "StudyDescription": "Chest Single AP view",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.47339542874297193344205302068104983858"
+  },
+  "pGRDN8CLTCVEGRXJN_aGRDNZGTQJ1F8Y8OR_s1.2.826.0.1.3680043.8.498.66165103873451356787661816646018623778": {
+    "AccessionNumber": "GRDNZGTQJ1F8Y8OR",
+    "Comparison": "Comparison: 6/9/2002",
+    "EthnicGroup": null,
+    "Findings": "Single view of the chest demonstrates densities in the medial right apex that may be chronic. Coarse interstitial markings appear chronic. Cardiac silhouette is stable. There has been improved aeration in the left lung base compared to the prior examination.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN8CLTCVEGRXJN/GRDNZGTQJ1F8Y8OR/studies/1.2.826.0.1.3680043.8.498.66165103873451356787661816646018623778/series/1.2.826.0.1.3680043.8.498.36893283907926682439417150508201641974/instances/1.2.826.0.1.3680043.8.498.25626952309860993697375589720330588097.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Improved aeration in the lungs, particularly at the left lung base. There may be chronic changes in the medial right upper lung.",
+    "Indication": "Weakness and congestion.",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "083Y",
+    "PatientID": "GRDN8CLTCVEGRXJN",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20100721,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.66165103873451356787661816646018623778"
+  },
+  "pGRDN9AWWJECTEEI1_aGRDN0ARBFO80OYJI_s1.2.826.0.1.3680043.8.498.21817563480632182802673656892566920029": {
+    "AccessionNumber": "GRDN0ARBFO80OYJI",
+    "Comparison": "None",
+    "EthnicGroup": null,
+    "Findings": "Upper normal heart size. Tortuous aorta. Pulmonary vascularity normal. Medial right upper lobe density which could represent pneumonia or mass. Remaining lungs clear. No pleural effusion or pneumothorax. No pneumothorax. Bones unremarkable.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN9AWWJECTEEI1/GRDN0ARBFO80OYJI/studies/1.2.826.0.1.3680043.8.498.21817563480632182802673656892566920029/series/1.2.826.0.1.3680043.8.498.60950988632764352209962924637777480386/instances/1.2.826.0.1.3680043.8.498.36278793864101128254288605854770730560.png",
+      "../deid_png/GRDN9AWWJECTEEI1/GRDN0ARBFO80OYJI/studies/1.2.826.0.1.3680043.8.498.21817563480632182802673656892566920029/series/1.2.826.0.1.3680043.8.498.82241570471630298510444825509947951047/instances/1.2.826.0.1.3680043.8.498.77748288149292572609697957786284574129.png"
+    ],
+    "ImageShape": [
+      [
+        2140,
+        1760
+      ],
+      [
+        2140,
+        1760
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Right upper lobe suprahilar density which could represent consolidation or mass. Either CT chest with contrast or radiographic follow-up until resolution recommended in order to exclude malignancy.",
+    "Indication": "Fever, cough, shortness of breath, question pneumonia",
+    "InstitutionName": "thryothor-495511-0JOUJ",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "062Y",
+    "PatientID": "GRDN9AWWJECTEEI1",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20121218,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.21817563480632182802673656892566920029"
+  },
+  "pGRDN9NJWHD0TBN94_aGRDNZA0KJ7C700HJ_s1.2.826.0.1.3680043.8.498.91458067071405599400788282002820293546": {
+    "AccessionNumber": "GRDNZA0KJ7C700HJ",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "The heart size and mediastinal contours are within normal limits. No evidence of pneumomediastinum or pneumothorax. Both lungs are clear. No radiopaque foreign body identified. The visualized skeletal structures are unremarkable.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX",
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN9NJWHD0TBN94/GRDNZA0KJ7C700HJ/studies/1.2.826.0.1.3680043.8.498.91458067071405599400788282002820293546/series/1.2.826.0.1.3680043.8.498.18564986509141059930306807727367002570/instances/1.2.826.0.1.3680043.8.498.34668245618028287934074305636793407429.png",
+      "../deid_png/GRDN9NJWHD0TBN94/GRDNZA0KJ7C700HJ/studies/1.2.826.0.1.3680043.8.498.91458067071405599400788282002820293546/series/1.2.826.0.1.3680043.8.498.40227312928972110005257004228835707287/instances/1.2.826.0.1.3680043.8.498.97551017077530750644195190483829893377.png"
+    ],
+    "ImageShape": [
+      [
+        3036,
+        3040
+      ],
+      [
+        2992,
+        2737
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Negative. No active cardiopulmonary disease.",
+    "Indication": "Chest pain. Chicken bone stuck in throat.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "031Y",
+    "PatientID": "GRDN9NJWHD0TBN94",
+    "PatientSex": "M",
+    "PatientSize": 1.8,
+    "PatientWeight": 81.6,
+    "StudyDate": 20210929,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.91458067071405599400788282002820293546"
+  },
+  "pGRDN9O4GWDVABJO6_aGRDNIKMG94J8I70B_s1.2.826.0.1.3680043.8.498.62036607776763618553816492672097874955": {
+    "AccessionNumber": "GRDNIKMG94J8I70B",
+    "Comparison": "Comparison: None.",
+    "EthnicGroup": null,
+    "Findings": "The heart is enlarged. The mediastinal contour and hilar configuration are within normal limits. There is diffuse infiltration throughout the lungs bilaterally. No pleural effusion is identified.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN9O4GWDVABJO6/GRDNIKMG94J8I70B/studies/1.2.826.0.1.3680043.8.498.62036607776763618553816492672097874955/series/1.2.826.0.1.3680043.8.498.78430443478834293863104813621922563703/instances/1.2.826.0.1.3680043.8.498.74429499113239569944598511430600980724.png"
+    ],
+    "ImageShape": [
+      [
+        2490,
+        2978
+      ]
+    ],
+    "ImageViewPosition": [
+      "N/A"
+    ],
+    "Impression": "Severe cardiomegaly and diffuse infiltration of the lungs bilaterally. Differential considerations include congestive heart failure. Acute pneumonitis can't be entirely excluded.",
+    "Indication": "altered mental status",
+    "InstitutionName": "xenops-995729-YF6TG",
+    "Manufacturer": "['Canon']",
+    "PatientAge": "055Y",
+    "PatientID": "GRDN9O4GWDVABJO6",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20231021,
+    "StudyDescription": "XR chest 1V portable",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.62036607776763618553816492672097874955"
+  },
+  "pGRDN9XIK6C07CHQ3_aGRDNGYFHGQ0OCHJR_s1.2.826.0.1.3680043.8.498.70801604598516726018154883254316224452": {
+    "AccessionNumber": "GRDNGYFHGQ0OCHJR",
+    "Comparison": "Comparison: None.",
+    "EthnicGroup": "non-hispanic",
+    "Findings": "Mild central airway thickening without consolidative process, pneumothorax or effusion. Cardiothymic silhouette appears normal. No bony abnormality.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDN9XIK6C07CHQ3/GRDNGYFHGQ0OCHJR/studies/1.2.826.0.1.3680043.8.498.70801604598516726018154883254316224452/series/1.2.826.0.1.3680043.8.498.45883449790669673416411115855685025688/instances/1.2.826.0.1.3680043.8.498.59596004233052744323847795129798041300.png",
+      "../deid_png/GRDN9XIK6C07CHQ3/GRDNGYFHGQ0OCHJR/studies/1.2.826.0.1.3680043.8.498.70801604598516726018154883254316224452/series/1.2.826.0.1.3680043.8.498.77966738049316835730765050480043598157/instances/1.2.826.0.1.3680043.8.498.29472973142586059860392659494344006267.png"
+    ],
+    "ImageShape": [
+      [
+        1395,
+        1766
+      ],
+      [
+        1391,
+        2280
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Mild central airway thickening suggestive of a viral process reactive airways disease.",
+    "Indication": "Cough, shortness of breath and gas and air.",
+    "InstitutionName": "thryothor-495511-XGXW8",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "003M",
+    "PatientID": "GRDN9XIK6C07CHQ3",
+    "PatientSex": "F",
+    "PatientSize": 0.489,
+    "PatientWeight": 6.435,
+    "StudyDate": 20171106,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.70801604598516726018154883254316224452"
+  },
+  "pGRDNAEHQ5Q9OX52T_aGRDN0PBNBYJ44DQ3_s1.2.826.0.1.3680043.8.498.25596854028525668460579817099312598006": {
+    "AccessionNumber": "GRDN0PBNBYJ44DQ3",
+    "Comparison": "Comparison: None.",
+    "EthnicGroup": null,
+    "Findings": "Two views of the chest were obtained. The lungs are clear bilaterally. Heart and mediastinum are within normal limits. The trachea is midline.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNAEHQ5Q9OX52T/GRDN0PBNBYJ44DQ3/studies/1.2.826.0.1.3680043.8.498.25596854028525668460579817099312598006/series/1.2.826.0.1.3680043.8.498.32517569306366644902384229410628653560/instances/1.2.826.0.1.3680043.8.498.65166240951894122767841549557297856232.png",
+      "../deid_png/GRDNAEHQ5Q9OX52T/GRDN0PBNBYJ44DQ3/studies/1.2.826.0.1.3680043.8.498.25596854028525668460579817099312598006/series/1.2.826.0.1.3680043.8.498.45120329378439511193881358236627944501/instances/1.2.826.0.1.3680043.8.498.33904696300022629586095464340652448500.png"
+    ],
+    "ImageShape": [
+      [
+        2140,
+        1760
+      ],
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No acute chest findings.",
+    "Indication": "53-year-old with cough.",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "053Y",
+    "PatientID": "GRDNAEHQ5Q9OX52T",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20121126,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.25596854028525668460579817099312598006"
+  },
+  "pGRDNAETSVRO8JS6P_aGRDNOYHGCEH6JP7A_s1.2.826.0.1.3680043.8.498.64703796282219134602598034729282674311": {
+    "AccessionNumber": "GRDNOYHGCEH6JP7A",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "The heart is normal in size. The lungs are well expanded. There is no acute infiltrate, effusion or pneumothorax.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNAETSVRO8JS6P/GRDNOYHGCEH6JP7A/studies/1.2.826.0.1.3680043.8.498.64703796282219134602598034729282674311/series/1.2.826.0.1.3680043.8.498.34313167812151249498355218716717068042/instances/1.2.826.0.1.3680043.8.498.43773023519737368387861218643303335977.png"
+    ],
+    "ImageShape": [
+      [
+        2320,
+        2828
+      ]
+    ],
+    "ImageViewPosition": [
+      "AP"
+    ],
+    "Impression": "No acute process.",
+    "Indication": "Shortness of breath",
+    "InstitutionName": "tachyeres-387144-T4VJY",
+    "Manufacturer": "['Agfa']",
+    "PatientAge": null,
+    "PatientID": "GRDNAETSVRO8JS6P",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20130208,
+    "StudyDescription": "Chest Single AP view",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.64703796282219134602598034729282674311"
+  },
+  "pGRDNAJBURZ6X4CVN_aGRDNV23FO6DD7X9D_s1.2.826.0.1.3680043.8.498.39013126413489326490367197405697555686": {
+    "AccessionNumber": "GRDNV23FO6DD7X9D",
+    "Comparison": "Comparison: 10/01/1993",
+    "EthnicGroup": null,
+    "Findings": "Lungs are hypo aerated. Left greater than right lower lobe airspace consolidation is more prominent, with trace bilateral pleural effusions.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNAJBURZ6X4CVN/GRDNV23FO6DD7X9D/studies/1.2.826.0.1.3680043.8.498.39013126413489326490367197405697555686/series/1.2.826.0.1.3680043.8.498.69012044102129157157567341011924365353/instances/1.2.826.0.1.3680043.8.498.33534915004770618001133483630261263497.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "More prominent bilateral lower lobe, left greater than right, airspace disease with pleural effusions. Findings are most compatible with pneumonia, but an element of atelectasis could have a similar appearance given the degree of hypoaeration.",
+    "Indication": "Fall",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "090Y",
+    "PatientID": "GRDNAJBURZ6X4CVN",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20140105,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.39013126413489326490367197405697555686"
+  },
+  "pGRDNBOP2YGJPMNZ8_aGRDNG2GZUFJF66E2_s1.2.826.0.1.3680043.8.498.37195524752000009479954488802049300545": {
+    "AccessionNumber": "GRDNG2GZUFJF66E2",
+    "Comparison": "COMPARISON: 10/11/1998",
+    "EthnicGroup": null,
+    "Findings": "Patient rotated to the right. Cardiomegaly. Atherosclerosis in the transverse aorta. No pleural effusion or pneumothorax. Skin fold over the left hemithorax. No congestive failure. Possible right upper lobe airspace disease versus artifact from patient positioning.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNBOP2YGJPMNZ8/GRDNG2GZUFJF66E2/studies/1.2.826.0.1.3680043.8.498.37195524752000009479954488802049300545/series/1.2.826.0.1.3680043.8.498.66850024423159346288387601925814987675/instances/1.2.826.0.1.3680043.8.498.50709224430958299754727558032531694111.png"
+    ],
+    "ImageShape": [
+      [
+        2465,
+        3039
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Possible right upper lobe airspace disease. Alternatively, this could be artifactual secondary to patient obliquity and overlying osseous shadows. Cardiomegaly without congestive failure. Aortic Atherosclerosis (ICD10-I70.0).",
+    "Indication": "Cough. Prostate cancer. Fever. Chills.",
+    "InstitutionName": "thryothor-495511-2FQ51",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "090Y",
+    "PatientID": "GRDNBOP2YGJPMNZ8",
+    "PatientSex": "M",
+    "PatientSize": 1.7,
+    "PatientWeight": 66.4,
+    "StudyDate": 20180312,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.37195524752000009479954488802049300545"
+  },
+  "pGRDNBTJ933KQ95J9_aGRDNMXP0NCH9IJZY_s1.2.826.0.1.3680043.8.498.90945916266547769947802810217204872964": {
+    "AccessionNumber": "GRDNMXP0NCH9IJZY",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Heart size and pulmonary vascularity are normal and the lungs are clear. No infiltrates or effusions.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNBTJ933KQ95J9/GRDNMXP0NCH9IJZY/studies/1.2.826.0.1.3680043.8.498.90945916266547769947802810217204872964/series/1.2.826.0.1.3680043.8.498.13758351322452511534055382384597303819/instances/1.2.826.0.1.3680043.8.498.64341017917616792970077525553807774103.png",
+      "../deid_png/GRDNBTJ933KQ95J9/GRDNMXP0NCH9IJZY/studies/1.2.826.0.1.3680043.8.498.90945916266547769947802810217204872964/series/1.2.826.0.1.3680043.8.498.17569910472726918244619239533105088841/instances/1.2.826.0.1.3680043.8.498.31020841470445691753886833761536414150.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ],
+      [
+        2991,
+        2992
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No acute abnormalities.",
+    "Indication": "Chest and abdominal pain secondary to motor vehicle accident.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['FUJI', 'SIEMENS']",
+    "PatientAge": "042Y",
+    "PatientID": "GRDNBTJ933KQ95J9",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20141216,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.90945916266547769947802810217204872964"
+  },
+  "pGRDNC8E5BLKY0LEC_aGRDNBTN7BBA3RIPD_s1.2.826.0.1.3680043.8.498.42906846649381675077368465456651015424": {
+    "AccessionNumber": "GRDNBTN7BBA3RIPD",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Minimal perihilar opacities. Mild bilateral lower lobe opacities. Adequate lung volumes. No pleural effusion or pneumothorax. The cardiothymic silhouette is within normal limits.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNC8E5BLKY0LEC/GRDNBTN7BBA3RIPD/studies/1.2.826.0.1.3680043.8.498.42906846649381675077368465456651015424/series/1.2.826.0.1.3680043.8.498.96251227196323051946527625038777774735/instances/1.2.826.0.1.3680043.8.498.60842721229609196491548137167450274038.png"
+    ],
+    "ImageShape": [
+      [
+        1408,
+        1248
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Adequate lung volumes with very mild perihilar opacities, possibly reflecting minimal edema. Mild bilateral lower lobe opacities, likely atelectasis.",
+    "Indication": "Grunting following delivery, probable TTN",
+    "InstitutionName": "thryothor-495511-G61HN",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "000D",
+    "PatientID": "GRDNC8E5BLKY0LEC",
+    "PatientSex": "M",
+    "PatientSize": 0.5,
+    "PatientWeight": 3.8,
+    "StudyDate": 20190204,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.42906846649381675077368465456651015424"
+  },
+  "pGRDNCA20A5OPCJTK_aGRDNEA92GSVGBT8J_s1.2.826.0.1.3680043.8.498.57919267782159116060887210601393529870": {
+    "AccessionNumber": "GRDNEA92GSVGBT8J",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Cardiomediastinal silhouette is unremarkable. No acute infiltrate or pleural effusion. No pulmonary edema. Mild elevation of the right hemidiaphragm. No pneumothorax.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNCA20A5OPCJTK/GRDNEA92GSVGBT8J/studies/1.2.826.0.1.3680043.8.498.57919267782159116060887210601393529870/series/1.2.826.0.1.3680043.8.498.90103428611165221852605751680456045894/instances/1.2.826.0.1.3680043.8.498.32620055617581572962403696993303293392.png"
+    ],
+    "ImageShape": [
+      [
+        2520,
+        3032
+      ]
+    ],
+    "ImageViewPosition": [
+      "AP"
+    ],
+    "Impression": "No active disease. No pneumothorax.",
+    "Indication": "Motorcycle crash, right shoulder pain",
+    "InstitutionName": "thryothor-495511-DSL34",
+    "Manufacturer": "['Carestream']",
+    "PatientAge": "051Y",
+    "PatientID": "GRDNCA20A5OPCJTK",
+    "PatientSex": "O",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20151205,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.57919267782159116060887210601393529870"
+  },
+  "pGRDNCIV6RLNFJPZI_aGRDN056NDPQS1Y7G_s1.2.826.0.1.3680043.8.498.16590876234699882821807912958640970790": {
+    "AccessionNumber": "GRDN056NDPQS1Y7G",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Hyperinflation noted compatible with background COPD/ emphysema. Normal heart size and vascularity. Apical scarring present. No focal pneumonia, collapse or consolidation. No edema, pleural effusion or pneumothorax. Trachea is midline. No osseous abnormality.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNCIV6RLNFJPZI/GRDN056NDPQS1Y7G/studies/1.2.826.0.1.3680043.8.498.16590876234699882821807912958640970790/series/1.2.826.0.1.3680043.8.498.23987281434271886392138251992694933814/instances/1.2.826.0.1.3680043.8.498.33630928635476751511266327114232123168.png",
+      "../deid_png/GRDNCIV6RLNFJPZI/GRDN056NDPQS1Y7G/studies/1.2.826.0.1.3680043.8.498.16590876234699882821807912958640970790/series/1.2.826.0.1.3680043.8.498.62340510272307803463795818790222155520/instances/1.2.826.0.1.3680043.8.498.70269553429364818657180232114257442034.png"
+    ],
+    "ImageShape": [
+      [
+        2991,
+        2586
+      ],
+      [
+        2991,
+        2722
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Hyperinflation. Findings compatible with COPD/ emphysema.",
+    "Indication": "Cough, congestion",
+    "InstitutionName": "thryothor-495511-V3NVW",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "068Y",
+    "PatientID": "GRDNCIV6RLNFJPZI",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20140824,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.16590876234699882821807912958640970790"
+  },
+  "pGRDNCVXHZIKH0ZIC_aGRDNUZUNHAGIXDHP_s1.2.826.0.1.3680043.8.498.66876917191386972124963627522103763366": {
+    "AccessionNumber": "GRDNUZUNHAGIXDHP",
+    "Comparison": "None",
+    "EthnicGroup": null,
+    "Findings": "There is a small focus of airspace density in the left lower lobe on the frontal view and lateral views suspicious for round pneumonia. Central airway thickening is present, compatible with viral process. Hyperinflation. Trachea appears within normal limits. Cardiopericardial silhouette within normal limits.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNCVXHZIKH0ZIC/GRDNUZUNHAGIXDHP/studies/1.2.826.0.1.3680043.8.498.66876917191386972124963627522103763366/series/1.2.826.0.1.3680043.8.498.10935562859227088821584198475646515014/instances/1.2.826.0.1.3680043.8.498.60102029376614384141395232992691246277.png",
+      "../deid_png/GRDNCVXHZIKH0ZIC/GRDNUZUNHAGIXDHP/studies/1.2.826.0.1.3680043.8.498.66876917191386972124963627522103763366/series/1.2.826.0.1.3680043.8.498.37134963477761088837054207715269841684/instances/1.2.826.0.1.3680043.8.498.31613999135704380905111508088879915729.png"
+    ],
+    "ImageShape": [
+      [
+        1865,
+        2002
+      ],
+      [
+        1865,
+        2002
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Small focus of left lower lobe airspace density suspicious for round pneumonia.",
+    "Indication": "Abdominal pain. Cough. Fever.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "006Y",
+    "PatientID": "GRDNCVXHZIKH0ZIC",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20110909,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.66876917191386972124963627522103763366"
+  },
+  "pGRDNCW03PE7PAQ60_aGRDNWYTMXVT89EZ0_s1.2.826.0.1.3680043.8.498.59425193331856671811645208135110554158": {
+    "AccessionNumber": "GRDNWYTMXVT89EZ0",
+    "Comparison": "Comparison: 02/26/1993",
+    "EthnicGroup": null,
+    "Findings": "The heart is mildly enlarged but stable. There is tortuosity and calcification of the thoracic aorta. There are chronic lung changes/COPD but no acute pulmonary findings. Stable thoracolumbar scoliotic curvature. Stable degenerative changes in the thoracic spine.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNCW03PE7PAQ60/GRDNWYTMXVT89EZ0/studies/1.2.826.0.1.3680043.8.498.59425193331856671811645208135110554158/series/1.2.826.0.1.3680043.8.498.20096241266493507524990700231099382513/instances/1.2.826.0.1.3680043.8.498.97200788274745064023462981886135544557.png",
+      "../deid_png/GRDNCW03PE7PAQ60/GRDNWYTMXVT89EZ0/studies/1.2.826.0.1.3680043.8.498.59425193331856671811645208135110554158/series/1.2.826.0.1.3680043.8.498.40173059422518231136265879955897054581/instances/1.2.826.0.1.3680043.8.498.52939806398828082849330631569898514593.png"
+    ],
+    "ImageShape": [
+      [
+        2140,
+        1760
+      ],
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "1. Mild cardiac enlargement, stable. 2. Chronic lung changes/COPD but no acute pulmonary findings.",
+    "Indication": "Preop for left carotid endarterectomy. Left ICA stenosis.",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "087Y",
+    "PatientID": "GRDNCW03PE7PAQ60",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20100613,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.59425193331856671811645208135110554158"
+  },
+  "pGRDNCWYB8L2N49E1_aGRDNM8JO8DZYXEE1_s1.2.826.0.1.3680043.8.498.54936265127121971644663513807129638606": {
+    "AccessionNumber": "GRDNM8JO8DZYXEE1",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Cardiomediastinal silhouette is unremarkable. No acute infiltrate or pleural effusion. No pulmonary edema. Bony thorax is unremarkable.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNCWYB8L2N49E1/GRDNM8JO8DZYXEE1/studies/1.2.826.0.1.3680043.8.498.54936265127121971644663513807129638606/series/1.2.826.0.1.3680043.8.498.20246161357050247975305238847626973251/instances/1.2.826.0.1.3680043.8.498.45681987559928883574745822524526049584.png",
+      "../deid_png/GRDNCWYB8L2N49E1/GRDNM8JO8DZYXEE1/studies/1.2.826.0.1.3680043.8.498.54936265127121971644663513807129638606/series/1.2.826.0.1.3680043.8.498.29693908886754433326629356544191634174/instances/1.2.826.0.1.3680043.8.498.81018085770487791363811707903073179430.png"
+    ],
+    "ImageShape": [
+      [
+        2048,
+        2500
+      ],
+      [
+        2500,
+        2048
+      ]
+    ],
+    "ImageViewPosition": [
+      "PA",
+      "LATERAL"
+    ],
+    "Impression": "No active cardiopulmonary disease.",
+    "Indication": "Swelling, mass, lump",
+    "InstitutionName": "thryothor-495511-CWAOK",
+    "Manufacturer": "['KODAK']",
+    "PatientAge": "055Y",
+    "PatientID": "GRDNCWYB8L2N49E1",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20150406,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.54936265127121971644663513807129638606"
+  },
+  "pGRDND76OPKJYT1YI_aGRDNG0TLZGWSEX2F_s1.2.826.0.1.3680043.8.498.53120433094344025406738855327411652547": {
+    "AccessionNumber": "GRDNG0TLZGWSEX2F",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Heart size and mediastinal contours normal. No infiltrate or consolidation. No effusion. 7 mm nodular opacity projects over the left lower lobe.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDND76OPKJYT1YI/GRDNG0TLZGWSEX2F/studies/1.2.826.0.1.3680043.8.498.53120433094344025406738855327411652547/series/1.2.826.0.1.3680043.8.498.42130134666360545031091232548359217512/instances/1.2.826.0.1.3680043.8.498.17995454417184355639180434900135466008.png",
+      "../deid_png/GRDND76OPKJYT1YI/GRDNG0TLZGWSEX2F/studies/1.2.826.0.1.3680043.8.498.53120433094344025406738855327411652547/series/1.2.826.0.1.3680043.8.498.42130134666360545031091232548359217512/instances/1.2.826.0.1.3680043.8.498.70474460179309162898186272625609072605.png"
+    ],
+    "ImageShape": [
+      [
+        2895,
+        3056
+      ],
+      [
+        3055,
+        3056
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Left lower lobe nodular opacity may represent a nipple shadow. Recommend either CT thorax or repeat PA view with nipple markers.",
+    "Indication": "Cough for 3 weeks intermittently, productive, smoking history",
+    "InstitutionName": "thryothor-495511-2FQ51",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "059Y",
+    "PatientID": "GRDND76OPKJYT1YI",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20140531,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.53120433094344025406738855327411652547"
+  },
+  "pGRDNDE40RTKX7GRC_aGRDN3Q1SFTUWLTT4_s1.2.826.0.1.3680043.8.498.62298707182846747506582821157750600286": {
+    "AccessionNumber": "GRDN3Q1SFTUWLTT4",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "The heart size and mediastinal contours are within normal limits. Both lungs are clear. The visualized skeletal structures are unremarkable.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNDE40RTKX7GRC/GRDN3Q1SFTUWLTT4/studies/1.2.826.0.1.3680043.8.498.62298707182846747506582821157750600286/series/1.2.826.0.1.3680043.8.498.85672544013855112380114782228022966140/instances/1.2.826.0.1.3680043.8.498.14079970848746838321892236269353663740.png",
+      "../deid_png/GRDNDE40RTKX7GRC/GRDN3Q1SFTUWLTT4/studies/1.2.826.0.1.3680043.8.498.62298707182846747506582821157750600286/series/1.2.826.0.1.3680043.8.498.86803865228364024126113010773193483649/instances/1.2.826.0.1.3680043.8.498.88451701800705888598382419660764020568.png"
+    ],
+    "ImageShape": [
+      [
+        3024,
+        2484
+      ],
+      [
+        2906,
+        2928
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No active cardiopulmonary disease.",
+    "Indication": "States pain started last night, describes substernal that radiates to back that she feels is pressure/burning/tingling/bloating. History of asthma, GERD, never smoker.",
+    "InstitutionName": "thryothor-495511-PU2Q5",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "049Y",
+    "PatientID": "GRDNDE40RTKX7GRC",
+    "PatientSex": "F",
+    "PatientSize": 1.8,
+    "PatientWeight": 119.3,
+    "StudyDate": 20200605,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.62298707182846747506582821157750600286"
+  },
+  "pGRDNDHG2TZPISX1V_aGRDN5ISR4176K64V_s1.2.826.0.1.3680043.8.498.58586406348551609581703773618566361678": {
+    "AccessionNumber": "GRDN5ISR4176K64V",
+    "Comparison": "Comparison: 10/09/2000",
+    "EthnicGroup": null,
+    "Findings": "An endotracheal tube, NG tube and left central venous catheter are unchanged. This is a low-volume film with bibasilar atelectasis again noted but improved. There is no evidence of pneumothorax. No other changes noted.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNDHG2TZPISX1V/GRDN5ISR4176K64V/studies/1.2.826.0.1.3680043.8.498.58586406348551609581703773618566361678/series/1.2.826.0.1.3680043.8.498.63898648192791744299258671676083581080/instances/1.2.826.0.1.3680043.8.498.27491923615842428953175050073566742698.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Improved bilateral lower lung atelectasis. Otherwise stable chest.",
+    "Indication": "Intracranial hemorrhage.",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "063Y",
+    "PatientID": "GRDNDHG2TZPISX1V",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20120602,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.58586406348551609581703773618566361678"
+  },
+  "pGRDNDN4MDI6LCUOJ_aGRDNKHXEULTMQFXM_s1.2.826.0.1.3680043.8.498.16351452681629461622027199192639043070": {
+    "AccessionNumber": "GRDNKHXEULTMQFXM",
+    "Comparison": "04/04/2018 and prior radiographs",
+    "EthnicGroup": null,
+    "Findings": "Opacification of the LEFT hemithorax with volume loss is unchanged. Mild RIGHT basilar opacity/atelectasis identified, improved. A small bore feeding tube again noted. There is no evidence of pneumothorax.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNDN4MDI6LCUOJ/GRDNKHXEULTMQFXM/studies/1.2.826.0.1.3680043.8.498.16351452681629461622027199192639043070/series/1.2.826.0.1.3680043.8.498.80882891463617719992976941257337727519/instances/1.2.826.0.1.3680043.8.498.36712457449403952001037063432611854695.png"
+    ],
+    "ImageShape": [
+      [
+        1072,
+        952
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Improved RIGHT basilar aeration otherwise unchanged appearance the chest with continued LEFT hemithorax opacification and volume loss.",
+    "Indication": "3-year-old female with shortness of breath.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "003Y",
+    "PatientID": "GRDNDN4MDI6LCUOJ",
+    "PatientSex": "F",
+    "PatientSize": 0.6,
+    "PatientWeight": 2.8,
+    "StudyDate": 20190506,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.16351452681629461622027199192639043070"
+  },
+  "pGRDNE065VBTMVDGM_aGRDND7YUXMHGQERA_s1.2.826.0.1.3680043.8.498.71377311111132816190839235641332254312": {
+    "AccessionNumber": "GRDND7YUXMHGQERA",
+    "Comparison": "None",
+    "EthnicGroup": null,
+    "Findings": "Portable view of the chest demonstrates clear lungs without evidence of pulmonary edema. The heart and mediastinum are within normal limits. The trachea is midline. Degenerative changes in the AC joints bilaterally.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNE065VBTMVDGM/GRDND7YUXMHGQERA/studies/1.2.826.0.1.3680043.8.498.71377311111132816190839235641332254312/series/1.2.826.0.1.3680043.8.498.52291566822477896700746191732772887407/instances/1.2.826.0.1.3680043.8.498.22459482220522307375963939658581325651.png"
+    ],
+    "ImageShape": [
+      [
+        2208,
+        2688
+      ]
+    ],
+    "ImageViewPosition": [
+      "AP"
+    ],
+    "Impression": "No acute chest findings.",
+    "Indication": "Chest pain and preop evaluation.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['Canon']",
+    "PatientAge": "081Y",
+    "PatientID": "GRDNE065VBTMVDGM",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20101028,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.71377311111132816190839235641332254312"
+  },
+  "pGRDNE61LFK0Y2N5P_aGRDN0ZUYIK9A9LX4_s1.2.826.0.1.3680043.8.498.57641203893058036385400346951913679872": {
+    "AccessionNumber": "GRDN0ZUYIK9A9LX4",
+    "Comparison": "01/06/1997",
+    "EthnicGroup": null,
+    "Findings": "Heart size upper normal. Chronic interstitial lung changes without definite active disease or significant interval change. The level of inspiration is superior to the prior study. No pleural fluid or osseous lesions.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNE61LFK0Y2N5P/GRDN0ZUYIK9A9LX4/studies/1.2.826.0.1.3680043.8.498.57641203893058036385400346951913679872/series/1.2.826.0.1.3680043.8.498.16349095474424519570066558230803363597/instances/1.2.826.0.1.3680043.8.498.64705365697555442338354281238792839879.png",
+      "../deid_png/GRDNE61LFK0Y2N5P/GRDN0ZUYIK9A9LX4/studies/1.2.826.0.1.3680043.8.498.57641203893058036385400346951913679872/series/1.2.826.0.1.3680043.8.498.39514551660358292084667752477874605270/instances/1.2.826.0.1.3680043.8.498.91528853737217772367808900641552487300.png"
+    ],
+    "ImageShape": [
+      [
+        2991,
+        2992
+      ],
+      [
+        2991,
+        2992
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Chronic interstitial disease with no obvious acute findings.",
+    "Indication": "Slurred speech/numbness",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "074Y",
+    "PatientID": "GRDNE61LFK0Y2N5P",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20100711,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.57641203893058036385400346951913679872"
+  },
+  "pGRDNEL87JLZSD8T7_aGRDN8NYZ6I8I0MHV_s1.2.826.0.1.3680043.8.498.81869500612294402210872089084799790831": {
+    "AccessionNumber": "GRDN8NYZ6I8I0MHV",
+    "Comparison": "Comparison to previous exams dated 10/7/1991 and 8/4/2016.",
+    "EthnicGroup": null,
+    "Findings": "The heart is at the upper limits of normal in size. There is calcification of the thoracic aorta. There is radiographic improvement with resolution of bilateral pleural effusions and less infiltrate/volume loss at both lung bases. Moderate pulmonary scarring persists at the bases. Upper lungs are clear. No evidence of pulmonary edema. Chronic degenerative changes affect the spine.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNEL87JLZSD8T7/GRDN8NYZ6I8I0MHV/studies/1.2.826.0.1.3680043.8.498.81869500612294402210872089084799790831/series/1.2.826.0.1.3680043.8.498.91273392139751107922341043661740605434/instances/1.2.826.0.1.3680043.8.498.98486891426887545858583492671622143329.png",
+      "../deid_png/GRDNEL87JLZSD8T7/GRDN8NYZ6I8I0MHV/studies/1.2.826.0.1.3680043.8.498.81869500612294402210872089084799790831/series/1.2.826.0.1.3680043.8.498.98185180372655280651936480292273566206/instances/1.2.826.0.1.3680043.8.498.72506779738042407179380896294859642668.png"
+    ],
+    "ImageShape": [
+      [
+        2140,
+        1760
+      ],
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Radiographic improvement with resolution of bilateral pleural effusions and less atelectasis/ infiltrate at the lung bases.",
+    "Indication": "Followup pneumonia. Improved shortness of breath.",
+    "InstitutionName": "thryothor-495511-K61QM",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "087Y",
+    "PatientID": "GRDNEL87JLZSD8T7",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20140430,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.81869500612294402210872089084799790831"
+  },
+  "pGRDNEL87JLZSD8T7_aGRDNY9O5QCLILAV3_s1.2.826.0.1.3680043.8.498.43104190791872434231979832592964735945": {
+    "AccessionNumber": "GRDNY9O5QCLILAV3",
+    "Comparison": "PA and lateral chest 11/23/2013.",
+    "EthnicGroup": null,
+    "Findings": "There is cardiomegaly and pulmonary edema with small to moderate bilateral pleural effusions, larger on the left. Basilar atelectasis is noted.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNEL87JLZSD8T7/GRDNY9O5QCLILAV3/studies/1.2.826.0.1.3680043.8.498.43104190791872434231979832592964735945/series/1.2.826.0.1.3680043.8.498.36985368767688637273936499993794035094/instances/1.2.826.0.1.3680043.8.498.13825699769638272947624596426982468591.png",
+      "../deid_png/GRDNEL87JLZSD8T7/GRDNY9O5QCLILAV3/studies/1.2.826.0.1.3680043.8.498.43104190791872434231979832592964735945/series/1.2.826.0.1.3680043.8.498.41286760900410439076230776560164480597/instances/1.2.826.0.1.3680043.8.498.75789266663160843777309226613137651138.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ],
+      [
+        2991,
+        2992
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Cardiomegaly, pulmonary edema and small to moderate bilateral pleural effusions, larger on the left.",
+    "Indication": "Shortness of breath and lower extremity swelling for 1 month.",
+    "InstitutionName": "thryothor-495511-CTVNH",
+    "Manufacturer": "['FUJI', 'SIEMENS']",
+    "PatientAge": "088Y",
+    "PatientID": "GRDNEL87JLZSD8T7",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20141010,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.43104190791872434231979832592964735945"
+  },
+  "pGRDNF94YX7EAL68A_aGRDNJ4X92M0FM46K_s1.2.826.0.1.3680043.8.498.45730386519881146780948414572176550022": {
+    "AccessionNumber": "GRDNJ4X92M0FM46K",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "The lungs are clear but slightly hyperaerated. Mediastinal contours appear normal. The heart is within normal limits in size. No bony abnormality is seen.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNF94YX7EAL68A/GRDNJ4X92M0FM46K/studies/1.2.826.0.1.3680043.8.498.45730386519881146780948414572176550022/series/1.2.826.0.1.3680043.8.498.15288888883526873789054147348694731971/instances/1.2.826.0.1.3680043.8.498.94472131077651105977788710292215942763.png"
+    ],
+    "ImageShape": [
+      [
+        2500,
+        2048
+      ]
+    ],
+    "ImageViewPosition": [
+      "PA"
+    ],
+    "Impression": "No active lung disease. Slight hyperaeration.",
+    "Indication": "Positive PPD",
+    "InstitutionName": "thryothor-495511-CWAOK",
+    "Manufacturer": "['KODAK']",
+    "PatientAge": "041Y",
+    "PatientID": "GRDNF94YX7EAL68A",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20140112,
+    "StudyDescription": "DG CHEST 1V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.45730386519881146780948414572176550022"
+  },
+  "pGRDNFBCXAZ09ZVLQ_aGRDN2B1MH7N8O71E_s1.2.826.0.1.3680043.8.498.31524007663572174599214945089638079923": {
+    "AccessionNumber": "GRDN2B1MH7N8O71E",
+    "Comparison": "Previous study: Chest radiograph performed 05/11/09",
+    "EthnicGroup": null,
+    "Findings": "Single portable AP view of the chest was obtained. The patient is partially rotated limiting evaluation. The cardiomediastinal silhouette is mildly enlarged. There is mild irregular bilateral perihilar interstitial air space disease which may reflect atelectasis and/or mild pulmonary venous congestion. Degenerative changes of the spine are present.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNFBCXAZ09ZVLQ/GRDN2B1MH7N8O71E/studies/1.2.826.0.1.3680043.8.498.31524007663572174599214945089638079923/series/1.2.826.0.1.3680043.8.498.85976774057536319567843786781520478226/instances/1.2.826.0.1.3680043.8.498.77361034493562802609641318395288561195.png"
+    ],
+    "ImageShape": [
+      [
+        2320,
+        2828
+      ]
+    ],
+    "ImageViewPosition": [
+      "AP"
+    ],
+    "Impression": "Mild cardiomegaly. Mild bilateral perihilar interstitial airspace disease which may reflect atelectasis and or mild pulmonary venous congestion.",
+    "Indication": "Evaluate for pneumonia",
+    "InstitutionName": "tachyeres-387144-T4VJY",
+    "Manufacturer": "['Agfa']",
+    "PatientAge": null,
+    "PatientID": "GRDNFBCXAZ09ZVLQ",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20120308,
+    "StudyDescription": "Chest Single AP view",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.31524007663572174599214945089638079923"
+  },
+  "pGRDNFEGEDFBPCYQ2_aGRDNUDNML48SG080_s1.2.826.0.1.3680043.8.498.19694571720554149800139450805858614727": {
+    "AccessionNumber": "GRDNUDNML48SG080",
+    "Comparison": "Comparison 5/4/2021",
+    "EthnicGroup": "non-hispanic",
+    "Findings": "The heart size and mediastinal contours are within normal limits. Both lungs are clear. The visualized skeletal structures are unremarkable.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNFEGEDFBPCYQ2/GRDNUDNML48SG080/studies/1.2.826.0.1.3680043.8.498.19694571720554149800139450805858614727/series/1.2.826.0.1.3680043.8.498.38969529186075364726171145407197824769/instances/1.2.826.0.1.3680043.8.498.10198601989639409085332484235244624982.png"
+    ],
+    "ImageShape": [
+      [
+        1994,
+        2430
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "No active disease.",
+    "Indication": "Cough and congestion",
+    "InstitutionName": "thryothor-495511-U8V2V",
+    "Manufacturer": "['Konica Minolta']",
+    "PatientAge": "026Y",
+    "PatientID": "GRDNFEGEDFBPCYQ2",
+    "PatientSex": "M",
+    "PatientSize": 1.651,
+    "PatientWeight": 107.502,
+    "StudyDate": 20201222,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.19694571720554149800139450805858614727"
+  },
+  "pGRDNFMDYS0BK8AG2_aGRDNJ83SEBBNE3NN_s1.2.826.0.1.3680043.8.498.59109382459475196231833871214882774569": {
+    "AccessionNumber": "GRDNJ83SEBBNE3NN",
+    "Comparison": "6/25/1.",
+    "EthnicGroup": null,
+    "Findings": "Low lung volumes. No infiltrates or failure. Heart size upper limits of normal. Degenerative changes of thoracic spine. No pneumothorax, infiltrates, or mediastinal masses. No change from the prior study.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNFMDYS0BK8AG2/GRDNJ83SEBBNE3NN/studies/1.2.826.0.1.3680043.8.498.59109382459475196231833871214882774569/series/1.2.826.0.1.3680043.8.498.70769774731103405401852566018744353737/instances/1.2.826.0.1.3680043.8.498.57319407821774795268286354642427383090.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Low lung volumes, no active disease.",
+    "Indication": "Possible stroke. Altered level of consciousness.",
+    "InstitutionName": "thryothor-495511-U8V2V",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "079Y",
+    "PatientID": "GRDNFMDYS0BK8AG2",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20070707,
+    "StudyDescription": "DG CHEST 1V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.59109382459475196231833871214882774569"
+  },
+  "pGRDNFN25STP6LZRQ_aGRDNDTLSNEQHFAJ9_s1.2.826.0.1.3680043.8.498.68871768403281095285943738348756691974": {
+    "AccessionNumber": "GRDNDTLSNEQHFAJ9",
+    "Comparison": "Chest radiograph 1/8/2018",
+    "EthnicGroup": null,
+    "Findings": "Normal mediastinum and cardiac silhouette. There is obscuration of the right heart border in the region of the right hilum. This finding is present on prior but is more extensive today. There is a focal angulation of the thoracic spine at T4 which represents a congenital anomaly and is unchanged from prior. No evidence of pneumothorax.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNFN25STP6LZRQ/GRDNDTLSNEQHFAJ9/studies/1.2.826.0.1.3680043.8.498.68871768403281095285943738348756691974/series/1.2.826.0.1.3680043.8.498.60023950392842946771669197297292440653/instances/1.2.826.0.1.3680043.8.498.92975749551133199184066288178418140259.png",
+      "../deid_png/GRDNFN25STP6LZRQ/GRDNDTLSNEQHFAJ9/studies/1.2.826.0.1.3680043.8.498.68871768403281095285943738348756691974/series/1.2.826.0.1.3680043.8.498.96232985190380382087632775813799373360/instances/1.2.826.0.1.3680043.8.498.82488429172479438311701489106792208607.png"
+    ],
+    "ImageShape": [
+      [
+        2991,
+        2562
+      ],
+      [
+        2593,
+        2622
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Right middle lobe opacity likely represents chronic atelectasis with potential superimposed pneumonia.",
+    "Indication": "Short of breath, history asthma",
+    "InstitutionName": "thryothor-495511-DSL34",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "017Y",
+    "PatientID": "GRDNFN25STP6LZRQ",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20091212,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.68871768403281095285943738348756691974"
+  },
+  "pGRDNFRN8Z1RLGNHX_aGRDN737C9Q9XRH20_s1.2.826.0.1.3680043.8.498.43024172812727955659422527770706487152": {
+    "AccessionNumber": "GRDN737C9Q9XRH20",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "No fracture or other bone lesions are seen involving the ribs. There is no evidence of pneumothorax or pleural effusion. Both lungs are clear. Heart size and mediastinal contours are within normal limits.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNFRN8Z1RLGNHX/GRDN737C9Q9XRH20/studies/1.2.826.0.1.3680043.8.498.43024172812727955659422527770706487152/series/1.2.826.0.1.3680043.8.498.25913470678347009773851100715004443260/instances/1.2.826.0.1.3680043.8.498.10314472282409848987283913385762317994.png",
+      "../deid_png/GRDNFRN8Z1RLGNHX/GRDN737C9Q9XRH20/studies/1.2.826.0.1.3680043.8.498.43024172812727955659422527770706487152/series/1.2.826.0.1.3680043.8.498.34318669439338736998099773084498222654/instances/1.2.826.0.1.3680043.8.498.86345910407547080035176387429602252824.png",
+      "../deid_png/GRDNFRN8Z1RLGNHX/GRDN737C9Q9XRH20/studies/1.2.826.0.1.3680043.8.498.43024172812727955659422527770706487152/series/1.2.826.0.1.3680043.8.498.67422588570947407675145515776409987612/instances/1.2.826.0.1.3680043.8.498.69104787299429760502137801279524097739.png"
+    ],
+    "ImageShape": [
+      [
+        2140,
+        1760
+      ],
+      [
+        2140,
+        1760
+      ],
+      [
+        2140,
+        1760
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      "",
+      ""
+    ],
+    "Impression": "No acute abnormality noted.",
+    "Indication": "Left-sided chest pain",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "018Y",
+    "PatientID": "GRDNFRN8Z1RLGNHX",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20150628,
+    "StudyDescription": "DG RIBS W/ CHEST 3+V*L*",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.43024172812727955659422527770706487152"
+  },
+  "pGRDNFRZHJIUVGM9W_aGRDNWLIDXZ9CU9FR_s1.2.826.0.1.3680043.8.498.31987405260739560715065237917425473981": {
+    "AccessionNumber": "GRDNWLIDXZ9CU9FR",
+    "Comparison": "Comparison is made with the 07/05/1992 chest radiograph.",
+    "EthnicGroup": null,
+    "Findings": "Surgical clips overlie the right supraclavicular region. Stable cardiomediastinal silhouette with mild cardiomegaly. No pneumothorax. No pleural effusion. Diffuse hazy and linear parahilar lung opacities are mildly increased.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX",
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNFRZHJIUVGM9W/GRDNWLIDXZ9CU9FR/studies/1.2.826.0.1.3680043.8.498.31987405260739560715065237917425473981/series/1.2.826.0.1.3680043.8.498.39302835148953197850223940184204458809/instances/1.2.826.0.1.3680043.8.498.34439278963964027124362046525113384305.png",
+      "../deid_png/GRDNFRZHJIUVGM9W/GRDNWLIDXZ9CU9FR/studies/1.2.826.0.1.3680043.8.498.31987405260739560715065237917425473981/series/1.2.826.0.1.3680043.8.498.93648266189398677203975572568201931821/instances/1.2.826.0.1.3680043.8.498.75267528676779797669277165478363750824.png"
+    ],
+    "ImageShape": [
+      [
+        2745,
+        2816
+      ],
+      [
+        2957,
+        2709
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Stable cardiomegaly with mildly increased diffuse hazy and linear parahilar lung opacities favoring mild to moderate pulmonary edema due to congestive heart failure.",
+    "Indication": "Dyspnea with exertion",
+    "InstitutionName": "thryothor-495511-U8V2V",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "069Y",
+    "PatientID": "GRDNFRZHJIUVGM9W",
+    "PatientSex": "F",
+    "PatientSize": 1.6,
+    "PatientWeight": 108.9,
+    "StudyDate": 20180720,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.31987405260739560715065237917425473981"
+  },
+  "pGRDNG1L9V19MYOZW_aGRDNKW9MQKP0OBPR_s1.2.826.0.1.3680043.8.498.29563266588083633698901570746240207009": {
+    "AccessionNumber": "GRDNKW9MQKP0OBPR",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Cardiomegaly. Patchy bilateral airspace opacities. Mild peribronchial thickening. Small right effusion. No acute bony abnormality.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX",
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNG1L9V19MYOZW/GRDNKW9MQKP0OBPR/studies/1.2.826.0.1.3680043.8.498.29563266588083633698901570746240207009/series/1.2.826.0.1.3680043.8.498.20851588192941807552050942720002803631/instances/1.2.826.0.1.3680043.8.498.12237533912865027790978145428695934354.png",
+      "../deid_png/GRDNG1L9V19MYOZW/GRDNKW9MQKP0OBPR/studies/1.2.826.0.1.3680043.8.498.29563266588083633698901570746240207009/series/1.2.826.0.1.3680043.8.498.64665013413080929719379320027875723113/instances/1.2.826.0.1.3680043.8.498.60321592780937824716837202086087557570.png"
+    ],
+    "ImageShape": [
+      [
+        2385,
+        3056
+      ],
+      [
+        2731,
+        2640
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Patchy bilateral airspace opacities with small right effusion. Cannot exclude atypical infection such as viral or mycoplasma pneumonia.",
+    "Indication": "Shortness of Breath",
+    "InstitutionName": "thryothor-495511-8P5L8",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "050Y",
+    "PatientID": "GRDNG1L9V19MYOZW",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20171113,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.29563266588083633698901570746240207009"
+  },
+  "pGRDNGI1RJQBS7ZTF_aGRDNS0O2C9STTZDN_s1.2.826.0.1.3680043.8.498.59262158615947751011992132082659952093": {
+    "AccessionNumber": "GRDNS0O2C9STTZDN",
+    "Comparison": "Comparison: 01/24/2013.",
+    "EthnicGroup": null,
+    "Findings": "Cardiomegaly. Calcified thoracic aorta. No airspace disease is identified. The patient is rotated to the left. 9 mm nodular densities present adjacent to the left hilum that appears to represent pulmonary vessel. No further evaluation recommended in this [AGE] patient.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNGI1RJQBS7ZTF/GRDNS0O2C9STTZDN/studies/1.2.826.0.1.3680043.8.498.59262158615947751011992132082659952093/series/1.2.826.0.1.3680043.8.498.56747710082721299177225042438850473725/instances/1.2.826.0.1.3680043.8.498.30619196811762003625198254883194045973.png"
+    ],
+    "ImageShape": [
+      [
+        2532,
+        3044
+      ]
+    ],
+    "ImageViewPosition": [
+      "N/A"
+    ],
+    "Impression": "No acute cardiopulmonary disease.",
+    "Indication": "Syncope. Chest pain.",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['MXR/Source One']",
+    "PatientAge": "090Y",
+    "PatientID": "GRDNGI1RJQBS7ZTF",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20101125,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.59262158615947751011992132082659952093"
+  },
+  "pGRDNGUIHA3M7N7A8_aGRDN86454A3LRDTH_s1.2.826.0.1.3680043.8.498.24671492670870092199205722102553879368": {
+    "AccessionNumber": "GRDN86454A3LRDTH",
+    "Comparison": "Radiograph 9/2/2023. CT 7/5/2015",
+    "EthnicGroup": "non-hispanic",
+    "Findings": "Upper normal heart size with normal mediastinal contours. No pulmonary edema, pleural effusion, or pneumothorax. No focal airspace disease. Mild biapical pleuroparenchymal scarring. Pulmonary nodules on prior CT are not well seen by radiograph. Chronic lower thoracic compression fracture, unchanged.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNGUIHA3M7N7A8/GRDN86454A3LRDTH/studies/1.2.826.0.1.3680043.8.498.24671492670870092199205722102553879368/series/1.2.826.0.1.3680043.8.498.19118127197991404031218841447040984638/instances/1.2.826.0.1.3680043.8.498.69079749395913697531745576703219574184.png",
+      "../deid_png/GRDNGUIHA3M7N7A8/GRDN86454A3LRDTH/studies/1.2.826.0.1.3680043.8.498.24671492670870092199205722102553879368/series/1.2.826.0.1.3680043.8.498.40333089483031959554162952672012467815/instances/1.2.826.0.1.3680043.8.498.27847858443902753674981214161664330179.png"
+    ],
+    "ImageShape": [
+      [
+        3055,
+        3056
+      ],
+      [
+        2364,
+        3008
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No acute chest findings.",
+    "Indication": "Shortness of breath. Fatigue.",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "083Y",
+    "PatientID": "GRDNGUIHA3M7N7A8",
+    "PatientSex": "F",
+    "PatientSize": 1.626,
+    "PatientWeight": 66.0,
+    "StudyDate": 20220905,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.24671492670870092199205722102553879368"
+  },
+  "pGRDNGVSJI21S1SQR_aGRDNTC6GVEP4Y4SR_s1.2.826.0.1.3680043.8.498.30067965483078391274169092388063584670": {
+    "AccessionNumber": "GRDNTC6GVEP4Y4SR",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Lungs are clear. Heart size and pulmonary vascularity are normal. No adenopathy. No pneumothorax. No bone lesions.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNGVSJI21S1SQR/GRDNTC6GVEP4Y4SR/studies/1.2.826.0.1.3680043.8.498.30067965483078391274169092388063584670/series/1.2.826.0.1.3680043.8.498.59801800298293220221474126984105756539/instances/1.2.826.0.1.3680043.8.498.66146394662031904474494761506028251662.png",
+      "../deid_png/GRDNGVSJI21S1SQR/GRDNTC6GVEP4Y4SR/studies/1.2.826.0.1.3680043.8.498.30067965483078391274169092388063584670/series/1.2.826.0.1.3680043.8.498.59801800298293220221474126984105756539/instances/1.2.826.0.1.3680043.8.498.72986415299429930189758758443144224174.png"
+    ],
+    "ImageShape": [
+      [
+        3035,
+        3039
+      ],
+      [
+        3035,
+        2798
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No abnormality noted.",
+    "Indication": "Tachycardia",
+    "InstitutionName": "thryothor-495511-PU2Q5",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "025Y",
+    "PatientID": "GRDNGVSJI21S1SQR",
+    "PatientSex": "M",
+    "PatientSize": 1.8,
+    "PatientWeight": 115.7,
+    "StudyDate": 20210103,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.30067965483078391274169092388063584670"
+  },
+  "pGRDNH6OX9KYOUMWL_aGRDN46NEDAERXZ5S_s1.2.826.0.1.3680043.8.498.39745406475829603828847428528576169497": {
+    "AccessionNumber": "GRDN46NEDAERXZ5S",
+    "Comparison": "Comparison: None",
+    "EthnicGroup": null,
+    "Findings": "No active infiltrate or effusion is seen. There are somewhat prominent perihilar markings present. The heart is within normal limits in size.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNH6OX9KYOUMWL/GRDN46NEDAERXZ5S/studies/1.2.826.0.1.3680043.8.498.39745406475829603828847428528576169497/series/1.2.826.0.1.3680043.8.498.76628434408546434637036946060345667055/instances/1.2.826.0.1.3680043.8.498.17001258819344114297155597890652712908.png",
+      "../deid_png/GRDNH6OX9KYOUMWL/GRDN46NEDAERXZ5S/studies/1.2.826.0.1.3680043.8.498.39745406475829603828847428528576169497/series/1.2.826.0.1.3680043.8.498.91850714486699018353261789509744702150/instances/1.2.826.0.1.3680043.8.498.66115678251980846841162854761202846760.png"
+    ],
+    "ImageShape": [
+      [
+        2140,
+        1760
+      ],
+      [
+        2140,
+        1760
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No pneumonia.",
+    "Indication": "Cough, congestion",
+    "InstitutionName": "thryothor-495511-K61QM",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "006Y",
+    "PatientID": "GRDNH6OX9KYOUMWL",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20100706,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.39745406475829603828847428528576169497"
+  },
+  "pGRDNHCX8NQFS0KCM_aGRDNFBHZANXNJFP3_s1.2.826.0.1.3680043.8.498.68439910819001270998527780282883281161": {
+    "AccessionNumber": "GRDNFBHZANXNJFP3",
+    "Comparison": "None",
+    "EthnicGroup": null,
+    "Findings": "Cardiomediastinal silhouette is within normal limits. The lungs are free of focal consolidations and pleural effusions. Bony structures have a normal appearance.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNHCX8NQFS0KCM/GRDNFBHZANXNJFP3/studies/1.2.826.0.1.3680043.8.498.68439910819001270998527780282883281161/series/1.2.826.0.1.3680043.8.498.63992232495856826238953902320164633646/instances/1.2.826.0.1.3680043.8.498.98279439505004299969468254644660420854.png",
+      "../deid_png/GRDNHCX8NQFS0KCM/GRDNFBHZANXNJFP3/studies/1.2.826.0.1.3680043.8.498.68439910819001270998527780282883281161/series/1.2.826.0.1.3680043.8.498.78497473894426232839668087123473508407/instances/1.2.826.0.1.3680043.8.498.36611238749845569724540378415411495189.png"
+    ],
+    "ImageShape": [
+      [
+        2928,
+        2492
+      ],
+      [
+        2991,
+        2986
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No evidence for acute cardiopulmonary disease.",
+    "Indication": "High blood sugar. Shortness of breath. Mid chest pain for 2 weeks. History of smoking.",
+    "InstitutionName": "thryothor-495511-V3NVW",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "027Y",
+    "PatientID": "GRDNHCX8NQFS0KCM",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20100826,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.68439910819001270998527780282883281161"
+  },
+  "pGRDNHEIXGC3UNQ93_aGRDN3P0RJ3XIUHTF_s1.2.826.0.1.3680043.8.498.36925249360313558555779553713857133254": {
+    "AccessionNumber": "GRDN3P0RJ3XIUHTF",
+    "Comparison": "Comparison: 4/21/2002",
+    "EthnicGroup": null,
+    "Findings": "Heart size is normal. Mediastinal shadows are normal. There is mild atelectasis in the lingula. Lungs are otherwise clear. No effusions. No bony abnormalities.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNHEIXGC3UNQ93/GRDN3P0RJ3XIUHTF/studies/1.2.826.0.1.3680043.8.498.36925249360313558555779553713857133254/series/1.2.826.0.1.3680043.8.498.85260493571296256340527532422257037527/instances/1.2.826.0.1.3680043.8.498.31889651580927095087817324192721919977.png",
+      "../deid_png/GRDNHEIXGC3UNQ93/GRDN3P0RJ3XIUHTF/studies/1.2.826.0.1.3680043.8.498.36925249360313558555779553713857133254/series/1.2.826.0.1.3680043.8.498.89995634375850109690485833293138104329/instances/1.2.826.0.1.3680043.8.498.36831325411988540990203353835240819598.png"
+    ],
+    "ImageShape": [
+      [
+        2140,
+        1760
+      ],
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Mild atelectasis in the lingula. This could indicate minor pneumonia.",
+    "Indication": "Smoking history. Cough. Shortness of breath.",
+    "InstitutionName": "thryothor-495511-G61HN",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "048Y",
+    "PatientID": "GRDNHEIXGC3UNQ93",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20130818,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.36925249360313558555779553713857133254"
+  },
+  "pGRDNI8I2LN1WU99G_aGRDNJ1RF5W78WEGY_s1.2.826.0.1.3680043.8.498.34749423202193687644024925512356273304": {
+    "AccessionNumber": "GRDNJ1RF5W78WEGY",
+    "Comparison": "None",
+    "EthnicGroup": null,
+    "Findings": "The cardiac silhouette is moderately enlarged. Ectasia and nonaneurysmal calcification of the thoracic aorta is seen. Examination is slightly rotated. Density in the azygos region is felt to represent superimposition of vascular structures and transverse processes accentuated by the slightly rotated appearance of the patient. No pulmonary edema or consolidation is evident. There is slight upper lobe vascular prominence which may reflect minimal vascular congestion. There is minimal atelectasis or fibrosis in the right base with pleural thickening or fluid along the right inferior hemithorax. Bones appear average for age.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNI8I2LN1WU99G/GRDNJ1RF5W78WEGY/studies/1.2.826.0.1.3680043.8.498.34749423202193687644024925512356273304/series/1.2.826.0.1.3680043.8.498.19810422664530244118635471443887161132/instances/1.2.826.0.1.3680043.8.498.17826265443220628371604932437421042886.png",
+      "../deid_png/GRDNI8I2LN1WU99G/GRDNJ1RF5W78WEGY/studies/1.2.826.0.1.3680043.8.498.34749423202193687644024925512356273304/series/1.2.826.0.1.3680043.8.498.75216908008395867589624402457118685931/instances/1.2.826.0.1.3680043.8.498.17527061121099472678686745864276543859.png"
+    ],
+    "ImageShape": [
+      [
+        2991,
+        2992
+      ],
+      [
+        2991,
+        2992
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "There is moderate enlargement of the cardiac silhouette. No pulmonary edema or consolidation is evident. Slight upper lobe vessel prominence may reflect minimal vascular congestion. Atelectasis or fibrosis with adjacent pleural thickening or small amount of fluid is evident in the inferior right lung and inferior right hemithorax.",
+    "Indication": "History given of body edema and swelling. History of shortness of breath and diabetes and congestive heart failure.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "053Y",
+    "PatientID": "GRDNI8I2LN1WU99G",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20110216,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.34749423202193687644024925512356273304"
+  },
+  "pGRDNIHY6K8DTVDQ9_aGRDN40KINCCRMJFF_s1.2.826.0.1.3680043.8.498.12053862991191804502325207276210977634": {
+    "AccessionNumber": "GRDN40KINCCRMJFF",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Normal heart size. A tortuous atherosclerotic thoracic aorta. Otherwise normal mediastinal contour. No pneumothorax. No pleural effusion. No pulmonary edema. No acute consolidative airspace disease. Linear interstitial prominence in the right greater than left lungs.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX",
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNIHY6K8DTVDQ9/GRDN40KINCCRMJFF/studies/1.2.826.0.1.3680043.8.498.12053862991191804502325207276210977634/series/1.2.826.0.1.3680043.8.498.18161894344788910425004610023567863280/instances/1.2.826.0.1.3680043.8.498.88904585620809963893633930684813739898.png",
+      "../deid_png/GRDNIHY6K8DTVDQ9/GRDN40KINCCRMJFF/studies/1.2.826.0.1.3680043.8.498.12053862991191804502325207276210977634/series/1.2.826.0.1.3680043.8.498.42178016290555822712918124044999382970/instances/1.2.826.0.1.3680043.8.498.99628828561963788187154389269587556754.png"
+    ],
+    "ImageShape": [
+      [
+        2798,
+        2825
+      ],
+      [
+        2883,
+        2845
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No acute consolidative airspace disease to suggest a pneumonia. Nonspecific linear interstitial prominence in the right greater than left lungs, which could be due to nonspecific scarring. If there is clinical concern for interstitial lung disease, high-resolution chest CT could be obtained on a short term outpatient basis for further evaluation.",
+    "Indication": "Cough",
+    "InstitutionName": "thryothor-495511-E4Z4Z",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "080Y",
+    "PatientID": "GRDNIHY6K8DTVDQ9",
+    "PatientSex": "F",
+    "PatientSize": 1.5,
+    "PatientWeight": 79.4,
+    "StudyDate": 20190416,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.12053862991191804502325207276210977634"
+  },
+  "pGRDNISRFKO488PMG_aGRDNQT4XLXAN8KMD_s1.2.826.0.1.3680043.8.498.70087882064380261229025347939296200636": {
+    "AccessionNumber": "GRDNQT4XLXAN8KMD",
+    "Comparison": "None",
+    "EthnicGroup": null,
+    "Findings": "The heart size and vascularity are normal and the lungs are clear. No bony abnormality.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNISRFKO488PMG/GRDNQT4XLXAN8KMD/studies/1.2.826.0.1.3680043.8.498.70087882064380261229025347939296200636/series/1.2.826.0.1.3680043.8.498.10568170975952743146530662445260819077/instances/1.2.826.0.1.3680043.8.498.93181765005117569408198805996952180665.png"
+    ],
+    "ImageShape": [
+      [
+        2208,
+        2688
+      ]
+    ],
+    "ImageViewPosition": [
+      "AP"
+    ],
+    "Impression": "Normal chest.",
+    "Indication": "Multiple trauma secondary to being struck by car",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['Canon']",
+    "PatientAge": "036Y",
+    "PatientID": "GRDNISRFKO488PMG",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20091102,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.70087882064380261229025347939296200636"
+  },
+  "pGRDNJFIMJYNVKUXT_aGRDNS5VFUA7X8DMF_s1.2.826.0.1.3680043.8.498.15750276515544500386170907777790251510": {
+    "AccessionNumber": "GRDNS5VFUA7X8DMF",
+    "Comparison": "None",
+    "EthnicGroup": null,
+    "Findings": "Left chest wall port a catheter noted with tip in the projection of the SVC. Normal cardiomediastinal contours. There are small bilateral pleural effusions, left greater than right. Diffuse pulmonary vascular congestion is identified. No focal airspace consolidation identified.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNJFIMJYNVKUXT/GRDNS5VFUA7X8DMF/studies/1.2.826.0.1.3680043.8.498.15750276515544500386170907777790251510/series/1.2.826.0.1.3680043.8.498.36472755818642833413059946028179068619/instances/1.2.826.0.1.3680043.8.498.32906850314740529007530799573299596145.png"
+    ],
+    "ImageShape": [
+      [
+        2411,
+        3025
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Pulmonary vascular congestion and small bilateral pleural effusions compatible with CHF.",
+    "Indication": "Chest pain",
+    "InstitutionName": "thryothor-495511-U8V2V",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "090Y",
+    "PatientID": "GRDNJFIMJYNVKUXT",
+    "PatientSex": "F",
+    "PatientSize": 1.6,
+    "PatientWeight": 83.5,
+    "StudyDate": 20220116,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.15750276515544500386170907777790251510"
+  },
+  "pGRDNJHHK5BIRMURU_aGRDN014E4P80025G_s1.2.826.0.1.3680043.8.498.46549403531582686877771108299656838866": {
+    "AccessionNumber": "GRDN014E4P80025G",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "The heart size is enlarged. There is vascular congestion without overt pulmonary edema. There is an airspace opacity in the medial right lower lung zone. No pneumothorax. No significant pleural effusion. No acute osseous abnormality.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNJHHK5BIRMURU/GRDN014E4P80025G/studies/1.2.826.0.1.3680043.8.498.46549403531582686877771108299656838866/series/1.2.826.0.1.3680043.8.498.15056040506510148187756919262090127849/instances/1.2.826.0.1.3680043.8.498.66906591138915451510749822703970119401.png"
+    ],
+    "ImageShape": [
+      [
+        2284,
+        2527
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "1. Cardiomegaly with vascular congestion. 2. Medial right lower lung zone airspace opacity may reflect pneumonia in the appropriate clinical setting. Follow-up to radiologic resolution is recommended. 3. No significant pleural effusion. No pneumothorax.",
+    "Indication": "Fever",
+    "InstitutionName": "thryothor-495511-other",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "040Y",
+    "PatientID": "GRDNJHHK5BIRMURU",
+    "PatientSex": "M",
+    "PatientSize": 1.6,
+    "PatientWeight": 69.4,
+    "StudyDate": 20201013,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.46549403531582686877771108299656838866"
+  },
+  "pGRDNJI1UHJ58YZ3N_aGRDN2Z2MZV6ACAIE_s1.2.826.0.1.3680043.8.498.48196630862623320340534257287381165836": {
+    "AccessionNumber": "GRDN2Z2MZV6ACAIE",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Normal heart, mediastinum and hila. Clear lungs. No pleural effusion or pneumothorax. Sclerosis and lucency noted of the right humeral head suggesting avascular necrosis. Skeletal structures otherwise unremarkable.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX",
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNJI1UHJ58YZ3N/GRDN2Z2MZV6ACAIE/studies/1.2.826.0.1.3680043.8.498.48196630862623320340534257287381165836/series/1.2.826.0.1.3680043.8.498.73719813168829806182698727835580083028/instances/1.2.826.0.1.3680043.8.498.31290998702416729610174428096873299677.png",
+      "../deid_png/GRDNJI1UHJ58YZ3N/GRDN2Z2MZV6ACAIE/studies/1.2.826.0.1.3680043.8.498.48196630862623320340534257287381165836/series/1.2.826.0.1.3680043.8.498.81725635605551131778421334126618011452/instances/1.2.826.0.1.3680043.8.498.82122208686708669024810327735881119588.png"
+    ],
+    "ImageShape": [
+      [
+        3036,
+        2992
+      ],
+      [
+        2992,
+        3008
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No active cardiopulmonary disease.",
+    "Indication": "Pt reporting that he was having intermittent chest pain 'for some time', pt currently having chest pain, pt has hx of hep c",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "057Y",
+    "PatientID": "GRDNJI1UHJ58YZ3N",
+    "PatientSex": "M",
+    "PatientSize": 1.8,
+    "PatientWeight": 77.1,
+    "StudyDate": 20210413,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.48196630862623320340534257287381165836"
+  },
+  "pGRDNJURF7CJPNWHA_aGRDNVSIL9YKW3X36_s1.2.826.0.1.3680043.8.498.13165579889143192213505898819839185721": {
+    "AccessionNumber": "GRDNVSIL9YKW3X36",
+    "Comparison": "Studies from 5/6/70 are no longer available for direct comparison. Their reports are correlated.",
+    "EthnicGroup": null,
+    "Findings": "The heart and mediastinal contours are normal. The lungs demonstrate generalized central airway thickening and interstitial prominence. A vague nodular component is noted in the left perihilar region. There is no confluent pulmonary airspace opacity or dominant mass. There is no pleural effusion. Surgical clips are noted overlying the upper chest bilaterally. There are moderately advanced glenohumeral degenerative changes bilaterally.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNJURF7CJPNWHA/GRDNVSIL9YKW3X36/studies/1.2.826.0.1.3680043.8.498.13165579889143192213505898819839185721/series/1.2.826.0.1.3680043.8.498.10542048075670124064744972710099090138/instances/1.2.826.0.1.3680043.8.498.52127377946766859711619461418659612118.png",
+      "../deid_png/GRDNJURF7CJPNWHA/GRDNVSIL9YKW3X36/studies/1.2.826.0.1.3680043.8.498.13165579889143192213505898819839185721/series/1.2.826.0.1.3680043.8.498.40837276490214183738332398580827140121/instances/1.2.826.0.1.3680043.8.498.60626252646617900968549506951802310001.png"
+    ],
+    "ImageShape": [
+      [
+        2991,
+        2992
+      ],
+      [
+        2991,
+        2992
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "1. Bilateral interstitial opacities have a chronic appearance, but were not described previously. Therefore, superimposed interstitial edema or atypical inflammation cannot be excluded. 2. There is a focal density in the left perihilar region, which could reflect an area of inflammation. 3. Short term radiographic followup is recommended.",
+    "Indication": "Patient with GI bleed denies dyspnea or chest pain.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "090Y",
+    "PatientID": "GRDNJURF7CJPNWHA",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20070911,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.13165579889143192213505898819839185721"
+  },
+  "pGRDNKKI7BDE3G9S4_aGRDN6WYA9P5158ZF_s1.2.826.0.1.3680043.8.498.29209089981109302307987811856535850825": {
+    "AccessionNumber": "GRDN6WYA9P5158ZF",
+    "Comparison": "No relevant comparison study available.",
+    "EthnicGroup": null,
+    "Findings": "Heart size appears normal for an AP portable technique. No evidence for CHF. Mild strand-like opacities in the bilateral lower lungs suggesting minimal strand-like atelectasis versus scarring. No other abnormal pulmonary opacities identified. No pleural effusion or pneumothorax. Prominence of the thoracic aorta suggesting ectasia and tortuosity. Note made of a reverse left shoulder arthroplasty.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX",
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNKKI7BDE3G9S4/GRDN6WYA9P5158ZF/studies/1.2.826.0.1.3680043.8.498.29209089981109302307987811856535850825/series/1.2.826.0.1.3680043.8.498.30301286485660521180755788543935784367/instances/1.2.826.0.1.3680043.8.498.51677809454973247143837737698234588457.png",
+      "../deid_png/GRDNKKI7BDE3G9S4/GRDN6WYA9P5158ZF/studies/1.2.826.0.1.3680043.8.498.29209089981109302307987811856535850825/series/1.2.826.0.1.3680043.8.498.96246672571902374515176537533134243979/instances/1.2.826.0.1.3680043.8.498.88841978691605679711150881412748484836.png"
+    ],
+    "ImageShape": [
+      [
+        2800,
+        3408
+      ],
+      [
+        2800,
+        3408
+      ]
+    ],
+    "ImageViewPosition": [
+      "N/A",
+      "N/A"
+    ],
+    "Impression": "Minor strand-like atelectasis versus scarring in the bilateral lower lungs.",
+    "Indication": "Right side chest pain.",
+    "InstitutionName": "xenops-995729-YF6TG",
+    "Manufacturer": "['Canon']",
+    "PatientAge": "074Y",
+    "PatientID": "GRDNKKI7BDE3G9S4",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20230924,
+    "StudyDescription": "XR chest 1V portable",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.29209089981109302307987811856535850825"
+  },
+  "pGRDNKQP1GP981NLO_aGRDNKSW9ZM7RDNI2_s1.2.826.0.1.3680043.8.498.24978885955406581711907238484928578591": {
+    "AccessionNumber": "GRDNKSW9ZM7RDNI2",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "The heart size and mediastinal contours are within normal limits. Both lungs are clear. The visualized skeletal structures are unremarkable.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNKQP1GP981NLO/GRDNKSW9ZM7RDNI2/studies/1.2.826.0.1.3680043.8.498.24978885955406581711907238484928578591/series/1.2.826.0.1.3680043.8.498.32592128298397534153784456314592910308/instances/1.2.826.0.1.3680043.8.498.63617993869439250599163093321963720640.png",
+      "../deid_png/GRDNKQP1GP981NLO/GRDNKSW9ZM7RDNI2/studies/1.2.826.0.1.3680043.8.498.24978885955406581711907238484928578591/series/1.2.826.0.1.3680043.8.498.87063553941000990025478521984769972857/instances/1.2.826.0.1.3680043.8.498.66614660758869203551634988812381676267.png"
+    ],
+    "ImageShape": [
+      [
+        2140,
+        1760
+      ],
+      [
+        2140,
+        1760
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No active cardiopulmonary disease.",
+    "Indication": "Hoarseness",
+    "InstitutionName": "thryothor-495511-G026D",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "050Y",
+    "PatientID": "GRDNKQP1GP981NLO",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20120526,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.24978885955406581711907238484928578591"
+  },
+  "pGRDNKSQUFHS1BUIY_aGRDN7AKCKDE7SBJA_s1.2.826.0.1.3680043.8.498.17663539251515214910515373426604101313": {
+    "AccessionNumber": "GRDN7AKCKDE7SBJA",
+    "Comparison": "Comparison: 01/18/2008",
+    "EthnicGroup": null,
+    "Findings": "Cardiac shadow is stable. An endotracheal tube is noted 2 cm deep in the right mainstem bronchus. This should be withdrawn approximately 3-4 cm. Significant volume loss is noted on the left secondary to the endotracheal positioning. Hyperinflation of the right lung is seen. Gastric distension is noted.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNKSQUFHS1BUIY/GRDN7AKCKDE7SBJA/studies/1.2.826.0.1.3680043.8.498.17663539251515214910515373426604101313/series/1.2.826.0.1.3680043.8.498.81695483408925795092139122249605710501/instances/1.2.826.0.1.3680043.8.498.79975866341064457240132745867987031785.png"
+    ],
+    "ImageShape": [
+      [
+        1994,
+        2428
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Endotracheal tube within the right mainstem bronchus. Hyperinflation of the right lung is noted secondary to the tube placement. Gastric distention is noted. These results were called by telephone at the time of interpretation on 5/10/2008 at 9:27 pm to Saundra, the pts nurse, who verbally acknowledged these results. They are aware of this finding as multiple subsequent films have been obtained.",
+    "Indication": "Status post endotracheal tube placement",
+    "InstitutionName": "thryothor-495511-2FQ51",
+    "Manufacturer": "['Konica Minolta']",
+    "PatientAge": "055Y",
+    "PatientID": "GRDNKSQUFHS1BUIY",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20150711,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.17663539251515214910515373426604101313"
+  },
+  "pGRDNMXG78D190QDT_aGRDN399P6U73C6AA_s1.2.826.0.1.3680043.8.498.52989173666274356915001062911671561875": {
+    "AccessionNumber": "GRDN399P6U73C6AA",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "The heart size and mediastinal contours are normal. The lungs appear clear aside from minimal atelectasis or scarring in the lingula. There is no edema, confluent airspace opacity or pleural effusion. The bones appear unremarkable.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX",
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNMXG78D190QDT/GRDN399P6U73C6AA/studies/1.2.826.0.1.3680043.8.498.52989173666274356915001062911671561875/series/1.2.826.0.1.3680043.8.498.27444216193026096561968722384140527063/instances/1.2.826.0.1.3680043.8.498.80112527023506982207855392896916562076.png",
+      "../deid_png/GRDNMXG78D190QDT/GRDN399P6U73C6AA/studies/1.2.826.0.1.3680043.8.498.52989173666274356915001062911671561875/series/1.2.826.0.1.3680043.8.498.57992988229834990421327758122729542974/instances/1.2.826.0.1.3680043.8.498.72139888288642548191934609056392780413.png"
+    ],
+    "ImageShape": [
+      [
+        2976,
+        2976
+      ],
+      [
+        2992,
+        3008
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No active cardiopulmonary process.",
+    "Indication": "Chest pain/tightness with shortness of breath. History of asthma.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "042Y",
+    "PatientID": "GRDNMXG78D190QDT",
+    "PatientSex": "F",
+    "PatientSize": 1.5,
+    "PatientWeight": 59.5,
+    "StudyDate": 20210725,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.52989173666274356915001062911671561875"
+  },
+  "pGRDNN60ST1DAFVQM_aGRDNVYJBEMTDC83N_s1.2.826.0.1.3680043.8.498.88060566695827164057328880984806170392": {
+    "AccessionNumber": "GRDNVYJBEMTDC83N",
+    "Comparison": "Comparison with 5/10/1992.",
+    "EthnicGroup": null,
+    "Findings": "Heart size is normal. There is minimal patchy opacity in the RIGHT LOWER lobe, consistent infiltrate. No frank consolidation. No pulmonary edema. No pleural effusions.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNN60ST1DAFVQM/GRDNVYJBEMTDC83N/studies/1.2.826.0.1.3680043.8.498.88060566695827164057328880984806170392/series/1.2.826.0.1.3680043.8.498.87010949410278861059299904470316955629/instances/1.2.826.0.1.3680043.8.498.16400534587430918406424529684809015720.png"
+    ],
+    "ImageShape": [
+      [
+        2465,
+        3039
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "RIGHT LOWER lobe infiltrate.",
+    "Indication": "Intermittent fevers. Cough.",
+    "InstitutionName": "thryothor-495511-other",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "069Y",
+    "PatientID": "GRDNN60ST1DAFVQM",
+    "PatientSex": "F",
+    "PatientSize": 1.6,
+    "PatientWeight": 87.5,
+    "StudyDate": 20201225,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.88060566695827164057328880984806170392"
+  },
+  "pGRDNNR93IDSHX7XW_aGRDNXUB0K9YKX79P_s1.2.826.0.1.3680043.8.498.83877257881782294630015795297723789514": {
+    "AccessionNumber": "GRDNXUB0K9YKX79P",
+    "Comparison": "Comparison: 02/02/1990",
+    "EthnicGroup": null,
+    "Findings": "Bilateral airspace opacities have slightly improved since the prior study. The cardiomediastinal silhouette is unremarkable. No evidence of pleural effusions or pneumothorax noted. No acute bony abnormalities are present.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNNR93IDSHX7XW/GRDNXUB0K9YKX79P/studies/1.2.826.0.1.3680043.8.498.83877257881782294630015795297723789514/series/1.2.826.0.1.3680043.8.498.19179699393333505038925481095133475664/instances/1.2.826.0.1.3680043.8.498.33992471879585953927384234887843055665.png",
+      "../deid_png/GRDNNR93IDSHX7XW/GRDNXUB0K9YKX79P/studies/1.2.826.0.1.3680043.8.498.83877257881782294630015795297723789514/series/1.2.826.0.1.3680043.8.498.63086358859537601468201251482033658866/instances/1.2.826.0.1.3680043.8.498.53056984073621325305528697447730160844.png"
+    ],
+    "ImageShape": [
+      [
+        2991,
+        2658
+      ],
+      [
+        2991,
+        2450
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Slight improvement of diffuse bilateral airspace opacities.",
+    "Indication": "Shortness of breath. Pneumonia.",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "042Y",
+    "PatientID": "GRDNNR93IDSHX7XW",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20090406,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.83877257881782294630015795297723789514"
+  },
+  "pGRDNNX2EFP9DHABO_aGRDNV2TC6ETE5L9U_s1.2.826.0.1.3680043.8.498.38052566036295238035172871468440250283": {
+    "AccessionNumber": "GRDNV2TC6ETE5L9U",
+    "Comparison": "Comparison: 5/6/2008.",
+    "EthnicGroup": null,
+    "Findings": "Single view of the chest shows normal sized cardiomediastinal silhouette. There is no evidence of consolidation, mass or pleural effusion. The bones are unremarkable.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNNX2EFP9DHABO/GRDNV2TC6ETE5L9U/studies/1.2.826.0.1.3680043.8.498.38052566036295238035172871468440250283/series/1.2.826.0.1.3680043.8.498.65860385394544623087864886926303993743/instances/1.2.826.0.1.3680043.8.498.49045489764179859891302239690159769215.png"
+    ],
+    "ImageShape": [
+      [
+        3480,
+        4248
+      ]
+    ],
+    "ImageViewPosition": [
+      "PA"
+    ],
+    "Impression": "No evidence of acute cardiopulmonary disease.",
+    "Indication": "Shortness of breath.",
+    "InstitutionName": "tachyeres-387144-TSEIX",
+    "Manufacturer": "['Agfa']",
+    "PatientAge": null,
+    "PatientID": "GRDNNX2EFP9DHABO",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20100412,
+    "StudyDescription": "CHEST, 1V,   SOB",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.38052566036295238035172871468440250283"
+  },
+  "pGRDNPTS7EY1J1Y4H_aGRDNGDDZ79Q3Q7WO_s1.2.826.0.1.3680043.8.498.91748025457047002043534162238915211885": {
+    "AccessionNumber": "GRDNGDDZ79Q3Q7WO",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "The umbilical venous catheter is located at the level of T11 on the right. The lungs are clear. The cardiothymic silhouette is normal. No adenopathy. No bone lesions. The bowel gas pattern is unremarkable. No pneumatosis. No free air or portal venous air.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNPTS7EY1J1Y4H/GRDNGDDZ79Q3Q7WO/studies/1.2.826.0.1.3680043.8.498.91748025457047002043534162238915211885/series/1.2.826.0.1.3680043.8.498.82802890791493107209486032817636691933/instances/1.2.826.0.1.3680043.8.498.37255773943271910730693050725043430204.png"
+    ],
+    "ImageShape": [
+      [
+        1750,
+        1142
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Umbilical venous catheter tip is to the right of T11. Bowel gas pattern unremarkable. Lungs clear. Cardiothymic silhouette within normal limits.",
+    "Indication": "Hypoglycemia ; umbilical venous catheter placement",
+    "InstitutionName": "thryothor-495511-G61HN",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "000D",
+    "PatientID": "GRDNPTS7EY1J1Y4H",
+    "PatientSex": "M",
+    "PatientSize": 0.0,
+    "PatientWeight": 0.0,
+    "StudyDate": 20150416,
+    "StudyDescription": "DG CHEST PORT W/ABD NEONATE",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.91748025457047002043534162238915211885"
+  },
+  "pGRDNQ90OCAKMID9L_aGRDNTTM18RMHRUR8_s1.2.826.0.1.3680043.8.498.12948697003896540647010441882390432007": {
+    "AccessionNumber": "GRDNTTM18RMHRUR8",
+    "Comparison": "Yesterday",
+    "EthnicGroup": null,
+    "Findings": "Stable tubular devices and left subclavian pacemaker. Bibasilar airspace disease is stable, although diffuse predominately interstitial edema has improved. Stable left pleural effusion.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNQ90OCAKMID9L/GRDNTTM18RMHRUR8/studies/1.2.826.0.1.3680043.8.498.12948697003896540647010441882390432007/series/1.2.826.0.1.3680043.8.498.98867131525200096552747990586572386286/instances/1.2.826.0.1.3680043.8.498.87517962796563349248254724379584031908.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Improving edema but persistent basilar airspace opacities and persistent left effusion.",
+    "Indication": "COPD",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "080Y",
+    "PatientID": "GRDNQ90OCAKMID9L",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20120718,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.12948697003896540647010441882390432007"
+  },
+  "pGRDNQOBX1DI2JBND_aGRDNIR9HRK96W6GP_s1.2.826.0.1.3680043.8.498.55191401306810645645534969663812353643": {
+    "AccessionNumber": "GRDNIR9HRK96W6GP",
+    "Comparison": "No prior studies are available for comparison.",
+    "EthnicGroup": null,
+    "Findings": "Median sternotomy wires and mediastinal clips are noted. The cardiomediastinal silhouette is within normal limits. Mild atelectatic changes noted at left base. No definite acute infiltrate. Pulmonary vascularity likely within normal limits. No pneumothorax or large effusion appreciated on this portable examination. Bony thorax is intact.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNQOBX1DI2JBND/GRDNIR9HRK96W6GP/studies/1.2.826.0.1.3680043.8.498.55191401306810645645534969663812353643/series/1.2.826.0.1.3680043.8.498.66767143441875907205357454353699378196/instances/1.2.826.0.1.3680043.8.498.27069795410732704377388526770942255413.png"
+    ],
+    "ImageShape": [
+      [
+        2320,
+        2828
+      ]
+    ],
+    "ImageViewPosition": [
+      "AP"
+    ],
+    "Impression": "Mild left base atelectasis.",
+    "Indication": "Chest pain",
+    "InstitutionName": "tachyeres-387144-4BBY1",
+    "Manufacturer": "['Agfa']",
+    "PatientAge": null,
+    "PatientID": "GRDNQOBX1DI2JBND",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20130702,
+    "StudyDescription": "Chest Single AP view",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.55191401306810645645534969663812353643"
+  },
+  "pGRDNR0H19D670LTW_aGRDNMEI73DDG0TRX_s1.2.826.0.1.3680043.8.498.63853084491728370895779067311459554938": {
+    "AccessionNumber": "GRDNMEI73DDG0TRX",
+    "Comparison": "Chest radiograph performed 4/3/2014",
+    "EthnicGroup": "hispanic",
+    "Findings": "The lungs are well-aerated. Increased central lung markings may reflect viral or small airways disease. There is no evidence of focal opacification, pleural effusion or pneumothorax. The cardiomediastinal silhouette is within normal limits. No acute osseous abnormalities are seen.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNR0H19D670LTW/GRDNMEI73DDG0TRX/studies/1.2.826.0.1.3680043.8.498.63853084491728370895779067311459554938/series/1.2.826.0.1.3680043.8.498.13804040463275613715594595409459875852/instances/1.2.826.0.1.3680043.8.498.89893072034548405808343942746715237247.png"
+    ],
+    "ImageShape": [
+      [
+        1432,
+        1734
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Increased central lung markings may reflect viral or small airways disease; no evidence of focal airspace consolidation.",
+    "Indication": "Acute onset of fever and cough. Initial encounter.",
+    "InstitutionName": "thryothor-495511-2FQ51",
+    "Manufacturer": "['Konica Minolta']",
+    "PatientAge": "020M",
+    "PatientID": "GRDNR0H19D670LTW",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 11.6,
+    "StudyDate": 20151213,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.63853084491728370895779067311459554938"
+  },
+  "pGRDNR1PI29J65WVA_aGRDNYDG1PNRRTU96_s1.2.826.0.1.3680043.8.498.78189148778533218166473182937860491365": {
+    "AccessionNumber": "GRDNYDG1PNRRTU96",
+    "Comparison": "March 19, 1996",
+    "EthnicGroup": null,
+    "Findings": "No pneumothorax. Diffuse patchy bilateral pulmonary opacities, left greater than right, with associated left-sided pleural effusion are stable in the interval. Stable Port-A-Cath. No other changes.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNR1PI29J65WVA/GRDNYDG1PNRRTU96/studies/1.2.826.0.1.3680043.8.498.78189148778533218166473182937860491365/series/1.2.826.0.1.3680043.8.498.59913823832967204756370822563651020543/instances/1.2.826.0.1.3680043.8.498.48733699656597525331463019889775914288.png"
+    ],
+    "ImageShape": [
+      [
+        2466,
+        3040
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Diffuse bilateral pulmonary opacities and left-sided effusion, unchanged.",
+    "Indication": "Acute pneumonia.",
+    "InstitutionName": "thryothor-495511-other",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "058Y",
+    "PatientID": "GRDNR1PI29J65WVA",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20171127,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.78189148778533218166473182937860491365"
+  },
+  "pGRDNS6VC0VEZIO3Y_aGRDNNV7M4AT0O6DR_s1.2.826.0.1.3680043.8.498.58576084947390659203853315953789681897": {
+    "AccessionNumber": "GRDNNV7M4AT0O6DR",
+    "Comparison": "5/7/10 at 7563 hours.",
+    "EthnicGroup": null,
+    "Findings": "A right upper extremity PICC has been placed. The tip is at the SVC/right atrial junction. Otherwise, stable.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNS6VC0VEZIO3Y/GRDNNV7M4AT0O6DR/studies/1.2.826.0.1.3680043.8.498.58576084947390659203853315953789681897/series/1.2.826.0.1.3680043.8.498.62523237360445428860988590233320347116/instances/1.2.826.0.1.3680043.8.498.63400879264851361680949049439202675674.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "A right upper extremity PICC has been placed. The tip is at the SVC/right atrial junction. Otherwise, stable.",
+    "Indication": "PICC placement, weakness.",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "064Y",
+    "PatientID": "GRDNS6VC0VEZIO3Y",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20061230,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.58576084947390659203853315953789681897"
+  },
+  "pGRDNT12L3RUTE7N8_aGRDN446MKMKULAXO_s1.2.826.0.1.3680043.8.498.16502515349967807740677912388888036839": {
+    "AccessionNumber": "GRDN446MKMKULAXO",
+    "Comparison": "Comparison with 11/7/2012",
+    "EthnicGroup": null,
+    "Findings": "Interval removal of right IJ sheath. Postsurgical changes to the sternum and mediastinum. Bibasilar predominantly linear opacities favor atelectasis. No large pleural fluid collection. No pneumothorax.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNT12L3RUTE7N8/GRDN446MKMKULAXO/studies/1.2.826.0.1.3680043.8.498.16502515349967807740677912388888036839/series/1.2.826.0.1.3680043.8.498.13118376472911625883700851898469413896/instances/1.2.826.0.1.3680043.8.498.97426222511542854756857392409864694843.png",
+      "../deid_png/GRDNT12L3RUTE7N8/GRDN446MKMKULAXO/studies/1.2.826.0.1.3680043.8.498.16502515349967807740677912388888036839/series/1.2.826.0.1.3680043.8.498.72800714113739585936418237264726934697/instances/1.2.826.0.1.3680043.8.498.68767445847959160123158703309355580053.png"
+    ],
+    "ImageShape": [
+      [
+        2112,
+        2992
+      ],
+      [
+        3008,
+        3024
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Persistent bibasilar atelectasis.",
+    "Indication": "Shortness of breath",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "049Y",
+    "PatientID": "GRDNT12L3RUTE7N8",
+    "PatientSex": "M",
+    "PatientSize": 1.9,
+    "PatientWeight": 137.3,
+    "StudyDate": 20200715,
+    "StudyDescription": "CHEST - 2 VIEW",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.16502515349967807740677912388888036839"
+  },
+  "pGRDNT4CGD5SF7R0B_aGRDNWPI0N6HX2URR_s1.2.826.0.1.3680043.8.498.89433768665473393818068673412729451544": {
+    "AccessionNumber": "GRDNWPI0N6HX2URR",
+    "Comparison": "3/4/2002",
+    "EthnicGroup": null,
+    "Findings": "The heart size and mediastinal contours are within normal limits. Aortic atherosclerosis. Both lungs are clear. The visualized skeletal structures are unremarkable.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNT4CGD5SF7R0B/GRDNWPI0N6HX2URR/studies/1.2.826.0.1.3680043.8.498.89433768665473393818068673412729451544/series/1.2.826.0.1.3680043.8.498.15449078419883808139597269679502748381/instances/1.2.826.0.1.3680043.8.498.81227763816938279391829024139343787553.png",
+      "../deid_png/GRDNT4CGD5SF7R0B/GRDNWPI0N6HX2URR/studies/1.2.826.0.1.3680043.8.498.89433768665473393818068673412729451544/series/1.2.826.0.1.3680043.8.498.36029588745763854085808771816366063624/instances/1.2.826.0.1.3680043.8.498.77007422832471518832654652781961241786.png"
+    ],
+    "ImageShape": [
+      [
+        2785,
+        3040
+      ],
+      [
+        2465,
+        2717
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No active cardiopulmonary disease. Aortic Atherosclerosis (ICD10-I70.0).",
+    "Indication": "Chest pain and shortness of breath. Former smoker.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "082Y",
+    "PatientID": "GRDNT4CGD5SF7R0B",
+    "PatientSex": "M",
+    "PatientSize": 1.9,
+    "PatientWeight": 106.6,
+    "StudyDate": 20210529,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.89433768665473393818068673412729451544"
+  },
+  "pGRDNTJJKS40PWJ3G_aGRDNAZU1XCAVK4VC_s1.2.826.0.1.3680043.8.498.95614628915624954016479230036071333483": {
+    "AccessionNumber": "GRDNAZU1XCAVK4VC",
+    "Comparison": "No prior studies were submitted for direct comparison.",
+    "EthnicGroup": null,
+    "Findings": "No displaced rib fracture is seen. No pneumothorax is present. No abnormal pleural fluid collection is recognized. There appears to be a retrocardiac left basilar consolidation noted.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest",
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR",
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNTJJKS40PWJ3G/GRDNAZU1XCAVK4VC/studies/1.2.826.0.1.3680043.8.498.95614628915624954016479230036071333483/series/1.2.826.0.1.3680043.8.498.56569209947071352304838766238223708184/instances/1.2.826.0.1.3680043.8.498.19594600872736268370287409171734737532.png",
+      "../deid_png/GRDNTJJKS40PWJ3G/GRDNAZU1XCAVK4VC/studies/1.2.826.0.1.3680043.8.498.95614628915624954016479230036071333483/series/1.2.826.0.1.3680043.8.498.88207262534685727383762490803432000415/instances/1.2.826.0.1.3680043.8.498.60262667208779811691728452128857182109.png",
+      "../deid_png/GRDNTJJKS40PWJ3G/GRDNAZU1XCAVK4VC/studies/1.2.826.0.1.3680043.8.498.95614628915624954016479230036071333483/series/1.2.826.0.1.3680043.8.498.88222830245277569319898113095569449988/instances/1.2.826.0.1.3680043.8.498.89602103776164262589506567828926840133.png",
+      "../deid_png/GRDNTJJKS40PWJ3G/GRDNAZU1XCAVK4VC/studies/1.2.826.0.1.3680043.8.498.95614628915624954016479230036071333483/series/1.2.826.0.1.3680043.8.498.91073178082390081366818765009831645484/instances/1.2.826.0.1.3680043.8.498.12353952787657784109539014691197426377.png"
+    ],
+    "ImageShape": [
+      [
+        2828,
+        2320
+      ],
+      [
+        2828,
+        2320
+      ],
+      [
+        2828,
+        2320
+      ],
+      [
+        2828,
+        2320
+      ]
+    ],
+    "ImageViewPosition": [
+      "AP",
+      "AP",
+      "AP",
+      "AP"
+    ],
+    "Impression": "No evidence of displaced rib fracture or pneumothorax. Apparent retrocardiac left basilar consolidation. Recommend clinical correlation and follow-up as clinically indicated.",
+    "Indication": "Pain",
+    "InstitutionName": "tachyeres-387144-4BBY1",
+    "Manufacturer": "['Agfa']",
+    "PatientAge": null,
+    "PatientID": "GRDNTJJKS40PWJ3G",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20121118,
+    "StudyDescription": "Ribs-Left",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.95614628915624954016479230036071333483"
+  },
+  "pGRDNTJJKS40PWJ3G_aGRDND3I7ZDSEXVFI_s1.2.826.0.1.3680043.8.498.99303237825771605519737529479035703388": {
+    "AccessionNumber": "GRDND3I7ZDSEXVFI",
+    "Comparison": "Correlation is made with a prior study done 7/20/2017.",
+    "EthnicGroup": null,
+    "Findings": "The cardiomediastinal silhouette is stable. The pulmonary vasculature is within normal limits. There appears to be a new retrocardiac left lower lobe infiltrate noted. The right lung is clear. There is no evidence of pleural effusion noted. The visualized bony thoracic cage appears intact.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNTJJKS40PWJ3G/GRDND3I7ZDSEXVFI/studies/1.2.826.0.1.3680043.8.498.99303237825771605519737529479035703388/series/1.2.826.0.1.3680043.8.498.14847727147683077016786433434131535721/instances/1.2.826.0.1.3680043.8.498.49180585654394718310597061411024476966.png",
+      "../deid_png/GRDNTJJKS40PWJ3G/GRDND3I7ZDSEXVFI/studies/1.2.826.0.1.3680043.8.498.99303237825771605519737529479035703388/series/1.2.826.0.1.3680043.8.498.40366378113528520136285620847137244648/instances/1.2.826.0.1.3680043.8.498.18298507381636129891166092507465914793.png"
+    ],
+    "ImageShape": [
+      [
+        2828,
+        2320
+      ],
+      [
+        2320,
+        2828
+      ]
+    ],
+    "ImageViewPosition": [
+      "LL",
+      "PA"
+    ],
+    "Impression": "No retrocardiac left lower lobe infiltrate. Recommend clinical correlation and follow up until resolution.",
+    "Indication": "Chest pain.",
+    "InstitutionName": "tachyeres-387144-4BBY1",
+    "Manufacturer": "['Agfa']",
+    "PatientAge": null,
+    "PatientID": "GRDNTJJKS40PWJ3G",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20121118,
+    "StudyDescription": "Chest PA and Left Lateral",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.99303237825771605519737529479035703388"
+  },
+  "pGRDNTR960655ZVTF_aGRDN1HK4LP1PSVTQ_s1.2.826.0.1.3680043.8.498.37617920102450560951156794293525300203": {
+    "AccessionNumber": "GRDN1HK4LP1PSVTQ",
+    "Comparison": "Chest radiographs 8/3/1998.",
+    "EthnicGroup": null,
+    "Findings": "Lung volumes remain normal. Normal cardiac size and mediastinal contours. Visualized tracheal air column is within normal limits. No pneumothorax, pulmonary edema, pleural effusion or confluent pulmonary opacity. No osseous abnormality identified.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNTR960655ZVTF/GRDN1HK4LP1PSVTQ/studies/1.2.826.0.1.3680043.8.498.37617920102450560951156794293525300203/series/1.2.826.0.1.3680043.8.498.49350244233772974250530529532886721794/instances/1.2.826.0.1.3680043.8.498.66797606673768244350950981392751863410.png",
+      "../deid_png/GRDNTR960655ZVTF/GRDN1HK4LP1PSVTQ/studies/1.2.826.0.1.3680043.8.498.37617920102450560951156794293525300203/series/1.2.826.0.1.3680043.8.498.80802832261739083408072464249952775867/instances/1.2.826.0.1.3680043.8.498.79909169852770122952717570656039465064.png"
+    ],
+    "ImageShape": [
+      [
+        3054,
+        2720
+      ],
+      [
+        2931,
+        3056
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Negative, no acute cardiopulmonary abnormality.",
+    "Indication": "35-year-old female with productive cough and shortness of breath for 1 week. Initial encounter.",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "035Y",
+    "PatientID": "GRDNTR960655ZVTF",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20160914,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.37617920102450560951156794293525300203"
+  },
+  "pGRDNTYEYGEKIOTT9_aGRDNTINWZQDC3ODF_s1.2.826.0.1.3680043.8.498.62938945685729301814332668483920814733": {
+    "AccessionNumber": "GRDNTINWZQDC3ODF",
+    "Comparison": "Comparison: 2/4/1997",
+    "EthnicGroup": null,
+    "Findings": "Mild cardiac enlargement without heart failure. Mild bibasilar atelectasis. Negative for pneumonia or effusion. Port-A-Cath tip in the SVC.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNTYEYGEKIOTT9/GRDNTINWZQDC3ODF/studies/1.2.826.0.1.3680043.8.498.62938945685729301814332668483920814733/series/1.2.826.0.1.3680043.8.498.63862955982140117237109761824656224447/instances/1.2.826.0.1.3680043.8.498.29210426393561151608357629288176155788.png"
+    ],
+    "ImageShape": [
+      [
+        1994,
+        2428
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Mild bibasilar atelectasis.",
+    "Indication": "Fever. Pancreatic cancer",
+    "InstitutionName": "thryothor-495511-U8V2V",
+    "Manufacturer": "['Konica Minolta']",
+    "PatientAge": "085Y",
+    "PatientID": "GRDNTYEYGEKIOTT9",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20160319,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.62938945685729301814332668483920814733"
+  },
+  "pGRDNUWR9P79M356T_aGRDNZHV5HCG3YLGN_s1.2.826.0.1.3680043.8.498.90175241672205205647389100879627342840": {
+    "AccessionNumber": "GRDNZHV5HCG3YLGN",
+    "Comparison": "Comparison: 2/12/5.",
+    "EthnicGroup": null,
+    "Findings": "Support tubes and lines are unchanged. There is persistent left base effusion and airspace disease. No new abnormality.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNUWR9P79M356T/GRDNZHV5HCG3YLGN/studies/1.2.826.0.1.3680043.8.498.90175241672205205647389100879627342840/series/1.2.826.0.1.3680043.8.498.67061863882024559905631394007448014441/instances/1.2.826.0.1.3680043.8.498.46877652788636334865936303514949925923.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "No interval change.",
+    "Indication": "Sepsis.",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "046Y",
+    "PatientID": "GRDNUWR9P79M356T",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20060816,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.90175241672205205647389100879627342840"
+  },
+  "pGRDNUXA9XZZSLI72_aGRDN0OT0C1P0T4GQ_s1.2.826.0.1.3680043.8.498.67453204054330578292933044875539264842": {
+    "AccessionNumber": "GRDN0OT0C1P0T4GQ",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "The heart size is normal. The lungs are clear. No consolidation identified. No pleural effusion is seen.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNUXA9XZZSLI72/GRDN0OT0C1P0T4GQ/studies/1.2.826.0.1.3680043.8.498.67453204054330578292933044875539264842/series/1.2.826.0.1.3680043.8.498.40174216620337942413047009111943474661/instances/1.2.826.0.1.3680043.8.498.59115585049171553025793511788551719002.png",
+      "../deid_png/GRDNUXA9XZZSLI72/GRDN0OT0C1P0T4GQ/studies/1.2.826.0.1.3680043.8.498.67453204054330578292933044875539264842/series/1.2.826.0.1.3680043.8.498.80124122374319100180064712671917077082/instances/1.2.826.0.1.3680043.8.498.80870290857108583481203821120813947993.png"
+    ],
+    "ImageShape": [
+      [
+        2500,
+        2048
+      ],
+      [
+        2048,
+        2500
+      ]
+    ],
+    "ImageViewPosition": [
+      "LATERAL",
+      "PA"
+    ],
+    "Impression": "No evidence of acute process; specifically no consolidation. No pleural effusion identified.",
+    "Indication": "Right-sided rib pain.",
+    "InstitutionName": "tachyeres-387144-YTQ4U",
+    "Manufacturer": "['Carestream']",
+    "PatientAge": "047Y",
+    "PatientID": "GRDNUXA9XZZSLI72",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20160627,
+    "StudyDescription": "XR CHEST 2 VIEWS",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.67453204054330578292933044875539264842"
+  },
+  "pGRDNUXHDONVXLPKX_aGRDNAIOUT38ILDG1_s1.2.826.0.1.3680043.8.498.35950027423701908917208802745784313490": {
+    "AccessionNumber": "GRDNAIOUT38ILDG1",
+    "Comparison": "Comparison: 2/5/2019.",
+    "EthnicGroup": null,
+    "Findings": "Cardiomegaly is present. There is pulmonary vascular congestion and interstitial pulmonary edema. Trachea midline. Paratracheal soft tissues appear normal. No gross consolidation.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNUXHDONVXLPKX/GRDNAIOUT38ILDG1/studies/1.2.826.0.1.3680043.8.498.35950027423701908917208802745784313490/series/1.2.826.0.1.3680043.8.498.75441444651591308344449385647884862780/instances/1.2.826.0.1.3680043.8.498.78961754936252201189552255988842820368.png"
+    ],
+    "ImageShape": [
+      [
+        2016,
+        2504
+      ]
+    ],
+    "ImageViewPosition": [
+      "AP"
+    ],
+    "Impression": "Cardiomegaly with pulmonary vascular congestion and interstitial pulmonary edema.",
+    "Indication": "Atrial fibrillation. Decreased oxygen saturations. Short of breath.",
+    "InstitutionName": "thryothor-495511-5TAQU",
+    "Manufacturer": "['Canon']",
+    "PatientAge": "063Y",
+    "PatientID": "GRDNUXHDONVXLPKX",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20120612,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.35950027423701908917208802745784313490"
+  },
+  "pGRDNVY6D4ID1WH5L_aGRDNH2Q9D5CJTDKZ_s1.2.826.0.1.3680043.8.498.72119349381408950869419328277658705124": {
+    "AccessionNumber": "GRDNH2Q9D5CJTDKZ",
+    "Comparison": "Radiograph 4/16/2015",
+    "EthnicGroup": "non-hispanic",
+    "Findings": "Low lung volumes with some atelectatic change. No consolidation, features of edema, pneumothorax, or effusion. Pulmonary vascularity is normally distributed. The cardiomediastinal contours are unremarkable. No acute osseous or soft tissue abnormality. Telemetry leads overlie the chest.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNVY6D4ID1WH5L/GRDNH2Q9D5CJTDKZ/studies/1.2.826.0.1.3680043.8.498.72119349381408950869419328277658705124/series/1.2.826.0.1.3680043.8.498.24503841209498427773543396322347330742/instances/1.2.826.0.1.3680043.8.498.35259519159668480953730633285699001895.png",
+      "../deid_png/GRDNVY6D4ID1WH5L/GRDNH2Q9D5CJTDKZ/studies/1.2.826.0.1.3680043.8.498.72119349381408950869419328277658705124/series/1.2.826.0.1.3680043.8.498.43079472072309392172792576505902467972/instances/1.2.826.0.1.3680043.8.498.18728726149770800610787144293680142121.png"
+    ],
+    "ImageShape": [
+      [
+        2364,
+        3008
+      ],
+      [
+        3055,
+        3056
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "Low lung volumes with atelectatic change.",
+    "Indication": "Shortness of breath, left lower quadrant pain",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['SIEMENS']",
+    "PatientAge": "039Y",
+    "PatientID": "GRDNVY6D4ID1WH5L",
+    "PatientSex": "M",
+    "PatientSize": 1.829,
+    "PatientWeight": 95.255,
+    "StudyDate": 20210814,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.72119349381408950869419328277658705124"
+  },
+  "pGRDNW4ENZYDFESZA_aGRDN146V1QBXDIW7_s1.2.826.0.1.3680043.8.498.54763745661790435161384146931161577122": {
+    "AccessionNumber": "GRDN146V1QBXDIW7",
+    "Comparison": "Comparison: Two view chest x-ray 08/27/1993.",
+    "EthnicGroup": null,
+    "Findings": "Heart size upper normal in stable. Thoracic aorta mildly tortuous atherosclerotic but unchanged. Hilar and mediastinal contours otherwise unremarkable. Lungs clear. Slight elevation left hemidiaphragm unchanged. No pleural effusions. Degenerative changes throughout the thoracic spine and compression fracture of lower thoracic vertebra and mid thoracic vertebra unchanged.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNW4ENZYDFESZA/GRDN146V1QBXDIW7/studies/1.2.826.0.1.3680043.8.498.54763745661790435161384146931161577122/series/1.2.826.0.1.3680043.8.498.10966198612010241419279197331509470663/instances/1.2.826.0.1.3680043.8.498.66961304219629141298113676177589865904.png",
+      "../deid_png/GRDNW4ENZYDFESZA/GRDN146V1QBXDIW7/studies/1.2.826.0.1.3680043.8.498.54763745661790435161384146931161577122/series/1.2.826.0.1.3680043.8.498.28251822236221722742875185954776018249/instances/1.2.826.0.1.3680043.8.498.75180362307051863416639257561708714029.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ],
+      [
+        2991,
+        2992
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No acute cardiopulmonary disease. Stable since April, 2008.",
+    "Indication": "Chest pain.",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['FUJI', 'SIEMENS']",
+    "PatientAge": "086Y",
+    "PatientID": "GRDNW4ENZYDFESZA",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20070810,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.54763745661790435161384146931161577122"
+  },
+  "pGRDNWP07CYZFZUBH_aGRDNR6J9SDFHH2VQ_s1.2.826.0.1.3680043.8.498.22524769571576271221228961961462528438": {
+    "AccessionNumber": "GRDNR6J9SDFHH2VQ",
+    "Comparison": "None.",
+    "EthnicGroup": null,
+    "Findings": "Patient showed normal heart, mediastinum and central vascularity. Lungs are clear. No acute bony findings.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNWP07CYZFZUBH/GRDNR6J9SDFHH2VQ/studies/1.2.826.0.1.3680043.8.498.22524769571576271221228961961462528438/series/1.2.826.0.1.3680043.8.498.23226972480849588044974932886554050373/instances/1.2.826.0.1.3680043.8.498.57595556970707263532197234935004755012.png",
+      "../deid_png/GRDNWP07CYZFZUBH/GRDNR6J9SDFHH2VQ/studies/1.2.826.0.1.3680043.8.498.22524769571576271221228961961462528438/series/1.2.826.0.1.3680043.8.498.43580979071213815019116938989209376367/instances/1.2.826.0.1.3680043.8.498.31387791222926774051744464779178551936.png"
+    ],
+    "ImageShape": [
+      [
+        3020,
+        3024
+      ],
+      [
+        3036,
+        3040
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "No active cardiopulmonary findings.",
+    "Indication": "Short of breath",
+    "InstitutionName": "xenops-995729-FSX3Z",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "070Y",
+    "PatientID": "GRDNWP07CYZFZUBH",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20230130,
+    "StudyDescription": "XR Chest 2 Views",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.22524769571576271221228961961462528438"
+  },
+  "pGRDNX3LQEKVR43RB_aGRDNDF88MZW73NEP_s1.2.826.0.1.3680043.8.498.28575690154503371348915342972430685611": {
+    "AccessionNumber": "GRDNDF88MZW73NEP",
+    "Comparison": "Comparison is made to the study dated 05 May 2001.",
+    "EthnicGroup": null,
+    "Findings": "The projection is very lordotic which accentuates the cardiac silhouette. There does appear to be cardiomegaly. A right internal jugular central venous catheters present with the tip in the superior vena cava. There is no edema, infiltrate, effusion or pneumothorax.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNX3LQEKVR43RB/GRDNDF88MZW73NEP/studies/1.2.826.0.1.3680043.8.498.28575690154503371348915342972430685611/series/1.2.826.0.1.3680043.8.498.19244058819808142501418019418540322131/instances/1.2.826.0.1.3680043.8.498.65789055284468409525931150309125725471.png"
+    ],
+    "ImageShape": [
+      [
+        2010,
+        2446
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Stable cardiomegaly. Interval placement of a right-sided central venous catheter. No evidence of complication.",
+    "Indication": "permacath placement",
+    "InstitutionName": "thryothor-495511-2FQ51",
+    "Manufacturer": "['Konica Minolta']",
+    "PatientAge": "036Y",
+    "PatientID": "GRDNX3LQEKVR43RB",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20121007,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.28575690154503371348915342972430685611"
+  },
+  "pGRDNXS9VODX9LCH1_aGRDNYMEPJ0LS9WT8_s1.2.826.0.1.3680043.8.498.41312777730717478828101557051798122247": {
+    "AccessionNumber": "GRDNYMEPJ0LS9WT8",
+    "Comparison": "Comparison: March 04, 2018",
+    "EthnicGroup": null,
+    "Findings": "There is mild bibasilar atelectatic change medially. Elsewhere lungs are clear. The heart is upper normal in size with pulmonary vascularity within normal limits. There is evidence of a prior fracture of the left proximal humeral metaphysis on the left. There is postoperative change in the lateral left clavicle.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNXS9VODX9LCH1/GRDNYMEPJ0LS9WT8/studies/1.2.826.0.1.3680043.8.498.41312777730717478828101557051798122247/series/1.2.826.0.1.3680043.8.498.91756956487144153544001134851479726102/instances/1.2.826.0.1.3680043.8.498.71313580351590262820926348925588498976.png"
+    ],
+    "ImageShape": [
+      [
+        2520,
+        3032
+      ]
+    ],
+    "ImageViewPosition": [
+      "AP"
+    ],
+    "Impression": "Bibasilar atelectasis. No frank edema or consolidation. Prior trauma proximal left humerus. Prior trauma lateral left clavicle.",
+    "Indication": "Hypotension. Diaphoretic.",
+    "InstitutionName": "thryothor-495511-DSL34",
+    "Manufacturer": "['Carestream']",
+    "PatientAge": "085Y",
+    "PatientID": "GRDNXS9VODX9LCH1",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20170102,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.41312777730717478828101557051798122247"
+  },
+  "pGRDNY2RFBQ5HPWTD_aGRDN9DZLBZXFBEE3_s1.2.826.0.1.3680043.8.498.67592626916352262033585569932037302326": {
+    "AccessionNumber": "GRDN9DZLBZXFBEE3",
+    "Comparison": "Comparison: 11/3/1992",
+    "EthnicGroup": null,
+    "Findings": "Mild interstitial thickening. Moderate right and small left pleural effusion. No pneumothorax. Stable cardiomegaly. Prior median sternotomy.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "DX"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNY2RFBQ5HPWTD/GRDN9DZLBZXFBEE3/studies/1.2.826.0.1.3680043.8.498.67592626916352262033585569932037302326/series/1.2.826.0.1.3680043.8.498.64031591069543283774764385628403320423/instances/1.2.826.0.1.3680043.8.498.18790431247999062015455822804001483912.png"
+    ],
+    "ImageShape": [
+      [
+        2466,
+        2872
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Moderate right and small left pleural effusion. No pneumothorax.",
+    "Indication": "CHF",
+    "InstitutionName": "thryothor-495511-2FQ51",
+    "Manufacturer": "['SAMSUNG']",
+    "PatientAge": "078Y",
+    "PatientID": "GRDNY2RFBQ5HPWTD",
+    "PatientSex": "M",
+    "PatientSize": 1.7,
+    "PatientWeight": 101.0,
+    "StudyDate": 20220922,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.67592626916352262033585569932037302326"
+  },
+  "pGRDNY9I0M3E45LQG_aGRDNKSJQ992IS15O_s1.2.826.0.1.3680043.8.498.87353152995028210645687387524454059629": {
+    "AccessionNumber": "GRDNKSJQ992IS15O",
+    "Comparison": "Portable exam 1493 hr compared to 10/3/2011",
+    "EthnicGroup": null,
+    "Findings": "Normal heart size, mediastinal contours and pulmonary vascularity. Hazy LEFT perihilar infiltrate. Question minimal RIGHT upper lobe infiltrate. Findings could represent asymmetric edema or infection. No pleural effusion or pneumothorax. Bones unremarkable.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNY9I0M3E45LQG/GRDNKSJQ992IS15O/studies/1.2.826.0.1.3680043.8.498.87353152995028210645687387524454059629/series/1.2.826.0.1.3680043.8.498.15963395382493849442955307108552342785/instances/1.2.826.0.1.3680043.8.498.47668826675510434315062536529742871683.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "Hazy LEFT perihilar and question minimal RIGHT upper lobe infiltrate, question pneumonia versus asymmetric edema.",
+    "Indication": "Low oxygenation, evaluate pulmonary edema",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "030Y",
+    "PatientID": "GRDNY9I0M3E45LQG",
+    "PatientSex": "M",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20150618,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.87353152995028210645687387524454059629"
+  },
+  "pGRDNYPKKZOFR5JJS_aGRDN925ZFP65MYJO_s1.2.826.0.1.3680043.8.498.77064269915653073146475710365185102929": {
+    "AccessionNumber": "GRDN925ZFP65MYJO",
+    "Comparison": "Comparison: 09/24/09.",
+    "EthnicGroup": null,
+    "Findings": "The bones are demineralized. There are moderately advanced degenerative changes of the first carpometacarpal joint and the intercarpal joint between the scaphoid and multangulars. On the navicular view, there is a possible fracture of the navicular bone. This could be a degenerative spur. This needs clinical correlation. AP semi-erect and lateral views show no definite pneumonia, pneumothorax, or acute fractures. The bones are demineralized.",
+    "ImageBodyPart": [
+      "Chest",
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR",
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNYPKKZOFR5JJS/GRDN925ZFP65MYJO/studies/1.2.826.0.1.3680043.8.498.77064269915653073146475710365185102929/series/1.2.826.0.1.3680043.8.498.14736697287792302169420123238476668191/instances/1.2.826.0.1.3680043.8.498.56002165144800671234824753658011011310.png",
+      "../deid_png/GRDNYPKKZOFR5JJS/GRDN925ZFP65MYJO/studies/1.2.826.0.1.3680043.8.498.77064269915653073146475710365185102929/series/1.2.826.0.1.3680043.8.498.95159902428311777267494137114589322824/instances/1.2.826.0.1.3680043.8.498.79044957448387770743421065759381701956.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ],
+      [
+        2991,
+        2990
+      ]
+    ],
+    "ImageViewPosition": [
+      "",
+      ""
+    ],
+    "Impression": "1. Degenerative changes of the radial side of the wrist. 2. Cannot exclude avulsion fracture off of the navicular bone. See report. No acute findings.",
+    "Indication": "Fell, patient confused.",
+    "InstitutionName": "thryothor-495511-IQYWW",
+    "Manufacturer": "['FUJI', 'SIEMENS']",
+    "PatientAge": "088Y",
+    "PatientID": "GRDNYPKKZOFR5JJS",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": 0.0,
+    "StudyDate": 20090206,
+    "StudyDescription": "DG CHEST 2V",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.77064269915653073146475710365185102929"
+  },
+  "pGRDNZPAXHLFJUQ85_aGRDN6ADO57IBXCU6_s1.2.826.0.1.3680043.8.498.37049793400096971690844582464943961925": {
+    "AccessionNumber": "GRDN6ADO57IBXCU6",
+    "Comparison": "Chest single view, 5/27/7.",
+    "EthnicGroup": null,
+    "Findings": "Interval removal of left chest tube with no evidence of pneumothorax. Interval retraction of Swan-Ganz catheter. Sheath remains in right IJ. Interval removal of mediastinal drain. Stable mildly enlarged cardiac silhouette. There is a prominence in central pulmonary vasculature, not significantly changed from prior.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNZPAXHLFJUQ85/GRDN6ADO57IBXCU6/studies/1.2.826.0.1.3680043.8.498.37049793400096971690844582464943961925/series/1.2.826.0.1.3680043.8.498.20851465625412320881934443908858862369/instances/1.2.826.0.1.3680043.8.498.59489624971792840169222980213171848334.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "1. Interval removal of chest tube without evidence of pneumothorax. 2. Stable central venous pulmonary congestion.",
+    "Indication": "Chest pain. CABG.",
+    "InstitutionName": "thryothor-495511-UZOLC",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "061Y",
+    "PatientID": "GRDNZPAXHLFJUQ85",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20080908,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.37049793400096971690844582464943961925"
+  },
+  "pGRDNZXRKJZ1K9WDY_aGRDN5OSBLNU3VGEK_s1.2.826.0.1.3680043.8.498.33816529738510124670999641210656948753": {
+    "AccessionNumber": "GRDN5OSBLNU3VGEK",
+    "Comparison": "Comparison: 11/27/04.",
+    "EthnicGroup": null,
+    "Findings": "Moderate left pleural effusion and left lower lobe atelectasis or infiltrate have not significantly changed. Small right pleural effusion is increased since prior study. Cardiomegaly is stable. Central pulmonary vascular congestion is again noted.",
+    "ImageBodyPart": [
+      "Chest"
+    ],
+    "ImageModality": [
+      "CR"
+    ],
+    "ImagePath": [
+      "../deid_png/GRDNZXRKJZ1K9WDY/GRDN5OSBLNU3VGEK/studies/1.2.826.0.1.3680043.8.498.33816529738510124670999641210656948753/series/1.2.826.0.1.3680043.8.498.97668492490909930829690072641249620363/instances/1.2.826.0.1.3680043.8.498.15800019544969905776673619306654076060.png"
+    ],
+    "ImageShape": [
+      [
+        1760,
+        2140
+      ]
+    ],
+    "ImageViewPosition": [
+      ""
+    ],
+    "Impression": "1. New small right pleural effusion. 2. Stable moderate left pleural effusion and left lower lobe atelectasis versus infiltrate. 3. Stable cardiomegaly. Pulmonary vascular congestion.",
+    "Indication": "Pneumonia. Pleural effusions.",
+    "InstitutionName": "thryothor-495511-U8V2V",
+    "Manufacturer": "['FUJI']",
+    "PatientAge": "090Y",
+    "PatientID": "GRDNZXRKJZ1K9WDY",
+    "PatientSex": "F",
+    "PatientSize": NaN,
+    "PatientWeight": NaN,
+    "StudyDate": 20080912,
+    "StudyDescription": "DG CHEST 1V PORT",
+    "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.33816529738510124670999641210656948753"
+  }
+}

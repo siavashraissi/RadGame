@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RadGame</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{{ url_for('static', filename='images/logo.ico') }}"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/report.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/components.css') }}"
+    />
+  </head>
+
+  <body class="report-page">
+    <div class="container">
+      <header class="header">
+        <a
+          href="/main-menu"
+          class="rg-btn rg-btn--back rg-float-left"
+          id="back-to-main"
+          >Back to Main Menu</a
+        >
+        <h1><span style="font-weight: 700">RadGame Report</span></h1>
+        <p>Practice writing radiology reports with AI-powered evaluation</p>
+        {% if show_image_name %}
+        <div
+          id="devImageName"
+          style="margin-top: 0.25rem; font-size: 0.9rem; color: white"
+        >
+          Images: <strong></strong>
+        </div>
+        {% endif %}
+      </header>
+
+      <div class="main-container">
+        <div class="image-pane">
+          {% include 'partials/report_image_pane.html' %}
+        </div>
+        <div class="report-pane">
+          <div class="report-section">
+            <h4>Report Information</h4>
+            <div
+              id="patientInfo"
+              style="
+                margin-bottom: 0.75rem;
+                font-size: 0.9rem;
+                background: #f8f9fa;
+                padding: 0.6rem 0.75rem;
+                border: 1px solid #e2e6ea;
+                border-radius: 8px;
+                line-height: 1.25;
+              "
+            >
+              <span
+                id="pi-age"
+                style="
+                  font-weight: 600;
+                  color: #8b0000;
+                  display: inline-block;
+                  margin-right: 1rem;
+                "
+                >Age: —</span
+              >
+              <span
+                id="pi-indication"
+                style="color: #444; display: inline-block; max-width: 100%"
+                >Indication:
+                <em style="font-style: normal; color: #666">—</em></span
+              >
+            </div>
+
+            {% include 'partials/report_findings_field.html' %}
+
+            <button class="submit-btn" id="submitReport">Submit Report</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CRIMSON Score Results Modal (renamed from GREEN) -->
+      <div class="modal fade" id="greenScoreModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div
+            class="modal-content"
+            style="
+              border-radius: 16px;
+              border: none;
+              box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            "
+          >
+            <div
+              class="modal-header"
+              style="
+                background: linear-gradient(135deg, #8b0000 0%, #800020 100%);
+                color: white;
+                border-radius: 16px 16px 0 0;
+                border: none;
+              "
+            >
+              <h5 class="modal-title" style="font-weight: 600">
+                Radiology Report Analysis
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body" style="padding: 2rem">
+              <!-- CRIMSON Score Section (Full Width) -->
+              <div class="text-center mb-4">
+                <h4 style="color: #8b0000; font-weight: 700">
+                  CRIMSON Score:
+                  <span
+                    id="greenScoreValue"
+                    style="color: #333; font-weight: 800"
+                    >--</span
+                  >
+                </h4>
+              </div>
+              <div class="mb-4" id="groundTruthWrap" style="display: none">
+                <h5
+                  style="
+                    color: #8b0000;
+                    font-weight: 600;
+                    margin-bottom: 0.75rem;
+                  "
+                >
+                  Ground Truth Report Findings
+                </h5>
+                <div class="row" style="gap: 0.5rem 0">
+                  <div class="col-12">
+                    <div
+                      id="gtFindings"
+                      style="
+                        background: #f8f9fa;
+                        border: 1px solid #e9ecef;
+                        border-radius: 12px;
+                        padding: 1rem;
+                        white-space: pre-wrap;
+                      "
+                    ></div>
+                  </div>
+                  <!-- Optionally show impressions if available later
+                            <div class="col-12">
+                                <h6 style="margin:0.25rem 0;">Impressions</h6>
+                                <div id="gtImpressions" style="background:#f8f9fa; border:1px solid #e9ecef; border-radius:12px; padding:1rem; white-space:pre-wrap;"></div>
+                            </div>
+                            -->
+                </div>
+              </div>
+              <div class="mb-4">
+                <h5
+                  style="color: #8b0000; font-weight: 600; margin-bottom: 1rem"
+                >
+                  Summary
+                </h5>
+                <div
+                  id="greenSummary"
+                  style="
+                    background: #f8f9fa;
+                    border: 1px solid #e9ecef;
+                    border-radius: 12px;
+                    padding: 1.5rem;
+                    line-height: 1.6;
+                  "
+                ></div>
+              </div>
+              <div class="mb-4" id="errorBuckets" style="display: none">
+                <h5
+                  style="
+                    color: #8b0000;
+                    font-weight: 600;
+                    margin-bottom: 0.75rem;
+                  "
+                >
+                  Error Types
+                </h5>
+                <div class="row" style="gap: 0.5rem 0">
+                  <div class="col-md-6">
+                    <h6 style="margin: 0.4rem 0">
+                      a) False positive findings
+                      <span class="count badge bg-secondary ms-1" id="cntA"
+                        >0</span
+                      >
+                    </h6>
+                    <ul id="errA" style="padding-left: 1.2rem"></ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h6 style="margin: 0.4rem 0">
+                      b) Missing findings
+                      <span class="count badge bg-secondary ms-1" id="cntB"
+                        >0</span
+                      >
+                    </h6>
+                    <ul id="errB" style="padding-left: 1.2rem"></ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h6 style="margin: 0.4rem 0">
+                      c) Location/position errors
+                      <span class="count badge bg-secondary ms-1" id="cntC"
+                        >0</span
+                      >
+                    </h6>
+                    <ul id="errC" style="padding-left: 1.2rem"></ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h6 style="margin: 0.4rem 0">
+                      d) Severity misassessment
+                      <span class="count badge bg-secondary ms-1" id="cntD"
+                        >0</span
+                      >
+                    </h6>
+                    <ul id="errD" style="padding-left: 1.2rem"></ul>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-2" id="matchedFindingsWrap" style="display: none">
+                <h6 style="margin: 0.4rem 0">Matched Findings</h6>
+                <ul id="matchedFindings" style="padding-left: 1.2rem"></ul>
+              </div>
+
+              <!-- Style Score Section (Bottom) -->
+              <div
+                id="styleScoreSection"
+                class="mt-4 pt-4"
+                style="display: none; border-top: 1px solid #e9ecef"
+              >
+                <div class="text-center mb-3">
+                  <h5
+                    style="
+                      color: #8b0000;
+                      font-weight: 600;
+                      margin-bottom: 0.5rem;
+                    "
+                  >
+                    Style Score:
+                    <span
+                      id="styleScoreValue"
+                      style="color: #333; font-weight: 700"
+                      >--</span
+                    >
+                  </h5>
+                </div>
+
+                <div
+                  style="
+                    background: #f8f9fa;
+                    border: 1px solid #e9ecef;
+                    border-radius: 12px;
+                    padding: 1.5rem;
+                  "
+                >
+                  <!-- Systematic Evaluation -->
+                  <div class="mb-3">
+                    <div class="mb-2">
+                      <span
+                        ><strong>• Systematic Evaluation:</strong>
+                        <span id="systematicScore">--</span></span
+                      >
+                    </div>
+                    <div
+                      id="systematicRecommendation"
+                      style="
+                        display: none;
+                        margin-left: 1rem;
+                        color: #6c757d;
+                        font-size: 0.9rem;
+                      "
+                    >
+                      <span id="systematicRecommendationText"></span>
+                    </div>
+                  </div>
+
+                  <!-- Organization & Language -->
+                  <div class="mb-0">
+                    <div class="mb-2">
+                      <span
+                        ><strong>• Organization & Language:</strong>
+                        <span id="organizationScore">--</span></span
+                      >
+                    </div>
+                    <div
+                      id="organizationRecommendation"
+                      style="
+                        display: none;
+                        margin-left: 1rem;
+                        color: #6c757d;
+                        font-size: 0.9rem;
+                      "
+                    >
+                      <span id="organizationRecommendationText"></span>
+                    </div>
+                  </div>
+
+                  <!-- No recommendations message -->
+                  <div
+                    id="noRecommendations"
+                    style="
+                      display: none;
+                      color: #6c757d;
+                      font-style: italic;
+                      text-align: center;
+                      margin-top: 1rem;
+                    "
+                  >
+                    No recommendations - excellent work!
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="modal-footer"
+              style="border-top: 1px solid #e9ecef; padding: 1.5rem 2rem"
+            >
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+                style="border-radius: 8px; padding: 0.5rem 1.5rem"
+              >
+                Close
+              </button>
+              <button
+                type="button"
+                class="btn"
+                id="nextCase"
+                style="
+                  background-color: #8b0000;
+                  color: white;
+                  border-radius: 8px;
+                  padding: 0.5rem 1.5rem;
+                  font-weight: 600;
+                "
+              >
+                Next Case
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/report_zoom.js') }}"></script>
+    <script>
+      window.RUN_ID = "{{ run_id }}";
+      window.ACCESS_CODE = "{{ access_code }}";
+      document.addEventListener("DOMContentLoaded", function () {
+        // Auto-pause report timer when navigating back to main menu
+        try {
+          const backLink = document.getElementById("back-to-main");
+          if (backLink) {
+            backLink.addEventListener("click", function (e) {
+              // Only intervene if report timer exists
+              try {
+                const code = (window.ACCESS_CODE || "anon").toString();
+                const rk = (s) => `rg_${code}_report_${s}`;
+                // If not already paused, set pause markers
+                if (localStorage.getItem(rk("paused")) !== "true") {
+                  localStorage.setItem(rk("paused"), "true");
+                  localStorage.setItem(
+                    rk("pause_start"),
+                    Date.now().toString()
+                  );
+                  localStorage.setItem(rk("auto_nav_pause"), "1");
+                }
+              } catch (_) {}
+              // Allow navigation to continue immediately (no preventDefault)
+            });
+          }
+        } catch (_) {}
+        const imageContainer = document.getElementById("imageContainer");
+        // Initialize shared zoom/pan
+        try {
+          initReportZoom();
+        } catch (_) {}
+        const findingsText = document.getElementById("findingsText");
+        const submitButton = document.getElementById("submitReport");
+        const greenScoreModal = new bootstrap.Modal(
+          document.getElementById("greenScoreModal")
+        );
+        const nextCaseButton = document.getElementById("nextCase");
+        let hasSubmitted = false;
+        let submittingNow = false; // debounce flag
+        let lastAnalysis = null;
+
+        // Defensive: if user is guided/passive, redirect to guided page
+        fetch("/api/user/version")
+          .then((r) => r.json())
+          .then((v) => {
+            if (v.report_version === "guided") {
+              window.location.replace("/report"); // server will render guided template
+            }
+          })
+          .catch(() => {});
+
+        // Load images for the current case
+        let currentCaseId = null;
+        fetch("/api/report/case").then(async (response) => {
+          const data = await response.json();
+          if (!response.ok) {
+            if (data.error === "practice_complete") {
+              // Redirect immediately to main menu if cap reached
+              window.location.replace("/main-menu");
+              return;
+            }
+            throw data;
+          }
+          currentCaseId = data.case_id; // Store the case_id
+          // (Removed case counter display in practice mode per requirement)
+          // Populate patient info
+          try {
+            const ageEl = document.getElementById("pi-age");
+            const indEl = document.getElementById("pi-indication");
+            if (ageEl)
+              ageEl.textContent = `Age: ${data.age != null ? data.age : "—"}`;
+            if (indEl) {
+              const indText = (data.indication || "").trim() || "—";
+              indEl.innerHTML = `Indication: <em style="font-style:normal; color:#222;">${indText
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")}</em>`;
+            }
+          } catch (_) {}
+          (data.images || []).forEach((imagePath) => {
+            const imgDiv = document.createElement("div");
+            imgDiv.className = "image-item";
+            imgDiv.innerHTML = `<img src="/report/image/${encodeURIComponent(
+              imagePath
+            )}" alt="Medical image">`;
+            imageContainer.appendChild(imgDiv);
+          });
+          // Set dev banner image names if enabled
+          const devNameEl = document.getElementById("devImageName");
+          if (devNameEl) {
+            const strong = devNameEl.querySelector("strong");
+            if (strong) strong.textContent = (data.images || []).join(", ");
+          }
+        });
+
+        // Handle report submission
+        submitButton.addEventListener("click", function () {
+          if (submittingNow) return; // guard multiple rapid clicks
+          // If already submitted, just reopen the modal with the cached analysis
+          if (hasSubmitted && lastAnalysis) {
+            // Re-populate from cached data and show
+            // Show CRIMSON score as a percentage
+            document.getElementById("greenScoreValue").textContent = `${(
+              lastAnalysis.green_score * 100
+            ).toFixed(0)}%`;
+            document.getElementById(
+              "greenSummary"
+            ).innerHTML = `<p>${lastAnalysis.summary}</p>`;
+            // Ground truth
+            const gtWrap = document.getElementById("groundTruthWrap");
+            const gtf = document.getElementById("gtFindings");
+            const gti = document.getElementById("gtImpressions");
+            if (
+              lastAnalysis.ground_truth &&
+              (lastAnalysis.ground_truth.findings ||
+                lastAnalysis.ground_truth.impressions)
+            ) {
+              if (gtf)
+                gtf.textContent = lastAnalysis.ground_truth.findings || "";
+              if (gti)
+                gti.textContent = lastAnalysis.ground_truth.impressions || "";
+              if (gtWrap) gtWrap.style.display = "block";
+            } else {
+              if (gtWrap) gtWrap.style.display = "none";
+            }
+            // Errors
+            const buckets = lastAnalysis.errors || {};
+            const setList = (id, items) => {
+              const ul = document.getElementById(id);
+              if (!ul) return;
+              ul.innerHTML = "";
+              (items || []).forEach((t) => {
+                const li = document.createElement("li");
+                li.textContent = t;
+                ul.appendChild(li);
+              });
+            };
+            setList("errA", buckets.a);
+            setList("errB", buckets.b);
+            setList("errC", buckets.c);
+            setList("errD", buckets.d);
+            const setCnt = (id, n) => {
+              const el = document.getElementById(id);
+              if (el) el.textContent = String((n || []).length);
+            };
+            setCnt("cntA", buckets.a);
+            setCnt("cntB", buckets.b);
+            setCnt("cntC", buckets.c);
+            setCnt("cntD", buckets.d);
+            const wrap = document.getElementById("errorBuckets");
+            const hasAny = ["a", "b", "c", "d"].some(
+              (k) => (buckets[k] || []).length
+            );
+            wrap.style.display = hasAny ? "block" : "none";
+            const mwrap = document.getElementById("matchedFindingsWrap");
+            const mlist = document.getElementById("matchedFindings");
+            if (
+              Array.isArray(lastAnalysis.matched_findings) &&
+              lastAnalysis.matched_findings.length
+            ) {
+              mlist.innerHTML = "";
+              lastAnalysis.matched_findings.forEach((t) => {
+                const li = document.createElement("li");
+                li.textContent = t;
+                mlist.appendChild(li);
+              });
+              mwrap.style.display = "block";
+            } else {
+              mwrap.style.display = "none";
+            }
+            greenScoreModal.show();
+            return;
+          }
+          const report = {
+            case_id: currentCaseId, // Include the case_id in the submission
+            findings: findingsText.value,
+            selectedImages: Array.from(
+              document.querySelectorAll(".image-item img")
+            ).map((img) => img.src),
+          };
+
+          // Disable button immediately and mark submitting
+          submittingNow = true;
+          submitButton.disabled = true;
+          submitButton.classList.add("disabled");
+          submitButton.textContent = "Submitting...";
+
+          fetch("/api/report/submit", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(
+              (function () {
+                // Attach per-case time (since last checkpoint) mirroring localization logic
+                try {
+                  const code = (window.ACCESS_CODE || "anon").toString();
+                  const rk = (s) => `rg_${code}_report_${s}`;
+                  const start =
+                    parseInt(localStorage.getItem(rk("session_start"))) ||
+                    Date.now();
+                  const paused = localStorage.getItem(rk("paused")) === "true";
+                  const pstart =
+                    parseInt(localStorage.getItem(rk("pause_start"))) || 0;
+                  const acc =
+                    parseInt(
+                      localStorage.getItem(rk("accumulated_pause_time"))
+                    ) || 0;
+                  const elapsed = paused
+                    ? pstart - start - acc
+                    : Date.now() - start - acc;
+                  report.time_spent_ms = Math.max(0, elapsed);
+                } catch (e) {
+                  report.time_spent_ms = 0;
+                }
+                return report;
+              })()
+            ),
+          })
+            .then((response) => {
+              if (!response.ok) {
+                return response.json().then((err) => Promise.reject(err));
+              }
+              return response.json();
+            })
+            .then((data) => {
+              // Cache the first analysis and switch button to View mode
+              lastAnalysis = data;
+              hasSubmitted = true;
+              submitButton.textContent = "View Report";
+              submitButton.disabled = false; // allow viewing
+              submittingNow = false;
+              // Display CRIMSON score results
+              // Show CRIMSON score as a percentage
+              const pct = (data.green_score * 100).toFixed(0);
+              document.getElementById(
+                "greenScoreValue"
+              ).textContent = `${pct}%`;
+              try {
+                const code = (window.ACCESS_CODE || "anon").toString();
+                const rk = (s) => `rg_${code}_report_${s}`;
+                let recent = JSON.parse(
+                  localStorage.getItem(rk("recent_scores")) || "[]"
+                );
+                if (!Array.isArray(recent)) recent = [];
+                recent.push({ g: parseFloat(pct), t: Date.now() });
+                if (recent.length > 5) recent = recent.slice(-5);
+                localStorage.setItem(
+                  rk("recent_scores"),
+                  JSON.stringify(recent)
+                );
+              } catch (e) {}
+              document.getElementById(
+                "greenSummary"
+              ).innerHTML = `<p>${data.summary}</p>`;
+              // Ground truth
+              const gtWrap = document.getElementById("groundTruthWrap");
+              const gtf = document.getElementById("gtFindings");
+              const gti = document.getElementById("gtImpressions");
+              if (
+                data.ground_truth &&
+                (data.ground_truth.findings || data.ground_truth.impressions)
+              ) {
+                if (gtf) gtf.textContent = data.ground_truth.findings || "";
+                if (gti) gti.textContent = data.ground_truth.impressions || "";
+                if (gtWrap) gtWrap.style.display = "block";
+              } else {
+                if (gtWrap) gtWrap.style.display = "none";
+              }
+              // Populate error buckets
+              const buckets = data.errors || {};
+              const hasAny = ["a", "b", "c", "d"].some(
+                (k) => (buckets[k] || []).length
+              );
+              const wrap = document.getElementById("errorBuckets");
+              const setList = (id, items) => {
+                const ul = document.getElementById(id);
+                if (!ul) return;
+                ul.innerHTML = "";
+                (items || []).forEach((t) => {
+                  const li = document.createElement("li");
+                  li.textContent = t;
+                  ul.appendChild(li);
+                });
+              };
+              setList("errA", buckets.a);
+              setList("errB", buckets.b);
+              setList("errC", buckets.c);
+              setList("errD", buckets.d);
+              const setCnt = (id, n) => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = String((n || []).length);
+              };
+              setCnt("cntA", buckets.a);
+              setCnt("cntB", buckets.b);
+              setCnt("cntC", buckets.c);
+              setCnt("cntD", buckets.d);
+              wrap.style.display = hasAny ? "block" : "none";
+              // Matched findings
+              const mwrap = document.getElementById("matchedFindingsWrap");
+              const mlist = document.getElementById("matchedFindings");
+              if (
+                Array.isArray(data.matched_findings) &&
+                data.matched_findings.length
+              ) {
+                mlist.innerHTML = "";
+                data.matched_findings.forEach((t) => {
+                  const li = document.createElement("li");
+                  li.textContent = t;
+                  mlist.appendChild(li);
+                });
+                mwrap.style.display = "block";
+              } else {
+                mwrap.style.display = "none";
+              }
+
+              // Populate StyleScore data
+              if (data.style_data) {
+                const styleData = data.style_data;
+                document.getElementById(
+                  "styleScoreValue"
+                ).textContent = `${Math.round(styleData.style_score)}%`;
+
+                // Show breakdown scores as fractions
+                document.getElementById("systematicScore").textContent =
+                  styleData.systematic_evaluation_score + "/1";
+                document.getElementById("organizationScore").textContent =
+                  styleData.organization_language_score + "/1";
+
+                // Handle individual recommendations
+                let hasRecommendations = false;
+
+                // Systematic Evaluation
+                if (
+                  styleData.systematic_evaluation_recommendation &&
+                  styleData.systematic_evaluation_recommendation.trim()
+                ) {
+                  document.getElementById(
+                    "systematicRecommendationText"
+                  ).textContent =
+                    styleData.systematic_evaluation_recommendation;
+                  document.getElementById(
+                    "systematicRecommendation"
+                  ).style.display = "block";
+                  hasRecommendations = true;
+                } else {
+                  document.getElementById(
+                    "systematicRecommendation"
+                  ).style.display = "none";
+                }
+
+                // Organization & Language
+                if (
+                  styleData.organization_language_recommendation &&
+                  styleData.organization_language_recommendation.trim()
+                ) {
+                  document.getElementById(
+                    "organizationRecommendationText"
+                  ).textContent =
+                    styleData.organization_language_recommendation;
+                  document.getElementById(
+                    "organizationRecommendation"
+                  ).style.display = "block";
+                  hasRecommendations = true;
+                } else {
+                  document.getElementById(
+                    "organizationRecommendation"
+                  ).style.display = "none";
+                }
+
+                // Show "no recommendations" if none exist
+                if (!hasRecommendations) {
+                  document.getElementById("noRecommendations").style.display =
+                    "block";
+                } else {
+                  document.getElementById("noRecommendations").style.display =
+                    "none";
+                }
+
+                // Show the entire StyleScore section
+                document.getElementById("styleScoreSection").style.display =
+                  "block";
+              } else {
+                // Hide StyleScore section if not available
+                document.getElementById("styleScoreSection").style.display =
+                  "none";
+              }
+
+              greenScoreModal.show();
+            })
+            .catch((error) => {
+              alert(
+                "Error submitting report: " + (error.error || "Unknown error")
+              );
+              // Re-enable to allow retry
+              submittingNow = false;
+              submitButton.disabled = false;
+              submitButton.classList.remove("disabled");
+              submitButton.textContent = "Submit Report";
+            });
+        });
+
+        // Handle next case button
+        nextCaseButton.addEventListener("click", function () {
+          if (nextCaseButton.disabled) return;
+          // Checkpoint (adds current elapsed to base & resets timer window)
+          try {
+            if (window.checkpointReportTimer) window.checkpointReportTimer();
+          } catch (e) {}
+          // Clear form and load next case
+          findingsText.value = "";
+          imageContainer.innerHTML = "";
+          greenScoreModal.hide();
+          // Fetch next case explicitly so we can detect cap before reload
+          fetch("/api/report/case")
+            .then(async (r) => {
+              const d = await r.json();
+              return { ok: r.ok, data: d };
+            })
+            .then((res) => {
+              if (!res.ok && res.data.error === "practice_complete") {
+                window.location.replace("/main-menu");
+                return;
+              }
+              if (!res.ok) {
+                alert("Error loading next case");
+                return;
+              }
+              // Successful -> reload to show new case
+              setTimeout(() => location.reload(), 50);
+            })
+            .catch(() => {
+              alert("Network error");
+            });
+        });
+      });
+    </script>
+    <script src="{{ url_for('static', filename='js/annotation.js') }}"></script>
+  </body>
+</html>
