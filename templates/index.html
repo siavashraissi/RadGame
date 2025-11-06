@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RadGame</title>
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/logo.ico') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/test_pages.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/localize.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/components.css') }}">
+  <style>
+    #img-container { position: relative; overflow: auto; }
+    #viewport { position: relative; display: inline-block; transform-origin: top left; }
+    #canvas { position: absolute; top: 0; left: 0; }
+  .controls { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
+  /* Ensure shared zoom controls push action button to right */
+  .rg-zoom-controls { margin-right:auto; }
+  .zoom-controls button { padding: 0.4rem 0.6rem; }
+  .zoom-level { min-width: 3.5rem; text-align:center; font-variant-numeric: tabular-nums; background:#fff; border:1px solid #e9ecef; border-radius:999px; padding:0.15rem 0.5rem; color:#333; box-shadow:0 1px 2px rgba(0,0,0,0.05); }
+  .zoom-controls input[type=range]{ -webkit-appearance:none; appearance:none; width:240px; height:8px; border-radius:999px; background:linear-gradient(90deg, #8B0000 50%, #e9ecef 0%); outline:none; }
+  .zoom-controls input[type=range]::-webkit-slider-thumb{ -webkit-appearance:none; appearance:none; width:18px; height:18px; border-radius:50%; background:#8B0000; border:2px solid #fff; box-shadow:0 1px 4px rgba(0,0,0,0.2); }
+  .zoom-controls input[type=range]::-moz-range-thumb{ width:18px; height:18px; border-radius:50%; background:#8B0000; border:2px solid #fff; box-shadow:0 1px 4px rgba(0,0,0,0.2); }
+  .zoom-controls input[type=range]::-moz-range-track{ height:8px; border-radius:999px; background:#e9ecef; }
+  /* Panning cursors */
+  #img-container.pannable { cursor: grab; }
+  #img-container.panning { cursor: grabbing; }
+  </style>
+</head>
+
+<body class="test-page localize-page">
+  <div class="container">
+    <header class="header">
+  <a href="/main-menu" class="rg-btn rg-btn--back rg-float-left">Back to Main Menu</a>
+  <h1>RadGame Localize</h1>
+  <p>Practice localizing radiologic findings with guided feedback and real bounding boxes</p>
+      {% if show_image_name %}
+      <div id="devImageName" style="margin-top:0.25rem; font-size:0.9rem; color:white;">
+        Image: <strong>{{ image_name }}</strong> (Case {{ case_index }} / {{ total_cases }})
+      </div>
+      {% endif %}
+    </header>
+
+    <main>
+      <section id="toolbar" role="toolbar" aria-label="Annotation tools">
+        <div class="toolbar-section localizable">
+          <h3 class="section-title"><span class="title-icon draw" aria-hidden="true">✏️</span><span class="title-text">Draw Findings</span></h3>
+          <div class="button-grid">
+            {% for lbl in localizable_labels %}
+              <button class="label-btn" data-index="{{ loop.index0 }}" aria-label="Select {{ lbl }}">{{ lbl }}</button>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="toolbar-section non-localizable">
+          <h3 class="section-title"><span class="title-icon select" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20 7L9 18L4 13" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="title-text">Select Findings</span></h3>
+          <div class="button-grid">
+            {% for lbl in non_localizable_labels %}
+              <button class="nonlocal-btn" data-label="{{ lbl }}" aria-label="Select {{ lbl }}">{{ lbl }}</button>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section id="img-container" role="img" aria-label="Medical image for annotation">
+        <div id="viewport">
+          <img id="cxr-img" src="{{ url_for('serve_image', filename=image_path) }}" alt="Medical Image for Annotation">
+          <canvas id="canvas" aria-hidden="true"></canvas>
+        </div>
+      </section>
+      
+  <section class="controls">
+  {% with prefix='' %}{% include 'partials/zoom_controls.html' %}{% endwith %}
+        <button id="submit-btn" aria-label="Show true annotation boxes">Submit Case</button>
+      </section>
+      
+      <section id="results" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+  window.RUN_ID = "{{ run_id }}";
+  window.ACCESS_CODE = "{{ access_code | default('anon') }}";
+  // This page manages its own drawing; let the shared script know
+  window.RG_INLINE_DRAWING = true;
+  // Auto-pause localization timer when navigating back to main menu
+  try {
+    const backLink = document.querySelector('a[href="/main-menu"]');
+    if (backLink) {
+      backLink.addEventListener('click', function(){
+        try {
+          const code = (window.ACCESS_CODE || 'anon').toString();
+          const k = (s)=>`rg_${code}_${s}`;
+          if (localStorage.getItem(k('paused')) !== 'true') {
+            localStorage.setItem(k('paused'),'true');
+            localStorage.setItem(k('pause_start'), Date.now().toString());
+            localStorage.setItem(k('auto_nav_pause'),'1');
+          }
+        } catch(_) {}
+      });
+    }
+  } catch(_) {}
+  // Embed JSON data safely
+    window.localLabels = JSON.parse(`{{ localizable_labels | tojson | safe }}`);
+    window.nonLocalLabels = JSON.parse(`{{ non_localizable_labels | tojson | safe }}`);
+    window.actualBoxes = JSON.parse(`{{ actual | tojson | safe }}`);
+  window.nonLocalPresence = JSON.parse(`{{ nonlocalizable_presence | tojson | safe }}`);
+  // window.actualScores removed (no confidence scores)
+  // detailedClasses removed (unused)
+  window.detailedClasses = {};
+  window.detailedClassNames = {};
+  window.medgemmaExplanations = JSON.parse(`{{ medgemma_explanations | tojson | safe }}`);
+
+    // Colors for localizable labels
+    const colorMap = {};
+    window.localLabels.forEach((_, i) => {
+      const hue = Math.round(360 * i / window.localLabels.length);
+      colorMap[i] = `hsla(${hue}, 70%, 65%, 0.8)`;
+    });
+
+    // Localizable label buttons
+    const labelButtons = document.querySelectorAll('.label-btn');
+    let currentIdx = null;
+  labelButtons.forEach(btn => {
+      const idx = +btn.dataset.index;
+      const bgColor = colorMap[idx];
+      btn.style.background = bgColor;
+      btn.style.color = '#000000';
+      btn.addEventListener('click', () => {
+        const isSelected = btn.classList.contains('selected');
+        // Clear all selections first
+    labelButtons.forEach(b => b.classList.remove('selected','active'));
+        if (isSelected) {
+          // Toggle off -> no label selected (enables panning)
+          currentIdx = null;
+        } else {
+          // Select this label (disables panning)
+          btn.classList.add('selected','active');
+          currentIdx = idx;
+        }
+        updatePannable();
+      });
+    });
+
+  // Select Findings toggling is handled by the shared script (annotation.js) on this page
+
+    // Canvas & drawing functionality with zoom
+    const img = document.getElementById('cxr-img');
+    const canvas = document.getElementById('canvas');
+    const viewport = document.getElementById('viewport');
+    const ctx = canvas.getContext('2d');
+    let boxes = [];
+    let drawing = false;
+    let sx = 0, sy = 0;
+    window.RG_ZOOM = 1;
+  // Panning
+  const container = document.getElementById('img-container');
+  let panActive = false, panStartX = 0, panStartY = 0, startScrollLeft = 0, startScrollTop = 0;
+  function updatePannable(){ container.classList.toggle('pannable', (currentIdx===null)); }
+  function startPan(e){ panActive = true; container.classList.add('panning'); panStartX = e.clientX; panStartY = e.clientY; startScrollLeft = container.scrollLeft; startScrollTop = container.scrollTop; canvas.style.pointerEvents='none'; e.preventDefault(); }
+  function movePan(e){ if(!panActive) return; const dx = e.clientX - panStartX, dy = e.clientY - panStartY; container.scrollLeft = startScrollLeft - dx; container.scrollTop = startScrollTop - dy; }
+  function endPan(){ if(!panActive) return; panActive = false; container.classList.remove('panning'); canvas.style.pointerEvents='auto'; }
+
+    function applyZoom() {
+      const z = Math.max(1, Math.min(6, window.RG_ZOOM || 1));
+      window.RG_ZOOM = z;
+      viewport.style.transform = `scale(${z})`;
+      document.getElementById('zoom-level').textContent = `${Math.round(z*100)}%`;
+  // notify other scripts (e.g., annotation.js) to reposition overlays like delete button
+  try { document.dispatchEvent(new CustomEvent('rg-zoom-changed', { detail: { zoom: z } })); } catch(_) {}
+    }
+
+    function resizeCanvas() {
+      canvas.width = img.clientWidth;
+      canvas.height = img.clientHeight;
+      canvas.style.top = '0px';
+      canvas.style.left = '0px';
+      redraw();
+    }
+
+    function redraw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Draw user boxes
+      boxes.forEach(b => {
+        ctx.strokeStyle = b.color;
+        ctx.lineWidth = 3;
+        ctx.setLineDash([]);
+        ctx.strokeRect(b.x, b.y, b.w, b.h);
+      });
+    }
+  // Expose for shared script (annotation.js) to trigger after deletes
+  window.redraw = redraw;
+  // Expose the boxes array so shared script can hover/delete these
+  window.boxes = boxes;
+
+    // Mouse events for drawing
+    function getCoords(e){
+      const rect = canvas.getBoundingClientRect();
+      const z = window.RG_ZOOM || 1;
+      return { x: (e.clientX - rect.left) / z, y: (e.clientY - rect.top) / z };
+    }
+
+    // Pan handlers (use capture so we intercept before drawing when in pan mode or no label selected)
+  container.addEventListener('mousedown', (e)=>{ if(e.button===0 && (currentIdx===null)){ startPan(e); } }, true);
+    window.addEventListener('mousemove', movePan);
+    window.addEventListener('mouseup', endPan);
+
+    canvas.addEventListener('mousedown', (e) => {
+      if (e.button===0 && (currentIdx===null)) { startPan(e); return; }
+      if (currentIdx === null) return;
+      const {x, y} = getCoords(e);
+      sx = x; sy = y;
+      drawing = true;
+    });
+
+  canvas.addEventListener('mousemove', (e) => {
+      if (!drawing) return;
+      const {x, y} = getCoords(e);
+      
+      redraw();
+      
+      // Draw current box being created
+      ctx.strokeStyle = colorMap[currentIdx];
+      ctx.lineWidth = 3;
+      ctx.setLineDash([5, 5]);
+      ctx.strokeRect(sx, sy, x - sx, y - sy);
+    });
+
+  canvas.addEventListener('mouseup', (e) => {
+      if (!drawing) return;
+      const {x, y} = getCoords(e);
+      
+      const w = Math.abs(x - sx);
+      const h = Math.abs(y - sy);
+      
+      if (w > 10 && h > 10) {
+        boxes.push({
+          x: Math.min(sx, x),
+          y: Math.min(sy, y),
+          w: w,
+          h: h,
+          color: colorMap[currentIdx],
+          label: window.localLabels[currentIdx],
+          idx: currentIdx
+        });
+      }
+      
+      drawing = false;
+      redraw();
+  // Notify shared script to place delete button on the newly created box
+  try { document.dispatchEvent(new CustomEvent('rg-box-created')); } catch(_) {}
+    });
+
+    // Initialize canvas when image loads
+    img.addEventListener('load', resizeCanvas);
+    window.addEventListener('resize', resizeCanvas);
+
+  // Zoom controls
+  const zoomSlider = document.getElementById('zoom-slider');
+  function styleSlider(){
+    if(!zoomSlider) return;
+    const min = parseInt(zoomSlider.min,10) || 100;
+    const max = parseInt(zoomSlider.max,10) || 600;
+    const val = parseInt(zoomSlider.value||'100',10);
+    const pct = ((Math.min(Math.max(val, min), max) - min) / (max - min)) * 100;
+    zoomSlider.style.background = `linear-gradient(90deg, #8B0000 ${pct}%, #e9ecef ${pct}%)`;
+  }
+  function syncSliderToZoom(){ if (zoomSlider){ zoomSlider.value = String(Math.round((window.RG_ZOOM||1)*100)); styleSlider(); } }
+  zoomSlider.addEventListener('input', ()=>{ window.RG_ZOOM = Math.max(1, Math.min(6, parseInt(zoomSlider.value,10)/100)); applyZoom(); styleSlider(); });
+  document.getElementById('zoom-reset').addEventListener('click', ()=>{ window.RG_ZOOM = 1; applyZoom(); syncSliderToZoom(); });
+  // Apply initial zoom and sync UI
+  applyZoom();
+  syncSliderToZoom(); styleSlider();
+  updatePannable();
+  </script>
+  <script src="{{ url_for('static', filename='js/annotation.js') }}"></script>
+</body>
+
+</html>

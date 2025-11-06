@@ -1,0 +1,46 @@
+{
+    "pGRDNLZHK1CJMB9DS_aGRDNLD4ATLU63FN8_s1.2.826.0.1.3680043.8.498.98869902613028373370176585666602171978": {
+        "PatientID": "GRDNLZHK1CJMB9DS",
+        "AccessionNumber": "GRDNLD4ATLU63FN8",
+        "StudyInstanceUid": "1.2.826.0.1.3680043.8.498.98869902613028373370176585666602171978",
+        "InstitutionName": "thryothor-495511-U8V2V",
+        "Manufacturer": "['FUJI']",
+        "PatientSex": "M",
+        "PatientAge": "007Y",
+        "EthnicGroup": null,
+        "PatientWeight": NaN,
+        "PatientSize": NaN,
+        "StudyDate": 20100722,
+        "StudyDescription": "DG CHEST 2V",
+        "Indication": "Cough, fever",
+        "Comparison": "None",
+        "Findings": "No active infiltrate or effusion is seen. Only mild peribronchial thickening is noted. The heart is within normal limits in size. No bony abnormality is seen.",
+        "Impression": "No pneumonia. Mild peribronchial thickening.",
+        "ImagePath": [
+        "/Users/siavashraissi/Desktop/Courses/BMI 702/Project/702-RadGame/static/images/148539627849225299002511053819134615750_uju41e.png",
+        "/Users/siavashraissi/Desktop/Courses/BMI 702/Project/702-RadGame/static/images/148539627849225299002511053819134615750_uju41e.png"
+        ],
+        "ImageModality": [
+        "CR",
+        "CR"
+        ],
+        "ImageShape": [
+        [
+            2140,
+            1760
+        ],
+        [
+            2140,
+            1760
+        ]
+        ],
+        "ImageBodyPart": [
+        "Chest",
+        "Chest"
+        ],
+        "ImageViewPosition": [
+        "",
+        ""
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "bone density abnormality/lesion": "Areas of increased or decreased opacity in bones; can appear as sclerotic (whiter) or lytic (darker) regions.",
+  "spinal curvature abnormality": "Curved or rotated spine, typically visible as a deviation from the midline (scoliosis) or abnormal front-back curvature (kyphosis/lordosis).",
+  "device/foreign body": "Dense, well-defined structures not normally present; examples include pacemaker leads, central lines, or ingested objects.",
+  "postoperative change": "Surgical alterations like sternal wires, missing ribs, or resections; visible as metallic artifacts or anatomical distortions.",
+  "increased density": "Localized or diffuse areas appearing whiter than surrounding tissue, suggesting fluid, mass, or collapsed lung.",
+  "fibrotic band": "Linear, dense streaks indicating old scarring, often peripheral and thin.",
+  "cardiomegaly": "Enlarged heart silhouette, where the cardiac width exceeds half the thoracic width.",
+  "atelectasis": "Collapse of lung tissue, seen as increased density with volume loss and displacement of nearby structures.",
+  "infiltrate/consolidation": "Patchy or dense opacification without volume loss, indicating infection (e.g., pneumonia) or other causes.",
+  "air trapping/hyperinflation": "Flattened diaphragms, increased retrosternal airspace, and barrel-shaped chest indicating obstructive lung disease.",
+  "hiatal hernia": "Air-fluid level or soft tissue mass behind the heart due to stomach herniation into the thorax.",
+  "pleural effusion": "Homogeneous opacity in the lung base, often with meniscus sign and blunting of the costophrenic angle.",
+  "nodule/mass": "Focal round opacity (nodule <3 cm, mass >3 cm) within the lung fields.",
+  "interstitial pattern": "Fine reticular (net-like), nodular, or reticulonodular opacities suggesting interstitial lung disease.",
+  "fracture": "Sharp discontinuity or irregularity of bone structure, sometimes associated with adjacent soft tissue swelling.",
+  "pleural thickening": "Smooth or irregular increased density along the pleural surface, often from prior infection or asbestos exposure.",
+  "hilar enlargement": "Widened or bulky hila due to lymphadenopathy, vascular congestion, or tumor."
+}
