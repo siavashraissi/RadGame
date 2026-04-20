@@ -6,7 +6,12 @@ import os
 from typing import Dict, Any
 from openpyxl.utils import get_column_letter
 from openpyxl.styles import Alignment
-from secretcodes import OPENAI_API_KEY
+from dotenv import load_dotenv
+load_dotenv()
+try:
+    from secretcodes import OPENAI_API_KEY
+except ImportError:
+    OPENAI_API_KEY = None
 
 # progress bar fallback
 try:

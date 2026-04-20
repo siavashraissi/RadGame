@@ -2,6 +2,7 @@ detection/models/weights
 detection/runs
 detection/runs_multi
 secretcodes.py
+.env
 
 *.pyc
 .DS_Store

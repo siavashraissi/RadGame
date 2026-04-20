@@ -2,11 +2,16 @@
 
 import argparse
 import json
+import os
 import shutil
 import sys
 from pathlib import Path
 from random import random, shuffle
 from typing import Any, Iterable
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # labels to exclude from dataset
 BLACKLIST = {"foreign body", "aortic atheromatosis", "aortic elongation"}
@@ -35,8 +40,7 @@ DEFAULT_INPUT = SCRIPT_DIR / "data" / "localize.json"
 DEFAULT_FILTERED = SCRIPT_DIR / "data" / "localize_filtered.json"
 DEFAULT_SAMPLED = SCRIPT_DIR / "data" / "localize_small.json"
 
-# update this path for your system
-DEFAULT_SRC_DIR = Path("<path-to-padchest-gr>/Padchest_GR_files/PadChest_GR")
+DEFAULT_SRC_DIR = Path(os.environ.get("PADCHEST_GR", "<path-to-padchest-gr>/Padchest_GR_files/PadChest_GR"))
 DEFAULT_DEST_DIR = (SCRIPT_DIR.parent / "local_sampled").resolve()
 
 

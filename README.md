@@ -45,7 +45,7 @@ RadGame builds upon publicly available datasets:
 
 - Conda (Anaconda or Miniconda)
 - Python 3.11+
-- OpenAI API key (for dataset generation only)
+- OpenAI API key — needed to run the app (report scoring uses GPT-o3) and to generate the report dataset (uses GPT-4o-mini)
 
 ### Environment Setup
 
@@ -66,17 +66,19 @@ RadGame builds upon publicly available datasets:
    pip install -r requirements.txt
    ```
 
-4. **Set up API keys** (for dataset generation)
-   
-   Create a `secretcodes.py` file in the project root:
-   ```python
-   OPENAI_API_KEY = "your-openai-api-key-here"
-   ```
-   
-   Or set environment variable:
+4. **Configure environment variables**
+
+   Copy `.env.example` to `.env` and fill in your values:
    ```bash
-   export OPENAI_API_KEY="your-openai-api-key-here"
+   cp .env.example .env
    ```
+
+   | Variable | Required for | Description |
+   |----------|-------------|-------------|
+   | `OPENAI_API_KEY` | Running the app + dataset generation | Used by GPT-o3 (report scoring) and GPT-4o-mini (dataset generation) |
+   | `REXGRADIENT` | `generate_report_dataset.py` | Path to the ReXGradient-160K dataset root |
+   | `PADCHEST_GR` | `generate_localize_dataset.py` | Path to the `Padchest_GR_files/PadChest_GR` image directory |
+   | `REPORT_SCORER` | Running the app | `gpt` (default) or `medgemma` (requires local checkpoint) |
 
 
 ## Dataset Generation
@@ -106,11 +108,7 @@ python generate_report_dataset.py --nrows 500 --skip-confirm
 
 **Output:** `data/sample_rex.csv`
 
-**Setup:** Edit `generate_report_dataset.py` and update these paths to match your system:
-```python
-REX_METADATA = "<path-to-rexgradient>/metadata/train_metadata.csv"
-TEST_METADATA_JSON = "<path-to-rexgradient>/metadata/test_metadata.json"
-```
+**Setup:** Set `REXGRADIENT` in your `.env` file to the path of the ReXGradient dataset root.
 
 ### 2. Localize Dataset
 
@@ -140,12 +138,9 @@ python generate_localize_dataset.py --sample-size 300 --skip-copy
 
 **Requirements:**
 - Grounded Padchest reports at `data/localize.json`
-- Padchest-GR image dataset (update `DEFAULT_SRC_DIR` path in script)
+- Padchest-GR image dataset (set `PADCHEST_GR` in `.env`)
 
-**Setup:** Edit `generate_localize_dataset.py` and update this path to match your system:
-```python
-DEFAULT_SRC_DIR = Path("<path-to-padchest-gr>/Padchest_GR_files/PadChest_GR")
-```
+**Setup:** Set `PADCHEST_GR` in your `.env` file to the path of the PadChest_GR image directory.
 
 ## Running the Application
 
@@ -251,7 +246,7 @@ The scoring system evaluates:
 
 ## Security Note
 
-Always keep `secretcodes.py` out of version control, use environment variables for sensitive data in production, review code for hardcoded credentials before sharing
+Always keep `.env` out of version control (it is gitignored), use environment variables for sensitive data in production, review code for hardcoded credentials before sharing
 
 ## Acknowledgements
 

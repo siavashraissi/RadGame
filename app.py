@@ -7,7 +7,12 @@ import time
 import sys
 from datetime import datetime
 from functools import wraps
-from secretcodes import OPENAI_API_KEY
+from dotenv import load_dotenv
+load_dotenv()
+try:
+    from secretcodes import OPENAI_API_KEY
+except ImportError:
+    OPENAI_API_KEY = None
 from flask import (
     Flask, render_template, send_from_directory, request,
     jsonify, session, redirect, url_for, send_file, abort
